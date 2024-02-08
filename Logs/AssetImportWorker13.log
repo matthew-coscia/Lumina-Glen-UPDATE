@@ -1,0 +1,830 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32544 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/matth/Lumina-Glen
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+51024
+Successfully changed project path to: C:/Users/matth/Lumina-Glen
+C:/Users/matth/Lumina-Glen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28072] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2812652210 [EditorId] 2812652210 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28072] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2812652210 [EditorId] 2812652210 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matth/Lumina-Glen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006164 seconds.
+- Loaded All Assemblies, in  0.234 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.158 seconds
+Domain Reload Profiling: 391ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.323 seconds
+Domain Reload Profiling: 689ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3548.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 1.729700 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.485100 ms  DeleteObjects: 0.075500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 729849.623806 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Bottle2.fbx
+  artifactKey: Guid(bffcb6aad67ef96488dc4f02564378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Bottle2.fbx using Guid(bffcb6aad67ef96488dc4f02564378fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f437c9b08881f6ed0e646e16e2e8b79') in 0.144346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand5.fbx
+  artifactKey: Guid(37cda6f96f445284aa6af7b9ae35f98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand5.fbx using Guid(37cda6f96f445284aa6af7b9ae35f98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14bf9b238e30ee71dd5ded9885fce2e') in 0.030615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Broomstick1.fbx
+  artifactKey: Guid(fc5d52e81466bb144a14967d417fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Broomstick1.fbx using Guid(fc5d52e81466bb144a14967d417fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26dc5dbfeb4236472cd3a9d4f052b6a') in 0.039524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Quill1.fbx
+  artifactKey: Guid(9f39cd5e0e4e503418823607e5d081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Quill1.fbx using Guid(9f39cd5e0e4e503418823607e5d081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0643fa47fede431caa5f9d8f0d755a90') in 0.023369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/Wand6.fbx
+  artifactKey: Guid(45641ba86498fc04590a5075b843571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/Wand6.fbx using Guid(45641ba86498fc04590a5075b843571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb1a9910e9ee316e5d80a6e60e91280') in 0.032008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 1.393167 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Book3.mat
+  artifactKey: Guid(487164ae7bc0d004eaf40d2bb48ca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Book3.mat using Guid(487164ae7bc0d004eaf40d2bb48ca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24681ec78910836217be53db9b469cf5') in 0.030745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand5.mat
+  artifactKey: Guid(a08971a7ca5eb5c44b13c0931154d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand5.mat using Guid(a08971a7ca5eb5c44b13c0931154d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08265f7b23e234d0c425728fdf361fe5') in 0.010689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand1B.mat
+  artifactKey: Guid(ee55d46e6cbf6404aaba0a5298841f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand1B.mat using Guid(ee55d46e6cbf6404aaba0a5298841f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7cbd4ad8f8485654bf9d1724ce1f0c') in 0.009887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand1.mat
+  artifactKey: Guid(8d451e3f8ec527746be5c5cba7f5b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand1.mat using Guid(8d451e3f8ec527746be5c5cba7f5b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7c783d6b46eeafb0ac6c56586c57c5') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/WhiteSmooth.mat
+  artifactKey: Guid(a2e2b5e634b52a546bf70002f7b38e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/WhiteSmooth.mat using Guid(a2e2b5e634b52a546bf70002f7b38e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365374849345ed1d3f759561af410a9b') in 0.011223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand4.mat
+  artifactKey: Guid(16884707525c1cb438ed4f2d6a22fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand4.mat using Guid(16884707525c1cb438ed4f2d6a22fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0949a3be1f55e1966752828cf1308c6e') in 0.011624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/Wand10.mat
+  artifactKey: Guid(9d5e008562a11584d92af2cce9f463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/Wand10.mat using Guid(9d5e008562a11584d92af2cce9f463f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f491abdc4d617c2d005001cde82d11') in 0.011614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Materials/ClearGlass.mat
+  artifactKey: Guid(8856b1b279600374c92c47c9c0f35e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Materials/ClearGlass.mat using Guid(8856b1b279600374c92c47c9c0f35e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7ce9b269c5c25b01286b75d8166cd') in 0.064728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.5 MB). Loaded Objects now: 3603.
+Memory consumption went from 133.6 MB to 133.0 MB.
+Total: 1.955400 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.528500 ms  DeleteObjects: 0.237400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.263 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 735ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3607.
+Memory consumption went from 136.2 MB to 135.4 MB.
+Total: 2.035300 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.549200 ms  DeleteObjects: 0.289800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.288 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (461ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (2.0 MB). Loaded Objects now: 3618.
+Memory consumption went from 142.9 MB to 140.9 MB.
+Total: 2.665700 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.674700 ms  DeleteObjects: 0.796200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.199929 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/FrontExplosion_1.png
+  artifactKey: Guid(40f031cb21f43d441b822a8ebdbc24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/FrontExplosion_1.png using Guid(40f031cb21f43d441b822a8ebdbc24b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f084730a120c3fa9be08e6e8a184cf') in 0.053551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/MagicSword_1.png
+  artifactKey: Guid(87cb621414955c54ab439f883bcc725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/MagicSword_1.png using Guid(87cb621414955c54ab439f883bcc725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608570d4dd9c5dedcd88e8f5954ef183') in 0.016760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/TemporaryExplosion_2.png
+  artifactKey: Guid(44f320d83b6c7f04bb15ccce324b290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/TemporaryExplosion_2.png using Guid(44f320d83b6c7f04bb15ccce324b290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949150621b2f6e9f51ed22e9df6c7850') in 0.016145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/Spike_1.png
+  artifactKey: Guid(0849f5eaa8dce344bbd5780ddb424cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/Spike_1.png using Guid(0849f5eaa8dce344bbd5780ddb424cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c1f68e2e39b0630dcb27bdafa83c2a') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/TemporaryExplosion_1.png
+  artifactKey: Guid(d6434fc3ea1782045a62fdde825f28d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/TemporaryExplosion_1.png using Guid(d6434fc3ea1782045a62fdde825f28d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b041d8ec57480cf309ac4c7fda3870') in 0.015574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/Lightning_3.png
+  artifactKey: Guid(8fc6f1ebab80ff24f9820b786efadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/Lightning_3.png using Guid(8fc6f1ebab80ff24f9820b786efadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767d5bafd79d3bdfbee3365b214dda42') in 0.016336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/Lightning_2.png
+  artifactKey: Guid(16bb68f74d0d4dd48b483d0298b99dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/Lightning_2.png using Guid(16bb68f74d0d4dd48b483d0298b99dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12368b60e24cae22a5b5b072a64d9b') in 0.017240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Icons/Ice_1.png
+  artifactKey: Guid(7f59c7699966d0540b09eea8999a32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Icons/Ice_1.png using Guid(7f59c7699966d0540b09eea8999a32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1650edbb8f4c9baa16e1b1e54e3aa97') in 0.016506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.506448 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Sounds/Lightning_2.wav
+  artifactKey: Guid(340d2fc1950b06549b71231d43d509f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Sounds/Lightning_2.wav using Guid(340d2fc1950b06549b71231d43d509f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b13b54eb227e20958b93a2889114d5') in 0.044611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Sounds/Sword_hit_2.wav
+  artifactKey: Guid(b364c4896d023404cbabfb694f2b9c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Sounds/Sword_hit_2.wav using Guid(b364c4896d023404cbabfb694f2b9c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a878b2c4e86a6b2424e79546cb474634') in 0.018231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Sounds/Sword_Cast_1.wav
+  artifactKey: Guid(e6efdd1dc530432448c58b2a03c213a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Sounds/Sword_Cast_1.wav using Guid(e6efdd1dc530432448c58b2a03c213a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea99e8c225d3064ed996172b571ed5') in 0.028271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.564970 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Circle134.png
+  artifactKey: Guid(c20c5eebb5a4af546b323e2de5054f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Circle134.png using Guid(c20c5eebb5a4af546b323e2de5054f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea758427a3ea3708a49105eb6e153d6d') in 0.019921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Gradient4.3.png
+  artifactKey: Guid(396f38a210576e54e859be3bfc253e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Gradient4.3.png using Guid(396f38a210576e54e859be3bfc253e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26f74697c5bd5acc21ebdd745d388ef') in 0.027912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Glow1.png
+  artifactKey: Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Glow1.png using Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a2c80ba6841d18a0cd558cd7ffbbd2') in 0.073450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Lightning10.png
+  artifactKey: Guid(8d08796b1c2c696408f8d6d41936cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Lightning10.png using Guid(8d08796b1c2c696408f8d6d41936cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285b7316019a99f45383a547b360abe9') in 0.018136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Gradient17.png
+  artifactKey: Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Gradient17.png using Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c4222bc43a20a057721d3d7ebc1d91') in 0.012972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Lightning15.png
+  artifactKey: Guid(3ec0df79dc5290349b90c6b76cb5be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Lightning15.png using Guid(3ec0df79dc5290349b90c6b76cb5be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca62f57d20bbd05399ead23a30f3921e') in 0.015778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Gradient3t.png
+  artifactKey: Guid(fb6ed9f6221d0244f89fd5c8467e8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Gradient3t.png using Guid(fb6ed9f6221d0244f89fd5c8467e8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a0af7c25f4bf570a9286168f2bb9ec') in 0.013500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.394810 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Noise13.png
+  artifactKey: Guid(9837737d0a9fbec4bb2dcfc7ad0d6e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Noise13.png using Guid(9837737d0a9fbec4bb2dcfc7ad0d6e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07605e052d0d0e2551d263b93a4ac85d') in 0.027011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Noise63.png
+  artifactKey: Guid(fecbc2dbf76d9ab4089330c3e5ee2423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Noise63.png using Guid(fecbc2dbf76d9ab4089330c3e5ee2423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e717f83ccda05acff5d356ef735782f3') in 0.016945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001474 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Point11.png
+  artifactKey: Guid(16c09c008bc4ddc4695f67e0c74a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Point11.png using Guid(16c09c008bc4ddc4695f67e0c74a6ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0599791387072455b3b93d98e0656fbc') in 0.017341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Smoke32.png
+  artifactKey: Guid(cf3e3119ad6254c4fae0fe38c98835da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Smoke32.png using Guid(cf3e3119ad6254c4fae0fe38c98835da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c4d3d5487678dc34cbf0ef225bbe7') in 0.018205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Trail48.png
+  artifactKey: Guid(711c9cc74686637428be1cb2473edb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Trail48.png using Guid(711c9cc74686637428be1cb2473edb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a168b8e29d054f32a1d43e88b51c7b8e') in 0.013554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Trail5.png
+  artifactKey: Guid(83846a180913c7241b6e6fee8ecd9dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Trail5.png using Guid(83846a180913c7241b6e6fee8ecd9dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a285827c62532ff6be3ded18dda4e9a5') in 0.012905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Textures/Point12.png
+  artifactKey: Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Textures/Point12.png using Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d35a8048c625a586579f4f9ee1947') in 0.012173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.040269 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Prefabs/Lightning/Lightning strike 2.prefab
+  artifactKey: Guid(bde090df84b36794d85627fb397cae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Prefabs/Lightning/Lightning strike 2.prefab using Guid(bde090df84b36794d85627fb397cae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec51ac6c0a058e3b2cf52658d76d38') in 0.111912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 5.127503 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Prefabs/Front attack/Spike.prefab
+  artifactKey: Guid(db87c32653be6354cb01034343d0eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Prefabs/Front attack/Spike.prefab using Guid(db87c32653be6354cb01034343d0eefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a72d3beb49e12c14630a6eead1f7f2') in 0.210519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 23.410339 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/MuzzleSquare01.fbx
+  artifactKey: Guid(f967921ff56fd8342be5ffa057882f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/MuzzleSquare01.fbx using Guid(f967921ff56fd8342be5ffa057882f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485f2b910684177e8dd48f2fc220fd42') in 0.031664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/RingMesh02.fbx
+  artifactKey: Guid(db1cd3a23efc6a74c824303a7aea2740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/RingMesh02.fbx using Guid(db1cd3a23efc6a74c824303a7aea2740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680ded8dec4cb04adb24965a4534f5c7') in 0.020895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.236456 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/BeamWhite_Add.mat
+  artifactKey: Guid(082a0f12700a64d47b9acc0e3eeab2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/BeamWhite_Add.mat using Guid(082a0f12700a64d47b9acc0e3eeab2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda197d03620ddc4499d98aac94bbebf') in 0.046363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_PoisonBall_4x4.mat
+  artifactKey: Guid(05bd83a1edd3e414690d1bb0caa172f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_PoisonBall_4x4.mat using Guid(05bd83a1edd3e414690d1bb0caa172f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3714bb1c4b52b5fa7c0aad7d45ece87d') in 0.011622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_Add_3x3.mat
+  artifactKey: Guid(e055485bf99a7874ca86fdc858b76297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/FireLine01_Add_3x3.mat using Guid(e055485bf99a7874ca86fdc858b76297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20efbfa9e4e21da88214136f14a4691') in 0.012338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_Electric_ES1.mat
+  artifactKey: Guid(8c434bf307fae51488004366fd3854eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_Electric_ES1.mat using Guid(8c434bf307fae51488004366fd3854eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8cc9c4512cad9c0be34e304e8ee60c') in 0.054827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_Purple_AddScroll.mat
+  artifactKey: Guid(7e1046e4b9153f249aec8c10e9d7862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Projectile_Purple_AddScroll.mat using Guid(7e1046e4b9153f249aec8c10e9d7862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44795a54796f73ceb6d930ba882602a') in 0.036589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Muzzle_PinkGum_3x3.mat
+  artifactKey: Guid(8ff1f567309db4e4da53d5604334749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Materials/Muzzle_PinkGum_3x3.mat using Guid(8ff1f567309db4e4da53d5604334749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b72a104e9c86af05cb3d44d99ede9') in 0.009904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.911800 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_ArrowPoisoned.prefab
+  artifactKey: Guid(9a723d60088206e4a86eb5411a8d5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_ArrowPoisoned.prefab using Guid(9a723d60088206e4a86eb5411a8d5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f61b29896c0e9b3fb09e448d976001b') in 0.071131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_Fireball01Blue.prefab
+  artifactKey: Guid(f2b7a17ad19e3fc46abab6d7e9882725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_Fireball01Blue.prefab using Guid(f2b7a17ad19e3fc46abab6d7e9882725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4028b93c9bded976305d3f144b73e4') in 0.053388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_Comet_Orange.prefab
+  artifactKey: Guid(3a1ab18e6861a8940aa332e72f024271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Hits/vfx_Hit_Comet_Orange.prefab using Guid(3a1ab18e6861a8940aa332e72f024271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcb7cbca6cdb593277edd598f4ba81b') in 0.121708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 1.547823 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowPoisoned.prefab
+  artifactKey: Guid(e21f397f19b330b43a512abfdfd2c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowPoisoned.prefab using Guid(e21f397f19b330b43a512abfdfd2c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9bf2399b6f13a8a9057b18752fa038') in 0.062383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01.prefab
+  artifactKey: Guid(eca1ff6741def5a468081e17839fc91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01.prefab using Guid(eca1ff6741def5a468081e17839fc91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9d8c552d62fcd3c4d8b9627a5c838e') in 0.071917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Feather.prefab
+  artifactKey: Guid(b45a1889b41ca8f4d8ea147d8d705bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Feather.prefab using Guid(b45a1889b41ca8f4d8ea147d8d705bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4981ed872d3149f2f9a8c3de61d0ca68') in 0.033826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01Blue.prefab
+  artifactKey: Guid(ba44394998abfd74691113457d3c133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01Blue.prefab using Guid(ba44394998abfd74691113457d3c133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570109b889247a078b26ba292d1cb0b6') in 0.047303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
