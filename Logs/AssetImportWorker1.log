@@ -11,6 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< Updated upstream
 C:/Users/matth/Lumina-Glen
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +19,15 @@ Logs/AssetImportWorker1.log
 51024
 Successfully changed project path to: C:/Users/matth/Lumina-Glen
 C:/Users/matth/Lumina-Glen
+=======
+C:/Users/matth/Lumina-Glen/Lumina-Glen-UPDATE
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51834
+Successfully changed project path to: C:/Users/matth/Lumina-Glen/Lumina-Glen-UPDATE
+C:/Users/matth/Lumina-Glen/Lumina-Glen-UPDATE
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +59,7 @@ C:/Users/matth/Lumina-Glen
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [9684] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3414878007 [EditorId] 3414878007 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [9684] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3414878007 [EditorId] 3414878007 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -59,6 +70,18 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/matth/Lumina-Glen/Assets
+=======
+Player connection [1416] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2038990778 [EditorId] 2038990778 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1416] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2038990778 [EditorId] 2038990778 [Version] 1048832 [Id] WindowsEditor(7,Pa-Trick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matth/Lumina-Glen/Lumina-Glen-UPDATE/Assets
+>>>>>>> Stashed changes
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,11 +93,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.006362 seconds.
 - Loaded All Assemblies, in  0.207 seconds
 Native extension for WindowsStandalone target not found
@@ -83,11 +111,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.152 seconds
 Domain Reload Profiling: 358ms
 	BeginReloadAssembly (64ms)
+=======
+Registered in 0.005328 seconds.
+- Loaded All Assemblies, in  0.337 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.166 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (130ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (35ms)
@@ -103,13 +142,35 @@ Domain Reload Profiling: 358ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (119ms)
+=======
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (132ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
+<<<<<<< Updated upstream
 			ProcessInitializeOnLoadAttributes (81ms)
 			ProcessInitializeOnLoadMethodAttributes (28ms)
+=======
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +178,13 @@ Domain Reload Profiling: 358ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.357 seconds
 Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,13 +192,20 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.330 seconds
 Domain Reload Profiling: 686ms
 	BeginReloadAssembly (85ms)
+=======
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 850ms
+	BeginReloadAssembly (100ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (12ms)
 	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (6ms)
@@ -167,6 +240,42 @@ Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3544.
 Memory consumption went from 123.2 MB to 123.2 MB.
 Total: 2.402300 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.021700 ms  DeleteObjects: 0.094400 ms)
+=======
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3250 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3729.
+Memory consumption went from 141.9 MB to 141.8 MB.
+Total: 2.832700 ms (FindLiveObjects: 0.190400 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.432100 ms  DeleteObjects: 0.117200 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,6 +293,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 728204.397419 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -196,10 +306,17 @@ Received Import Request.
   path: Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png
   artifactKey: Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png using Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded85f2ddfa64c3f66f321c8cb61bc7') in 0.094675 seconds
+=======
+  Time since last request: 28479.550152 seconds.
+  path: Assets/Healing Card.asset
+  artifactKey: Guid(fe36a86ea8b1241e0b80c37221d92b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Healing Card.asset using Guid(fe36a86ea8b1241e0b80c37221d92b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cd1e408635a329aa73811f64664a3a') in 0.007925 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000021 seconds.
   path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst.mat
   artifactKey: Guid(c494c335823f54b52b2e87e1b7a63a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -302,6 +419,126 @@ Received Import Request.
 Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Bridge_01.prefab using Guid(d8af6503a76d0c446af5e2faa77e1107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304690615973841a5d58ace4cb8f956') in 0.011096 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+=======
+  Time since last request: 31.633414 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowFire.prefab
+  artifactKey: Guid(68a0ef4dcae9aa14687734d594059d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowFire.prefab using Guid(68a0ef4dcae9aa14687734d594059d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18e9171db9e7c9ec4be54804c08ca6c') in 0.182218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_SwordFire.prefab
+  artifactKey: Guid(5b54c2e1bf70dd248902db6814a270fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_SwordFire.prefab using Guid(5b54c2e1bf70dd248902db6814a270fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da52688b288a276d9eb239358bb91d9') in 0.033225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_PinkGum.prefab
+  artifactKey: Guid(368464f8326873c46857bc476ac2b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_PinkGum.prefab using Guid(368464f8326873c46857bc476ac2b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f9edc645a57026d873537dd2037e16') in 0.021920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball02.prefab
+  artifactKey: Guid(dfb85277a4a133d45bc2d5f31d82309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball02.prefab using Guid(dfb85277a4a133d45bc2d5f31d82309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e9af6845e7e52117e4247e63dc3f1') in 0.030168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01.prefab
+  artifactKey: Guid(eca1ff6741def5a468081e17839fc91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Fireball01.prefab using Guid(eca1ff6741def5a468081e17839fc91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91d24aaf723086ee55ae272f464e226') in 0.029769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_LaserBlue.prefab
+  artifactKey: Guid(080168af0fb1a0f48bd653b0def3737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_LaserBlue.prefab using Guid(080168af0fb1a0f48bd653b0def3737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8246496257b755255116c45e1f627') in 0.019982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_BubbleBlue.prefab
+  artifactKey: Guid(10a196906512b5141bfd56285ee6c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_BubbleBlue.prefab using Guid(10a196906512b5141bfd56285ee6c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6134cab44e21369023dda5906fc053cf') in 0.023710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_BubbleRose.prefab
+  artifactKey: Guid(22d294288012ca446bf50ffb2281ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_BubbleRose.prefab using Guid(22d294288012ca446bf50ffb2281ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd697874b6a0e7be15f922a0781c33474') in 0.022149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_SwordIce.prefab
+  artifactKey: Guid(9ae5e242e15c7494a8bd65e18812ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_SwordIce.prefab using Guid(9ae5e242e15c7494a8bd65e18812ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889dd4a69e78e0b4804d349b3df26262') in 0.023685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ElectricOrangeBall.prefab
+  artifactKey: Guid(1608c3f9bcd1e9746b09dcb49a56fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ElectricOrangeBall.prefab using Guid(1608c3f9bcd1e9746b09dcb49a56fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52876a9620c6365315afdfca6107528d') in 0.030317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Comet_Orange.prefab
+  artifactKey: Guid(3bbebb6123d7fdd4fa718a9ea192c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Comet_Orange.prefab using Guid(3bbebb6123d7fdd4fa718a9ea192c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928772324b340d6b02d30fa391b3d693') in 0.034515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_RadioactiveBall.prefab
+  artifactKey: Guid(840f338b0237d3440b6d0de9ca9481f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_RadioactiveBall.prefab using Guid(840f338b0237d3440b6d0de9ca9481f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3169344f1cbae6d290764ca6905d64') in 0.031448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Carrot.prefab
+  artifactKey: Guid(c7e9268bc510d734e980e1e5b5898911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_Carrot.prefab using Guid(c7e9268bc510d734e980e1e5b5898911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038463fb8aafd036e8379932d50aee01') in 0.023400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowPoisoned.prefab
+  artifactKey: Guid(e21f397f19b330b43a512abfdfd2c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowPoisoned.prefab using Guid(e21f397f19b330b43a512abfdfd2c479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4a9be89de75c484c171d36cf082572') in 0.024987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowGreen.prefab
+  artifactKey: Guid(afbfa7d0f636e0a4db9f7f5959f3399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Prefabs/Projectiles/vfx_Projectile_ArrowGreen.prefab using Guid(afbfa7d0f636e0a4db9f7f5959f3399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed1311a92a4168b28542499a0fd771e') in 0.021492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+>>>>>>> Stashed changes
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

@@ -6,6 +6,8 @@ public class SpellCard : Item
     public int spellPower = 50;
     public int manaCost = 20;
     public float cooldown = 5f;
+    public float timetillDestruction = 10f;
+    public AudioClip spellSound;
     public GameObject spellEffectPrefab; // Reference to the spell effect prefab
 
     // Add any spell-specific methods or properties here

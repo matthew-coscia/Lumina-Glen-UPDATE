@@ -32,18 +32,6 @@ namespace Michsky.UI.ModernUIPack
         {
             if (isOn == true)
             {
-                if (currentPercent <= 100 && invert == false)
-                    currentPercent += speed * Time.deltaTime;
-
-                else if (currentPercent >= 0 && invert == true)
-                    currentPercent -= speed * Time.deltaTime;
-
-                if (currentPercent == 100 || currentPercent >= 100 && restart == true && invert == false)
-                    currentPercent = 0;
-
-                else if (currentPercent == 0 || currentPercent <= 0 && restart == true && invert == true)
-                    currentPercent = 100;
-
                 loadingBar.fillAmount = currentPercent / 100;
                 textPercent.text = ((int)currentPercent).ToString("F0") + "%";
             }
