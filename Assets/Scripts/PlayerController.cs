@@ -45,11 +45,4 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime); // Apply gravity
     }
 
-    void OnDrawGizmos()
-{
-    // Draw a yellow sphere at the transform's position to visualize the GroundCheck sphere
-    Gizmos.color = Color.yellow;
-    Gizmos.DrawWireSphere(groundCheck.position, groundDistance);
-}
-
 }
