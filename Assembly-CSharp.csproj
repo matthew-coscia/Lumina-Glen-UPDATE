@@ -97,6 +97,7 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButtonEditor.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/ParticleSystemController/Serializables.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/Scripts/PLayerMovement.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBarLoopEditor.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
@@ -195,7 +196,6 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/Window/WindowManagerEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerNotification.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicIconEditor.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerTooltip.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Tooltip/TooltipManager.cs" />
