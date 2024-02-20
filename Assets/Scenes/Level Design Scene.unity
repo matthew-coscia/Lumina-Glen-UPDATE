@@ -17890,6 +17890,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 392569855949669136, guid: ba87ae7a15f3428429d8b382e7556cb0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1857944105}
+    - targetCorrespondingSourceObject: {fileID: 392569855949669136, guid: ba87ae7a15f3428429d8b382e7556cb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1857944107}
   m_SourcePrefab: {fileID: 100100000, guid: ba87ae7a15f3428429d8b382e7556cb0, type: 3}
 --- !u!1 &1857944103 stripped
 GameObject:
@@ -17947,6 +17950,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1024956598970767786, guid: ba87ae7a15f3428429d8b382e7556cb0, type: 3}
   m_PrefabInstance: {fileID: 1857944102}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857944107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857944103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b2463981501cb4d8622ebd1becde8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSpell: {fileID: 11400000, guid: 8f3a963b2bcb5f046b7b9d32d73cea09, type: 2}
+  spellCastPoint: {fileID: 963194228}
 --- !u!1001 &1862015886
 PrefabInstance:
   m_ObjectHideFlags: 0
