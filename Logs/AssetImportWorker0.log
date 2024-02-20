@@ -2155,3 +2155,392 @@ Received Import Request.
 Start importing Assets/Travis Game Assets/Status Effects using Guid(435363c72b6550948aba4d18401b8067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f75e7147c2ae5f9352f20b5cd3a3f5b') in 0.006906 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 188.755007 seconds.
+  path: Assets/Scenes/Level Design Scene.unity
+  artifactKey: Guid(134571def16f29841904a1a0f660ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Design Scene.unity using Guid(134571def16f29841904a1a0f660ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1cf40b162fe05d6429494f75c64a13') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d8cf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1326ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.4 KB). Loaded Objects now: 3819.
+Memory consumption went from 322.2 MB to 322.2 MB.
+Total: 2.751167 ms (FindLiveObjects: 0.144417 ms CreateObjectMapping: 0.067792 ms MarkObjects: 2.480458 ms  DeleteObjects: 0.057833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d8cf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.068 seconds
+Domain Reload Profiling: 1569ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (262.7 KB). Loaded Objects now: 3830.
+Memory consumption went from 329.6 MB to 329.4 MB.
+Total: 2.574416 ms (FindLiveObjects: 0.148667 ms CreateObjectMapping: 0.043666 ms MarkObjects: 2.194959 ms  DeleteObjects: 0.186167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200.120452 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_01_King.prefab
+  artifactKey: Guid(28d0a30d6aed6fc4c8ca473413f70c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_01_King.prefab using Guid(28d0a30d6aed6fc4c8ca473413f70c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34bddb89677b24eff73d52f4e03fa6a') in 0.403687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.938804 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_03 Leaf.prefab
+  artifactKey: Guid(66ae442726d1cf4428dacb34edd61ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_03 Leaf.prefab using Guid(66ae442726d1cf4428dacb34edd61ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c888246e2427de0826858fcadd5783') in 0.022688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.515844 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_03 Sprout.prefab
+  artifactKey: Guid(8760cc9eb30a2b340b14499b6e150dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_03 Sprout.prefab using Guid(8760cc9eb30a2b340b14499b6e150dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e24d067e1800c2bed2db974de6fbd2') in 0.014158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.720212 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_03 King.prefab
+  artifactKey: Guid(93df5c48d5e021040916b0e984d9b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_03 King.prefab using Guid(93df5c48d5e021040916b0e984d9b01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d809812b259c363dc48c1a50a50dcd7') in 0.020878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 4.497556 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_01_Viking.prefab
+  artifactKey: Guid(11eed2dfd1329ab4db9e7f27b8e628b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_01_Viking.prefab using Guid(11eed2dfd1329ab4db9e7f27b8e628b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ceb2da70503781b7ae166857f3be0b') in 0.012834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 26.924271 seconds.
+  path: Assets/Kawaii Slimes/Prefabs/Slime_01_MeltalHelmet.prefab
+  artifactKey: Guid(0ba0f6eee23032e4e83d421e739dc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Prefabs/Slime_01_MeltalHelmet.prefab using Guid(0ba0f6eee23032e4e83d421e739dc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60617aac3a193e3518ffd8a91034d3a3') in 0.057390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 69.503440 seconds.
+  path: Assets/SimpleFantasy/Models/Animals/SF_Animal_Boar.fbx
+  artifactKey: Guid(39208cf7134794046a33c7c3a9440f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Animals/SF_Animal_Boar.fbx using Guid(39208cf7134794046a33c7c3a9440f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377b7874000a0b0c49ff8608a28b0192') in 0.136240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cloud_Long.fbx
+  artifactKey: Guid(d69e5816f93055e49a22465ac0e99b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cloud_Long.fbx using Guid(d69e5816f93055e49a22465ac0e99b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02be822f9113e015610ec48bac3d6c4') in 0.016104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.013378 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_wall_corner_01.FBX
+  artifactKey: Guid(8d46c072a5a2cd44ab840d79cc1acc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_wall_corner_01.FBX using Guid(8d46c072a5a2cd44ab840d79cc1acc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65eab964f2bd3d48b216b5cf40b24996') in 0.048417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_wall_panel_01.FBX
+  artifactKey: Guid(8f846af047fb875419e8afacc6cedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_wall_panel_01.FBX using Guid(8f846af047fb875419e8afacc6cedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cf049657a022e129b3c1c5323fd713') in 0.008830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_crane_01.FBX
+  artifactKey: Guid(54cd1763354db5748bb75129f961734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_crane_01.FBX using Guid(54cd1763354db5748bb75129f961734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba01d3b425f08442940701fede19b1e') in 0.056018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_small_house_01.FBX
+  artifactKey: Guid(1b7f2a5ef2bfc644889e208955107676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_small_house_01.FBX using Guid(1b7f2a5ef2bfc644889e208955107676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b2ace4f9ddce0b971aa66375d93dfc') in 0.038543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/Cone01.fbx
+  artifactKey: Guid(65a8adbba1eefef46a583dd4ca700eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/Cone01.fbx using Guid(65a8adbba1eefef46a583dd4ca700eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3f349220cb074d08abc64fed4eae33') in 0.008180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_tower_01.FBX
+  artifactKey: Guid(1eb5989802803ad45b51184df8643cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_tower_01.FBX using Guid(1eb5989802803ad45b51184df8643cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb8249cf4d71ee914386d2f02ca7c9e') in 0.011534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Models/Capsule01.fbx
+  artifactKey: Guid(5b009c1c5a61e704190db834e3217f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Models/Capsule01.fbx using Guid(5b009c1c5a61e704190db834e3217f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932603c0e3a1a6b6e0d335647f9ccd69') in 0.008266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_barracks_single_01.fbx
+  artifactKey: Guid(d3f6bd8686fd5e546964fa0f307f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Demo scene/Scene environment/Models/build_barracks_single_01.fbx using Guid(d3f6bd8686fd5e546964fa0f307f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47181194ff38ab5593d5ad8b333e6d8e') in 0.020963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Models/Cone01.fbx
+  artifactKey: Guid(99022348541e83041882f79e8107a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Models/Cone01.fbx using Guid(99022348541e83041882f79e8107a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171d5ec3cecedd96e46a1e51fa8f1173') in 0.016503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Models/Cell.fbx
+  artifactKey: Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Models/Cell.fbx using Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5564e722983b50b69952ed9eb8109f') in 0.012124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002009 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/ProjectileCarrot01.fbx
+  artifactKey: Guid(a82d250e7f02ff44db36ae14cefe19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/ProjectileCarrot01.fbx using Guid(a82d250e7f02ff44db36ae14cefe19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27625bd969a7fc73d1729a6ec69503ca') in 0.009808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.003434 seconds.
+  path: Assets/LittleFriends-CartoonAnimals-Lite/Meshes/StrawberrySpongeCake.fbx
+  artifactKey: Guid(5e9a48a311a5e0e4e82ea9588e93a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleFriends-CartoonAnimals-Lite/Meshes/StrawberrySpongeCake.fbx using Guid(5e9a48a311a5e0e4e82ea9588e93a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e62299ce1fcf0616bd53342c6a681c') in 0.018824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Hovl Studio/Wizard spells pack/Models/CylinderFromCenter2.fbx
+  artifactKey: Guid(9f383b802545bff40a5639b09dee9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Wizard spells pack/Models/CylinderFromCenter2.fbx using Guid(9f383b802545bff40a5639b09dee9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d71e06f4b7ecdd8800842cd78bac7d7') in 0.018931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cabin.fbx
+  artifactKey: Guid(83e9f2baa8ffe7c428e3424227a4287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Selcuk Gerceker/Toon Environments - World Creator Pack Lite/Models/Props/Cabin.fbx using Guid(83e9f2baa8ffe7c428e3424227a4287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202c0f7d1b3d56b1ec0f04f0f1b3300c') in 0.032491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d8cf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.851 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1713ms
+	BeginReloadAssembly (456ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (303ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.4 KB). Loaded Objects now: 3848.
+Memory consumption went from 340.1 MB to 340.1 MB.
+Total: 4.804000 ms (FindLiveObjects: 0.148958 ms CreateObjectMapping: 0.050500 ms MarkObjects: 4.508000 ms  DeleteObjects: 0.095000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
