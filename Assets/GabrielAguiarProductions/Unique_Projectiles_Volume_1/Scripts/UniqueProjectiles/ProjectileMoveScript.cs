@@ -13,6 +13,8 @@ public class ProjectileMoveScript : MonoBehaviour {
 	public AudioClip shotSFX;
 	public AudioClip hitSFX;
 	public List<GameObject> trails;
+	public float spellPower;
+	public float timetillDestruction;
 
 	private float speedRandomness;
 	private Vector3 offset;
@@ -21,6 +23,8 @@ public class ProjectileMoveScript : MonoBehaviour {
 
 	void Start () {	
 		rb = GetComponent <Rigidbody> ();
+
+		Destroy(gameObject, timetillDestruction);
 
 		//used to create a radius for the accuracy and have a very unique randomness
 		if (accuracy != 100) {
@@ -66,7 +70,19 @@ public class ProjectileMoveScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter (Collision co) {
-		if (co.gameObject.tag != "Bullet" && !collided) {
+		if (co.gameObject.tag == "Enemy" && !collided)
+		{ // Assuming the enemy tag is "Enemy"
+			collided = true;
+
+			// Attempt to get the EnemyHealth component on the collided object
+			EnemyHealth enemyHealth = co.gameObject.GetComponent<EnemyHealth>();
+			if (enemyHealth != null)
+			{
+				// Apply damage to the enemy based on this projectile's spell power
+				enemyHealth.TakeDamage(spellPower);
+			}
+		}
+            if (co.gameObject.tag != "Bullet" && !collided) {
 			collided = true;
 			
 			if (shotSFX != null && GetComponent<AudioSource>()) {

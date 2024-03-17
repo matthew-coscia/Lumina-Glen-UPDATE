@@ -2,35 +2,49 @@ using UnityEngine;
 
 public class SpellCastingController : MonoBehaviour
 {
-    public SpellCard currentSpell; // Assign this in the inspector with your desired SpellCard
-    public Transform spellCastPoint; // Assign a transform from where the spell should be cast
+    public SpellCard currentSpellCard; // Assign this in the inspector or dynamically
+    public Transform cameraTransform; // Assign your camera transform in the inspector
+    public AudioSource audioSource;
+    private float lastSpellTime = -Mathf.Infinity; // Initialize to allow immediate casting
 
-    private float lastCastTime = 0f;
 
     void Update()
     {
-        // Check for left mouse click and if the cooldown has passed
-        if (Input.GetMouseButtonDown(0) && Time.time >= lastCastTime + currentSpell.cooldown)
+        if (Input.GetMouseButtonDown(0) && CanCastSpell()) // 0 is the left mouse button
         {
-            CastCurrentSpell();
-            lastCastTime = Time.time; // Reset the last cast time
+            CastSpell();
+            lastSpellTime = Time.time;
+        }
+        if (Input.GetMouseButtonDown(0) && !CanCastSpell())
+        {
+            Debug.Log("Cannot Cast Spell!");
         }
     }
 
-    void CastCurrentSpell()
+    bool CanCastSpell()
     {
-        if (currentSpell != null)
-        {
-            // Assuming the spell is cast forward from the spellCastPoint
-            Vector3 castPosition = spellCastPoint.position;
-            Quaternion castRotation = spellCastPoint.rotation;
+        // Check if enough time has elapsed since the last spell was cast
+        return Time.time - lastSpellTime >= currentSpellCard.cooldown;
+    }
 
-            // Call CastSpell on the currentSpell with the position and rotation
-            currentSpell.CastSpell(castPosition, castRotation);
+    void CastSpell()
+    {
+        if (currentSpellCard != null && currentSpellCard.spellEffectPrefab != null)
+        {
+            GameObject spellVFX = Instantiate(currentSpellCard.spellEffectPrefab, cameraTransform.position, cameraTransform.rotation);
+            ProjectileMoveScript projectileScript = spellVFX.GetComponent<ProjectileMoveScript>();
+            if (projectileScript != null)
+            {
+                projectileScript.spellPower = currentSpellCard.spellPower; // Set the spell power
+                projectileScript.timetillDestruction = currentSpellCard.timetillDestruction;
+                audioSource.clip = currentSpellCard.spellSound;
+                audioSource.Play();
+            }
         }
         else
         {
-            Debug.LogWarning("No current spell selected for casting.");
+            Debug.LogWarning("Spell card or spell effect prefab is missing!");
         }
     }
+
 }
