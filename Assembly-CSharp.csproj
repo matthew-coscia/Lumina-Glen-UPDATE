@@ -129,6 +129,7 @@
     <Compile Include="Assets/Scripts/EnemyHealth.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/LittleFriends-CartoonAnimals-Lite/Demo/Script/Demo.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManager.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/ParticleSystemController/ParticleSystemController.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Dropdown/DropdownMultiSelectEditor.cs" />
@@ -234,6 +235,7 @@
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/AdditiveMobile_Scroll01.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/AlphaBlendedMobile_Scroll01.shader" />
+    <None Include="Assets/LittleFriends-CartoonAnimals-Lite/Readme/LittleFriends-CartoonAnimals-Lite.txt" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/LightGlow.shader" />
