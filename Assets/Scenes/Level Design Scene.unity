@@ -19198,9 +19198,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6982182674712304665, guid: ef27abcb91fae904aacd083e383358e0, type: 3}
+      propertyPath: minDistance
+      value: 0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 8737175866940539435, guid: ef27abcb91fae904aacd083e383358e0, type: 3}
       propertyPath: m_Name
       value: EnemySlime
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737175866940539435, guid: ef27abcb91fae904aacd083e383358e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24726,7 +24734,7 @@ Transform:
   m_GameObject: {fileID: 2015246221}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.25, y: 2.5, z: -10}
+  m_LocalPosition: {x: 6.43, y: 2.5, z: -10}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25028,7 +25036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433132, guid: 53f1e948b6f320c4e86866b17f95d031, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.647
+      value: 6.52
       objectReference: {fileID: 0}
     - target: {fileID: 433132, guid: 53f1e948b6f320c4e86866b17f95d031, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26348,6 +26356,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 1984484249201964007, guid: a46a46085677946479fc745da54153f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1996805404633925345, guid: a46a46085677946479fc745da54153f2, type: 3}
       propertyPath: m_TagString
       value: Ground
@@ -26407,6 +26419,10 @@ PrefabInstance:
     - target: {fileID: 2946254368135032028, guid: a46a46085677946479fc745da54153f2, type: 3}
       propertyPath: m_TagString
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962986893176101147, guid: a46a46085677946479fc745da54153f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3156505233813693289, guid: a46a46085677946479fc745da54153f2, type: 3}
       propertyPath: m_TagString
@@ -26579,6 +26595,10 @@ PrefabInstance:
     - target: {fileID: 6665579323173410900, guid: a46a46085677946479fc745da54153f2, type: 3}
       propertyPath: m_TagString
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768207251675733925, guid: a46a46085677946479fc745da54153f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6816397119280591960, guid: a46a46085677946479fc745da54153f2, type: 3}
       propertyPath: m_TagString

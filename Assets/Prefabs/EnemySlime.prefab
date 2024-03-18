@@ -398,7 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   moveSpeed: 5
-  minDistance: 2
+  minDistance: 0.7
   detectionRange: 10
   damageAmount: 5
 --- !u!114 &5880852450827344731
