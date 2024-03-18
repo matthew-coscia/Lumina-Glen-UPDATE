@@ -87,11 +87,13 @@
     <Compile Include="Assets/Scripts/EnemyBounceTowardsPlayer.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerIcon.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/UniqueProjectiles/SpawnProjectilesScript.cs" />
+    <Compile Include="Assets/Scripts/EnemyBehavior.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Demo/DemoListShadow.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeMinSlider.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/UniqueProjectiles/RotateToMouseScript.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Dropdown/DropdownMultiSelect.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/Scripts/EnemyHit.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManager.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBar.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButtonEditor.cs" />
@@ -160,6 +162,7 @@
     <Compile Include="Assets/Scripts/SpellCastingController.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Tooltip/TooltipManagerEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeMaxSlider.cs" />
+    <Compile Include="Assets/Scripts/SpellCard.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Rendering/UIGradientEditor.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Progress Bar/PBFilled.cs" />
