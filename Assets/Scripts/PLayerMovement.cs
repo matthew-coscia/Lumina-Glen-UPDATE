@@ -26,8 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        // Hide and lock cursor to the center of the screen
-        Cursor.lockState = CursorLockMode.Locked;
+        // // Hide and lock cursor to the center of the screen
+        // Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()

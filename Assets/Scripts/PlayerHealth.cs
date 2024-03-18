@@ -6,12 +6,15 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public int maxHealth = 3; // max health points
     public int health = 3; // Player starts with 3 health points
     public GameObject diedScreen; // Assign the UI panel for "You Died" screen in the inspector
     public GameObject redScreenImage; // Assign the red screen Image in the inspector
     public AudioSource hitSound; // Assign the AudioSource in the inspector
     public AudioClip audioClip;
     public float flashDuration = 0.5f; // Duration of the red screen flash
+    public float damageCooldown = 1.0f;
+    private float lastDamageTime;
     public ProgressBar healthBar;
     private int fellOff = 0;
 
@@ -19,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     {
         diedScreen.SetActive(false); // Ensure the died screen is not visible at start
         hitSound.clip = audioClip;
+        lastDamageTime = -damageCooldown; // Ensure damage can be taken immediately
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -59,6 +63,23 @@ public class PlayerHealth : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
             }
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (Time.time - lastDamageTime < damageCooldown)
+            return; // If still in cooldown, do not take damage
+
+        float damagePercentage = (float)damage / maxHealth; // Calculate damage as a percentage of max health
+        health -= Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
+
+        UpdateHealthBar(); // Update the health bar after taking damage
+        FlashScreen(); // Visual feedback for damage
+        hitSound.Play(); // Audio feedback for damage
+        lastDamageTime = Time.time; // Update last damage time
+
+        if (health <= 0)
+            Die(); // Handle player death
     }
 
     private void UpdateHealthBar()
