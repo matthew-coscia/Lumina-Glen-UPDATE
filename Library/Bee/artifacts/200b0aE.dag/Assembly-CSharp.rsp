@@ -457,7 +457,7 @@
 "Assets/Scripts/PLayerMovement.cs"
 "Assets/Scripts/SpellCard.cs"
 "Assets/Scripts/SpellCastingController.cs"
-"Assets/SpellShooter.cs"
+"Assets/Scripts/SpellShooter.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

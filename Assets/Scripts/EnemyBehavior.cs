@@ -35,12 +35,13 @@ public class EnemyBehavior : MonoBehaviour
         if (distance <= detectionRange && distance > minDistance)
         {
 
-MoveTowardsPlayer();
+            MoveTowardsPlayer();
         }
 
     }
 
-    private void MoveTowardsPlayer() {
+    private void MoveTowardsPlayer()
+    {
         float step = moveSpeed * Time.deltaTime;
         transform.LookAt(player);
         transform.position = Vector3.MoveTowards(transform.position, player.position, step);
@@ -56,10 +57,10 @@ MoveTowardsPlayer();
             var PlayerHealth = other.GetComponent<PlayerHealth>();
             if (PlayerHealth != null)
             {
-                      PlayerHealth.TakeDamage(damageAmount);
+                PlayerHealth.TakeDamage(damageAmount);
 
             }
-    
+
 
 
         }

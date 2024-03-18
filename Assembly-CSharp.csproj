@@ -87,6 +87,7 @@
     <Compile Include="Assets/Scripts/EnemyBounceTowardsPlayer.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerIcon.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/UniqueProjectiles/SpawnProjectilesScript.cs" />
+    <Compile Include="Assets/Scripts/SpellShooter.cs" />
     <Compile Include="Assets/Scripts/EnemyBehavior.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Demo/DemoListShadow.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeMinSlider.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBarLoopEditor.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-    <Compile Include="Assets/SpellShooter.cs" />
     <Compile Include="Assets/Hovl Studio/Wizard spells pack/Demo scene/Demo scene files/CameraShaker.cs" />
     <Compile Include="Assets/Hovl Studio/Wizard spells pack/Scripts/FrontSpawner.cs" />
     <Compile Include="Assets/Scripts/Inventory.cs" />

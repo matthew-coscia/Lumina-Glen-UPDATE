@@ -68,7 +68,9 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (Time.time - lastDamageTime < damageCooldown)
+        {
             return; // If still in cooldown, do not take damage
+        }
 
         float damagePercentage = (float)damage / maxHealth; // Calculate damage as a percentage of max health
         health -= Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
@@ -79,7 +81,9 @@ public class PlayerHealth : MonoBehaviour
         lastDamageTime = Time.time; // Update last damage time
 
         if (health <= 0)
+        {
             Die(); // Handle player death
+        }
     }
 
     private void UpdateHealthBar()
