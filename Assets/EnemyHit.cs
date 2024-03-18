@@ -9,6 +9,8 @@ using UnityEngine;
 public class EnemyHit : MonoBehaviour
 {
     public GameObject enemyExpelled;
+
+    public GameObject lootPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,10 @@ public class EnemyHit : MonoBehaviour
     {
         Instantiate(enemyExpelled, transform.position, transform.rotation);
         gameObject.SetActive(false);
-        // Instantiate(lootPrefab, transform.position, transform.rotation);
+        if(Random.Range(0, 3) == 2)
+        {
+            Instantiate(lootPrefab, transform.position, transform.rotation);
+        }
         // LevelManager.Instance.EnemyKilled();
         Destroy(gameObject, 0.5f);
     }

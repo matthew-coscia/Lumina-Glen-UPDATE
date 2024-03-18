@@ -82,6 +82,15 @@ public class PlayerHealth : MonoBehaviour
             Die(); // Handle player death
     }
 
+    public void TakeHealth(int amount)
+    {
+        if(health < maxHealth)
+        {
+            health += amount;
+            UpdateHealthBar();
+        }
+    }
+
     private void UpdateHealthBar()
     {
         if (healthBar != null)

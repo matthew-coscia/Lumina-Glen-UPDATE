@@ -414,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyExpelled: {fileID: 1847455667680946898, guid: 4d7d76f16235f4381ac8348d3ecdfa25, type: 3}
+  lootPrefab: {fileID: 1396780956966815885, guid: 9695eaedb278f9d428e902d1b076c5a7, type: 3}
 --- !u!135 &6000879200720238894
 SphereCollider:
   m_ObjectHideFlags: 0
