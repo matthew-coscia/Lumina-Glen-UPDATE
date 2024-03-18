@@ -129,7 +129,6 @@
     <Compile Include="Assets/Scripts/EnemyHealth.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets/LittleFriends-CartoonAnimals-Lite/Demo/Script/Demo.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManager.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/ParticleSystemController/ParticleSystemController.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Dropdown/DropdownMultiSelectEditor.cs" />
