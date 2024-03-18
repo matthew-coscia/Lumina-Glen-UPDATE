@@ -131,11 +131,13 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/Toggle/ToggleAnim.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Cameras/Scripts/FreeLookCam.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/ParticleSystemController/ParticleSystemControllerEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerInputField.cs" />
     <Compile Include="Assets/Hovl Studio/Wizard spells pack/Scripts/FrontAttack.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Cameras/Scripts/PivotBasedCameraRig.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RadialSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
@@ -165,6 +167,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerScrollbar.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerWithIcon.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Scripts/AI/EnemyAi.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasic.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Horizontal Selector/HorizontalSelectorEditor.cs" />
@@ -176,6 +179,8 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets/Scripts/Item.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Scripts/GameManager.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Cameras/Scripts/AbstractTargetFollower.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Window/WindowManager.cs" />
     <Compile Include="Assets/Hovl Studio/Wizard spells pack/Scripts/TargetProjectile.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
@@ -183,6 +188,7 @@
     <Compile Include="Assets/Scripts/InventoryUI.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBarEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Dropdown/CustomDropdownEditor.cs" />
+    <Compile Include="Assets/Kawaii Slimes/Scripts/AI/Face.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdown.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButton.cs" />
@@ -217,6 +223,7 @@
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Distortion.shader" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Blend_TwoSides.shader" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Electricity.shader" />
+    <None Include="Assets/Kawaii Slimes/Cameras/CameraGuidelines.txt" />
     <None Include="Assets/Modern UI Pack/Read Me.txt" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Blend_CenterGlow.shader" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/AdditiveMobile_Scroll01.shader" />
@@ -233,12 +240,15 @@
     <None Include="Assets/Hovl Studio/PBR Fantasy staff/Shaders/Staff.shader" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Blend_LinePath.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Kawaii Slimes/Shader/Unity-chan Shader Ver 1.2.1/readme.txt" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/Additive_EdgeSoft.shader" />
+    <None Include="Assets/Kawaii Slimes/Shader/Unity-chan Shader Ver 1.2.1/Unitychan_chara_eye.shader" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/AlphaBlended_EdgeSoft.shader" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Fire.shader" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Shaders/AlphaBlended_Scroll01.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Kawaii Slimes/Readme.txt" />
     <None Include="Assets/Hovl Studio/Wizard spells pack/Shaders/Add_CenterGlow.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Readme.txt" />
