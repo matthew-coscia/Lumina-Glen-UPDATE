@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        groundMask = LayerMask.GetMask("Ground");
+
     }
 
     void Update()
