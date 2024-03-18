@@ -136,7 +136,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Kawaii Slimes/Cameras/Scripts/FreeLookCam.cs" />
     <Compile Include="Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Scripts/ParticleSystemController/ParticleSystemControllerEditor.cs" />
-    <Compile Include="Assets/EnemyHit.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerInputField.cs" />
     <Compile Include="Assets/Hovl Studio/Wizard spells pack/Scripts/FrontAttack.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
@@ -161,7 +160,6 @@
     <Compile Include="Assets/Scripts/SpellCastingController.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Tooltip/TooltipManagerEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeMaxSlider.cs" />
-    <Compile Include="Assets/Scripts/SpellCard.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Rendering/UIGradientEditor.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Progress Bar/PBFilled.cs" />
@@ -197,7 +195,6 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdown.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Slider/RangeSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButton.cs" />
-    <Compile Include="Assets/EnemyBehavior.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicWithIconEditor.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBarLoop.cs" />
     <Compile Include="Assets/Scripts/CollectibleScript.cs" />
