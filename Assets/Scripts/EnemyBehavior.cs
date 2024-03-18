@@ -31,20 +31,6 @@ public class EnemyBehavior : MonoBehaviour
         float distance = Vector3.Distance(transform.position, player.position);
 
 
-        // Only move towards the player if they are within detection range and further than min Distance
-        if (distance <= detectionRange && distance > minDistance)
-        {
-
-            MoveTowardsPlayer();
-        }
-
-    }
-
-    private void MoveTowardsPlayer()
-    {
-        float step = moveSpeed * Time.deltaTime;
-        transform.LookAt(player);
-        transform.position = Vector3.MoveTowards(transform.position, player.position, step);
     }
 
     private void OnTriggerEnter(Collider other)

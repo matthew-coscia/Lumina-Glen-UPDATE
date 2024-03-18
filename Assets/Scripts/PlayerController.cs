@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    bool isGrounded;
+    bool isGrounded = false;
 
     void Start()
     {
@@ -20,12 +20,13 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Check if on the ground
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        // If on the ground and falling, reset fall velocity
-        if (isGrounded && velocity.y < 0)
+        if (velocity.y <= 0)
         {
-            velocity.y = 0.0f; // Small downward force to ensure the character stays grounded
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
         }
 
         float x = Input.GetAxis("Horizontal");
@@ -50,6 +51,5 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime); // Apply gravity
     }
-
 
 }
