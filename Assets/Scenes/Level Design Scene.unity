@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37482783, g: 0.6137259, b: 0.86618936, a: 1}
+  m_IndirectSpecularColor: {r: 0.37577116, g: 0.6143076, b: 0.8670603, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10555,6 +10555,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10649,6 +10650,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseSensitivity: 10
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d557affd86453474cb3a640ad548c62f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSpellCard: {fileID: 11400000, guid: 8f3a963b2bcb5f046b7b9d32d73cea09, type: 2}
+  audioSource: {fileID: 975038437}
+  reticleImage: {fileID: 1831165965}
+  reticleEnemyColor: {r: 0.11764706, g: 0.8392157, b: 0.9137255, a: 1}
+  reticleInteractableColor: {r: 0.9607843, g: 0.5686275, b: 0.69803923, a: 1}
 --- !u!64 &970357628
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13250,6 +13268,108 @@ Transform:
   - {fileID: 858288177}
   m_Father: {fileID: 649667607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1200620764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1757611671}
+    m_Modifications:
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026770510989045780, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+      propertyPath: m_Name
+      value: Crosshair
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+--- !u!224 &1200620765 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7209174327779604342, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+  m_PrefabInstance: {fileID: 1200620764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1204209661 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5048192288109483137, guid: 9d9016a93e2afb14993f9ab42254fc2b, type: 3}
@@ -20678,6 +20798,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1200620765}
   - {fileID: 1093456637}
   - {fileID: 315539981}
   - {fileID: 1667799611}
@@ -21450,6 +21571,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6481825945531470986, guid: d2a73dec0eb1d81498135676972d3278, type: 3}
+--- !u!114 &1831165965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2287516605850382397, guid: 26d72fe513cef4400a6bc6f3f392f264, type: 3}
+  m_PrefabInstance: {fileID: 1200620764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1831264847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 76881797611610635, guid: bc78c7ec5924f9849a1ac512e4181b9f, type: 3}
@@ -21662,7 +21794,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
 --- !u!143 &1857944105
 CharacterController:
   m_ObjectHideFlags: 0
@@ -21701,7 +21833,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857944103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5b2463981501cb4d8622ebd1becde8a, type: 3}
   m_Name: 
@@ -21721,12 +21853,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e21325d6695f24998998fe4ac086f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
   health: 3
   diedScreen: {fileID: 192846178}
   redScreenImage: {fileID: 1093456636}
   hitSound: {fileID: 1857944110}
   audioClip: {fileID: 8300000, guid: 5164b5d3fefe936419e6e912345d53f0, type: 3}
   flashDuration: 0.5
+  damageCooldown: 1
   healthBar: {fileID: 315539983}
 --- !u!82 &1857944110
 AudioSource:

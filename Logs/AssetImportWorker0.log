@@ -555,3 +555,237 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.216563 seconds.
+  path: Assets/slimee.unitypackage
+  artifactKey: Guid(2e6e1f11dbf8d40b293a0ca1742eb48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/slimee.unitypackage using Guid(2e6e1f11dbf8d40b293a0ca1742eb48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eb78e4c6bf0a94d16e89f1915f229e') in 0.034470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.488732 seconds.
+  path: Assets/Scripts/scripts.unitypackage
+  artifactKey: Guid(f19c436f4a4f5436e829565ade860f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/scripts.unitypackage using Guid(f19c436f4a4f5436e829565ade860f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879cf55971f5e97cb7f710b3e2e1508b') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.845720 seconds.
+  path: Assets/scripts and crosshair.unitypackage
+  artifactKey: Guid(5b70258b46abb479894415f8ddd10aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts and crosshair.unitypackage using Guid(5b70258b46abb479894415f8ddd10aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9649deae70fb29654989b1d8c5ceba') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.071285 seconds.
+  path: Assets/Bitmap
+  artifactKey: Guid(b41ecaf7dff77471284e6144576210db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitmap using Guid(b41ecaf7dff77471284e6144576210db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbb1129668ceb31ed8c2deb013378e') in 0.006672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.434458 seconds.
+  path: Assets/Bitmap/crosshair.png
+  artifactKey: Guid(546464442bf1a1b43a8a4ae651ac1051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitmap/crosshair.png using Guid(546464442bf1a1b43a8a4ae651ac1051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2877930a4f334d33fc1fdcdac5fcd1fc') in 0.084087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d45b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+We weren't able to parse search user settings at /Users/jlam/Documents/GitHub/Lumina-Glen-UPDATE/UserSettings/Search.settings. We will fallback to default settings.
+UnityEngine.UnityException: SJSON Parse Error (/Users/jlam/Documents/GitHub/Lumina-Glen-UPDATE/UserSettings/Search.settings) at line 0: Error consuming: =
+
+{}
+
+  at UnityEditor.SJSON.Load (System.String path) [0x00029] in /Users/bokken/build/output/unity/unity/Editor/Mono/SJSON.bindings.cs:35 
+  at UnityEditor.Search.SearchSettingsStorage.Load () [0x00004] in /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:221 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Search.SearchSettingsStorage:Load () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:225)
+UnityEditor.Search.SearchSettings:Load () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:734)
+UnityEditor.Search.SearchSettings:.cctor () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:725)
+UnityEditor.Search.CustomIndexers:RefreshCustomIndexers () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:142)
+UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:181)
+UnityEditor.Search.CustomIndexers:.cctor () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs Line: 225)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.846 seconds
+Domain Reload Profiling: 1160ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (846ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.2 MB). Loaded Objects now: 3749.
+Memory consumption went from 169.5 MB to 168.3 MB.
+Total: 3.291166 ms (FindLiveObjects: 0.148875 ms CreateObjectMapping: 0.045042 ms MarkObjects: 2.437292 ms  DeleteObjects: 0.659417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.527109 seconds.
+  path: Assets/Prefabs/Barrier Card.asset
+  artifactKey: Guid(94bbf1cea61b44cc3b20ac3b049235d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Barrier Card.asset using Guid(94bbf1cea61b44cc3b20ac3b049235d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f2e3e3ac875ef5d4600fc4e8b62f96') in 0.090471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 8.321897 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/RingMesh02.fbx
+  artifactKey: Guid(db1cd3a23efc6a74c824303a7aea2740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_1/Models/RingMesh02.fbx using Guid(db1cd3a23efc6a74c824303a7aea2740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8319ded73d16f617e0685946b2e2667f') in 0.095359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d45b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.290 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+We weren't able to parse search user settings at /Users/jlam/Documents/GitHub/Lumina-Glen-UPDATE/UserSettings/Search.settings. We will fallback to default settings.
+UnityEngine.UnityException: SJSON Parse Error (/Users/jlam/Documents/GitHub/Lumina-Glen-UPDATE/UserSettings/Search.settings) at line 0: Error consuming: =
+
+{}
+
+  at UnityEditor.SJSON.Load (System.String path) [0x00029] in /Users/bokken/build/output/unity/unity/Editor/Mono/SJSON.bindings.cs:35 
+  at UnityEditor.Search.SearchSettingsStorage.Load () [0x00004] in /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:221 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Search.SearchSettingsStorage:Load () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:225)
+UnityEditor.Search.SearchSettings:Load () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:734)
+UnityEditor.Search.SearchSettings:.cctor () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs:725)
+UnityEditor.Search.CustomIndexers:RefreshCustomIndexers () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:142)
+UnityEditor.Search.CustomIndexers:LoadCustomObjectIndexers () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:181)
+UnityEditor.Search.CustomIndexers:.cctor () (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/CustomIndexers.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchSettings.cs Line: 225)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 1102ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.2 MB). Loaded Objects now: 3758.
+Memory consumption went from 177.1 MB to 176.0 MB.
+Total: 3.718500 ms (FindLiveObjects: 0.395708 ms CreateObjectMapping: 0.096375 ms MarkObjects: 2.739708 ms  DeleteObjects: 0.485917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
