@@ -292,6 +292,9 @@ GameObject:
   - component: {fileID: 2418575655803389373}
   - component: {fileID: 756171929210749060}
   - component: {fileID: 6341758755731454252}
+  - component: {fileID: 6982182674712304665}
+  - component: {fileID: 5880852450827344731}
+  - component: {fileID: 6000879200720238894}
   m_Layer: 0
   m_Name: EnemySlime
   m_TagString: Enemy
@@ -359,8 +362,59 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!135 &6341758755731454252
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737175866940539435}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.34625992
+  m_Center: {x: 0, y: 0.29697755, z: 0}
+--- !u!114 &6982182674712304665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737175866940539435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02f74b810ed1408a812e3ecabf69f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 5
+  minDistance: 2
+  detectionRange: 10
+  damageAmount: 5
+--- !u!114 &5880852450827344731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737175866940539435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa349f9319bf465bbb934a1ee6953b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyExpelled: {fileID: 1847455667680946898, guid: 4d7d76f16235f4381ac8348d3ecdfa25, type: 3}
+--- !u!135 &6000879200720238894
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,5 +433,5 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.34625992
-  m_Center: {x: 0, y: 0.29697755, z: 0}
+  m_Radius: 0.3462599
+  m_Center: {x: 0, y: 0.2969775, z: 0}

@@ -22,7 +22,7 @@ public class SpellCard : Item
             // Instantiate the spell effect at the given position and rotation
             GameObject spellEffectInstance = GameObject.Instantiate(spellEffectPrefab, castPosition, castRotation);
             // You can add additional logic here, such as setting the spell effect's size or duration based on spellPower
-
+            
             // Optional: Destroy the spell effect instance after a certain duration if it doesn't destroy itself
             GameObject.Destroy(spellEffectInstance, 5f); // Adjust the duration based on the effect's needs
         }
