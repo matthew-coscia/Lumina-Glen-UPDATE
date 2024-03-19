@@ -113,4 +113,13 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(0.5f); // Wait for half a second
         redScreenImage.SetActive(false); // Hide the red screen
     }
+
+
+    public void GiveHealth(int health){
+        float damagePercentage = health / maxHealth; // Calculate damage as a percentage of max health
+        health += Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
+        UpdateHealthBar(); // Update the health bar after taking damage
+
+    
+    }
 }

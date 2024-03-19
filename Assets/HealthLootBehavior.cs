@@ -30,7 +30,7 @@ public class HealthLootBehavior : MonoBehaviour
             gameObject.SetActive(false);
             AudioSource.PlayClipAtPoint(lootSFX, transform.position);
             var playerHealth = other.GetComponent<PlayerHealth>();
-            playerHealth.TakeDamage(-healthAmount);
+            playerHealth.GiveHealth(healthAmount);
 
             Destroy(gameObject, 0.5f);
         }
