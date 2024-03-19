@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 3220721544056726997}
   - component: {fileID: 4098196141152071443}
   - component: {fileID: 4250360176997050436}
-  - component: {fileID: 3376003371965069339}
+  - component: {fileID: 7079114753292018102}
   m_Layer: 0
   m_Name: Vial
   m_TagString: Untagged
@@ -171,7 +171,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -199,7 +199,7 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3376003371965069339
+--- !u!114 &7079114753292018102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,11 +208,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1396780956966815885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc3b7b8d60e8c564588e029078a0f3dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a29007e58b384f6881032fed024668c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthAmount: 1
-  lootSFX: {fileID: 8300000, guid: df467f956f2dcb64a9e18790abe491d0, type: 3}
+  lootSFX: {fileID: 8300000, guid: 54a4cb42cad784fa9aae44d309d77ca1, type: 3}
 --- !u!1 &1502097259288261016
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Ground
+  - Spawn
+  - Interactable
+  - Enemy
+  - Fireball
   layers:
   - Default
   - TransparentFX

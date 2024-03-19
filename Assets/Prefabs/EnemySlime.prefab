@@ -289,12 +289,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4540747292861615299}
-  - component: {fileID: 2418575655803389373}
   - component: {fileID: 756171929210749060}
   - component: {fileID: 6341758755731454252}
   - component: {fileID: 6982182674712304665}
   - component: {fileID: 5880852450827344731}
   - component: {fileID: 6000879200720238894}
+  - component: {fileID: 6009556178720669343}
+  - component: {fileID: 1487632278146651106}
   m_Layer: 0
   m_Name: EnemySlime
   m_TagString: Enemy
@@ -319,29 +320,6 @@ Transform:
   - {fileID: 6877693399535492739}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2418575655803389373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8737175866940539435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2212cae41a1ed754ebde5c383d263c37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  bounceSpeed: 4
-  bounceHeight: 3
-  detectionRadius: 25
-=======
-  bounceSpeed: 2
-  bounceHeight: 2
-  detectionRadius: 10
->>>>>>> Frank
-  rotationSpeed: 5
-  waitTimeBeforeNextJump: 1
 --- !u!54 &756171929210749060
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -399,20 +377,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8737175866940539435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f02f74b810ed1408a812e3ecabf69f6b, type: 3}
+  m_Script: {fileID: 11500000, guid: b00aab10b945dd24a9c45db2e6c0728f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  moveSpeed: 5
-<<<<<<< HEAD
-  minDistance: 0.7
-  detectionRange: 10
-  damageAmount: 2
-=======
-  minDistance: 2
-  detectionRange: 10
-  damageAmount: 5
->>>>>>> Frank
+  health: 100
 --- !u!114 &5880852450827344731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,14 +390,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8737175866940539435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa349f9319bf465bbb934a1ee6953b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 2212cae41a1ed754ebde5c383d263c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyExpelled: {fileID: 1847455667680946898, guid: 4d7d76f16235f4381ac8348d3ecdfa25, type: 3}
-<<<<<<< HEAD
-=======
-  lootPrefab: {fileID: 1396780956966815885, guid: 9695eaedb278f9d428e902d1b076c5a7, type: 3}
->>>>>>> Frank
+  bounceSpeed: 4
+  bounceHeight: 3
+  detectionRadius: 25
+  rotationSpeed: 5
+  waitTimeBeforeNextJump: 1
 --- !u!135 &6000879200720238894
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -451,3 +419,34 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.3462599
   m_Center: {x: 0, y: 0.2969775, z: 0}
+--- !u!114 &6009556178720669343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737175866940539435}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126eed1d9adc6445280b66870102cca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 5
+  minDistance: 2
+  detectionRange: 10
+  damageAmount: 5
+--- !u!114 &1487632278146651106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8737175866940539435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed52090e1b3e84e488596ccb7f09509e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyExpelled: {fileID: 1847455667680946898, guid: 4d7d76f16235f4381ac8348d3ecdfa25, type: 3}
+  lootPrefab: {fileID: 1396780956966815885, guid: 9695eaedb278f9d428e902d1b076c5a7, type: 3}

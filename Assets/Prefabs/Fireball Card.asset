@@ -20,4 +20,4 @@ MonoBehaviour:
   cooldown: 0.5
   timetillDestruction: 5
   spellSound: {fileID: 8300000, guid: 88da6d05c9abee546827ef40c1d65370, type: 3}
-  spellEffectPrefab: {fileID: 1707102027251842, guid: f3771100a53157d4ab42aaadbbb89ede, type: 3}
+  spellEffectPrefab: {fileID: 1707102027251842, guid: f2d9888bc0afa42e8b670b9b30279da1, type: 3}
