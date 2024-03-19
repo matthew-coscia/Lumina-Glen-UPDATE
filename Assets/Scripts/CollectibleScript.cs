@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI; // Use this if you're working with Unity's UI system
 // using TMPro; // Uncomment if you're using TextMeshPro
+using UnityEngine.SceneManagement; 
+
 
 public class CollectibleScript : MonoBehaviour
 {
@@ -8,7 +10,10 @@ public class CollectibleScript : MonoBehaviour
     public GameObject enemiesExistPanel; // Assign in the inspector
     public GameObject enemiesDontExistPanel; // Assign in the inspector
     public GameObject youwin;
+    public string nextLevel; 
     private bool playerInRange = false;
+    
+
 
     private void Start()
     {
@@ -33,6 +38,7 @@ public class CollectibleScript : MonoBehaviour
                     enemiesDontExistPanel.SetActive(false);
                     CollectGem();
                     youwin.SetActive(true);
+                    Invoke("LoadNextLevel", 5);
                 }
             }
             else
@@ -67,5 +73,16 @@ public class CollectibleScript : MonoBehaviour
     {
         enemiesDontExistPanel.SetActive(false);
         gameObject.SetActive(false);
+    }
+
+    void LoadNextLevel(){
+
+    SceneManager.LoadScene(nextLevel);
+    }
+
+    void LoadCurrentLevel(){
+        
+       SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+
     }
 }

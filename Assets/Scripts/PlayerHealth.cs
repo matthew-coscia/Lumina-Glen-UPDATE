@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
     public float flashDuration = 0.5f; // Duration of the red screen flash
     public float damageCooldown = 1.0f;
     private float lastDamageTime;
-    public Scrollbar healthBar;
+    public Slider healthBar;
     private int fellOff = 0;
 
     private void Start()
@@ -90,8 +90,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthBar != null)
         {
-            float healthPercentage = 1 - ((float)health / maxHealth); // Calculate health percentage
-            healthBar.size = healthPercentage; // Update the Scrollbar's size to reflect current health
+            Debug.Log("Health:  " + health + "Max Health:  " + maxHealth + "\n");
+            float healthPercentage = ((float)health / maxHealth) * 100f; // Calculate health percentage
+            healthBar.value = healthPercentage; // Update the Scrollbar's size to reflect current health
         }
     }
 
@@ -115,9 +116,9 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-    public void GiveHealth(int health){
-        float damagePercentage = health / maxHealth; // Calculate damage as a percentage of max health
-        health += Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
+    public void GiveHealth(int healAmount){
+        Debug.Log("Health given\n");
+        health += healAmount; // Apply damage based on percentage
         UpdateHealthBar(); // Update the health bar after taking damage
 
     
