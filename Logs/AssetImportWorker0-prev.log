@@ -1,30 +1,29 @@
-Unity Editor version:    2022.3.17f1 (4fc78088f837)
-Branch:                  2022.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 14.3.1 (Build 23D60)
-Darwin version:          23.3.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 15731 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/frankhealey/Documents/GitHub/Lumina-Glen-UPDATE
+C:/Users/jaemi/OneDrive/ë¬¸ì„œ/GitHub/Lumina-Glen-UPDATE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58694
+<<<<<<< Updated upstream
+54870
+Successfully changed project path to: C:/Users/jaemi/OneDrive/ë¬¸ì„œ/GitHub/Lumina-Glen-UPDATE
+C:/Users/jaemi/OneDrive/ë¬¸ì„œ/GitHub/Lumina-Glen-UPDATE
+=======
+59059
 Successfully changed project path to: /Users/frankhealey/Documents/GitHub/Lumina-Glen-UPDATE
 /Users/frankhealey/Documents/GitHub/Lumina-Glen-UPDATE
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,66 +55,121 @@ Successfully changed project path to: /Users/frankhealey/Documents/GitHub/Lumina
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704352794560] Host "[IP] 192.168.50.222 [Port] 0 [Flags] 2 [Guid] 3871890658 [EditorId] 3871890658 [Version] 1048832 [Id] OSXEditor(0,Franks-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+<<<<<<< Updated upstream
+Player connection [7596] Host "[IP] 10.0.0.24 [Port] 0 [Flags] 2 [Guid] 2263015244 [EditorId] 2263015244 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9CNM9R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704352794560] Host "[IP] 192.168.50.222 [Port] 0 [Flags] 2 [Guid] 3871890658 [EditorId] 3871890658 [Version] 1048832 [Id] OSXEditor(0,Franks-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7596] Host "[IP] 10.0.0.24 [Port] 0 [Flags] 2 [Guid] 2263015244 [EditorId] 2263015244 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9CNM9R7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 12.02 ms, found 3 plugins.
+=======
+Player connection [140704352794560] Host "[IP] 192.168.50.222 [Port] 0 [Flags] 2 [Guid] 1171641627 [EditorId] 1171641627 [Version] 1048832 [Id] OSXEditor(0,Franks-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704352794560] Host "[IP] 192.168.50.222 [Port] 0 [Flags] 2 [Guid] 1171641627 [EditorId] 1171641627 [Version] 1048832 [Id] OSXEditor(0,Franks-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 25.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.67 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/frankhealey/Documents/GitHub/Lumina-Glen-UPDATE/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jaemi/OneDrive/ë¬¸ì„œ/GitHub/Lumina-Glen-UPDATE/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
-Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics (low power)
-Using device Intel(R) Iris(TM) Plus Graphics (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.4626
 Initialize mono
+<<<<<<< Updated upstream
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014643 seconds.
+- Loaded All Assemblies, in  0.399 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 679ms
+	BeginReloadAssembly (127ms)
+=======
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56411
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56270
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.007069 seconds.
-- Loaded All Assemblies, in  0.552 seconds
+Registered in 0.010290 seconds.
+- Loaded All Assemblies, in  0.975 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.689 seconds
-Domain Reload Profiling: 1243ms
-	BeginReloadAssembly (194ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (325ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (196ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (191ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (691ms)
+	FinalizeReload (283ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (553ms)
+		SetupLoadedEditorAssemblies (222ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (386ms)
+				TypeCache.ScanAssembly (353ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,58 +177,1704 @@ Domain Reload Profiling: 1243ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.412 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+<<<<<<< Updated upstream
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+=======
+- Loaded All Assemblies, in  1.111 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
+>>>>>>> Stashed changes
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.919 seconds
-Domain Reload Profiling: 2331ms
-	BeginReloadAssembly (222ms)
+<<<<<<< Updated upstream
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1367ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.2 KB). Loaded Objects now: 4085.
+Memory consumption went from 150.3 MB to 150.2 MB.
+Total: 3.248800 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.178600 ms MarkObjects: 2.527500 ms  DeleteObjects: 0.140400 ms)
+=======
+- Finished resetting the current domain, in  1.205 seconds
+Domain Reload Profiling: 2317ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (764ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (929ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (785ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (111.4 KB). Loaded Objects now: 4085.
+Memory consumption went from 154.7 MB to 154.5 MB.
+Total: 3.964948 ms (FindLiveObjects: 0.298308 ms CreateObjectMapping: 0.140150 ms MarkObjects: 3.256353 ms  DeleteObjects: 0.239276 ms)
+>>>>>>> Stashed changes
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 8749.187956 seconds.
+  path: Assets/EnemyBehavior.cs
+  artifactKey: Guid(f02f74b810ed1408a812e3ecabf69f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyBehavior.cs using Guid(f02f74b810ed1408a812e3ecabf69f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6ae9f08181b75af451999d9cccd998') in 0.002901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.833344 seconds.
+  path: Assets/Prefabs/EnemyExpelled.prefab
+  artifactKey: Guid(4d7d76f16235f4381ac8348d3ecdfa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyExpelled.prefab using Guid(4d7d76f16235f4381ac8348d3ecdfa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0fc9e038222e076970fb1d4e7611bd') in 0.166646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.338542 seconds.
+  path: Assets/Prefabs/EnemySlime.prefab
+  artifactKey: Guid(ef27abcb91fae904aacd083e383358e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemySlime.prefab using Guid(ef27abcb91fae904aacd083e383358e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2a072dc3e965640b10a50b98a0e5ad') in 0.110806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 150.188282 seconds.
+  path: Assets/Witches and Wizards Asset Pack
+  artifactKey: Guid(806f0d78eb29a604799aab973a1f7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack using Guid(806f0d78eb29a604799aab973a1f7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a66ed49b1655845c7aca4cd8351dac3') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.437510 seconds.
+  path: Assets/EnemyHit.cs
+  artifactKey: Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyHit.cs using Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610c941be18584bf2248972e3447f236') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.615261 seconds.
+  path: Assets/Prefabs/crosshair.unitypackage
+  artifactKey: Guid(b787b61bd0b364807935054835b87949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/crosshair.unitypackage using Guid(b787b61bd0b364807935054835b87949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c180037efcd566ca4f0365b1849d1f60') in 0.000961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.499546 seconds.
+  path: Assets/Scenes/Level 2 - Frank.unity
+  artifactKey: Guid(7a022071739394b77b219478fe498e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2 - Frank.unity using Guid(7a022071739394b77b219478fe498e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61a3ea654b105cc1eaeb03b5023b08e') in 0.000817 seconds
+=======
+  Time since last request: 48048.104282 seconds.
+  path: Assets/Scenes/Level 2 - Frank.unity
+  artifactKey: Guid(7a022071739394b77b219478fe498e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2 - Frank.unity using Guid(7a022071739394b77b219478fe498e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaf3ea84b10bee2090fd3ca6c217c5b') in 0.003852 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 0.768544 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd2edcc356c59760a293c3605c9c765') in 0.000636 seconds
+=======
+  Time since last request: 18.702581 seconds.
+  path: Assets/SimpleFantasy/Materials
+  artifactKey: Guid(03bbe9761147f8343801e24abef8f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Materials using Guid(03bbe9761147f8343801e24abef8f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8a7681231ba72fa262e265ab42778') in 0.001380 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 0.510599 seconds.
+  path: Assets/Scenes/Level Design Scene.unity
+  artifactKey: Guid(134571def16f29841904a1a0f660ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Design Scene.unity using Guid(134571def16f29841904a1a0f660ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687a30dbf44b4e7e5455abadbea341dd') in 0.000897 seconds
+=======
+  Time since last request: 0.304615 seconds.
+  path: Assets/SimpleFantasy/Models
+  artifactKey: Guid(6a7c35c2ae1fcba48a1eb1c6dff9fd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models using Guid(6a7c35c2ae1fcba48a1eb1c6dff9fd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f481bf4ce14bffd6f89380a0b8750e') in 0.000814 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 17.353128 seconds.
+  path: Assets/Scenes/TestingScene.unity
+  artifactKey: Guid(90dc8730ab1264626bfabe03ea001847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestingScene.unity using Guid(90dc8730ab1264626bfabe03ea001847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507cb68d5972748fd0a637661c73e8e6') in 0.000915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+=======
+  Time since last request: 1.418199 seconds.
+  path: Assets/SimpleFantasy/Models/Animals
+  artifactKey: Guid(9b8736a1f1c417d44b2bd53735d1df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Animals using Guid(9b8736a1f1c417d44b2bd53735d1df85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fea8b43ccc48216f613925df6adcdb') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.615426 seconds.
+  path: Assets/SimpleFantasy/Models/Characters
+  artifactKey: Guid(57726d969bbce504ba508c3c0dc38759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Characters using Guid(57726d969bbce504ba508c3c0dc38759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080f09c3be663908a4b027f864f6cd3c') in 0.000969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.334452 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed
+  artifactKey: Guid(5e92b5de3bd209945a743c81f66dac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed using Guid(5e92b5de3bd209945a743c81f66dac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a979bd024d607d76ab67a8533cf5e4') in 0.000793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.602392 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_Banner_01.fbx
+  artifactKey: Guid(f3fff9a197f453e42b89e26d0dd19452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_Banner_01.fbx using Guid(f3fff9a197f453e42b89e26d0dd19452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ec251f555209d5dd23f06df9186447') in 0.833546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.733629 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_05.fbx
+  artifactKey: Guid(c5079e82f08f78a4f9871cf98910040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_05.fbx using Guid(c5079e82f08f78a4f9871cf98910040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4b1b5ff09c9f1ecdf8d717c5ac86e') in 0.012533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.016782 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_06.fbx
+  artifactKey: Guid(b6df8d7e5944c2740b450115e65beaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_06.fbx using Guid(b6df8d7e5944c2740b450115e65beaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4602f5cc66d6058d45934b6705e8b4f7') in 0.016156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.439374 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_07.fbx
+  artifactKey: Guid(6ad116930703e384f878296b3de939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_07.fbx using Guid(6ad116930703e384f878296b3de939e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9baa70b9663fc684b9739a0143a28b') in 0.015012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.372787 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_01.fbx
+  artifactKey: Guid(7aec800966e401641ba291b4865d0e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_01.fbx using Guid(7aec800966e401641ba291b4865d0e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1802687101376d86bd272e8598c2891a') in 0.015415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.561116 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_Castle_Wall_Tree_01.fbx
+  artifactKey: Guid(50fc774ece9a21843a1f5d1777b65936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_Castle_Wall_Tree_01.fbx using Guid(50fc774ece9a21843a1f5d1777b65936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b275874913c0342bf18d8691427902') in 0.012379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.577781 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_Castle_Wall_Tower_02.fbx
+  artifactKey: Guid(7c9fc3005d9d9794bb3e7fce25cc720f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_Castle_Wall_Tower_02.fbx using Guid(7c9fc3005d9d9794bb3e7fce25cc720f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add5aecf3191680511da63b698a0aa0a') in 0.012121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.901027 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_03.fbx
+  artifactKey: Guid(1c775fcb5b873b543a45afb980709584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Elven_House_03.fbx using Guid(1c775fcb5b873b543a45afb980709584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9df72191d1b596fa6bc83e5e4d8da0') in 0.012759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.415786 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_TowerRoom_01.fbx
+  artifactKey: Guid(095a695115453b2408740e3e54d1345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_TowerRoom_01.fbx using Guid(095a695115453b2408740e3e54d1345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864420cc2879129bfac6064f6ab493b2') in 0.014717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.760348 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_TallTower_01.fbx
+  artifactKey: Guid(9490db42f7e88474fb34d426b12b4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Castle_TallTower_01.fbx using Guid(9490db42f7e88474fb34d426b12b4175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fe97f181e3d67a93711456fd0d5cdd') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.077198 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_House_Blank_01.fbx
+  artifactKey: Guid(15651ece9a1b4e044a27b75d00cad77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_House_Blank_01.fbx using Guid(15651ece9a1b4e044a27b75d00cad77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2827c202071dc398164a0c80b7667f52') in 0.012030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.235696 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_HouseAdd_StoneRoom_01.fbx
+  artifactKey: Guid(11aae72169b8c9f44aeaf341f6ddcabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_HouseAdd_StoneRoom_01.fbx using Guid(11aae72169b8c9f44aeaf341f6ddcabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c6afcfb4d7568735ad5888873883e0') in 0.013082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.730297 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Ruins_Entrance_01.fbx
+  artifactKey: Guid(b5d529afdd35a9944ba1bcba1df5ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Ruins_Entrance_01.fbx using Guid(b5d529afdd35a9944ba1bcba1df5ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0021d60416b16f0ae75acfd5ce399bcd') in 0.012104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.772871 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Undead_Castle_Wall_Tower_01.fbx
+  artifactKey: Guid(2d1522960cea87b4f9f116ee9ea3b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Bld_Undead_Castle_Wall_Tower_01.fbx using Guid(2d1522960cea87b4f9f116ee9ea3b82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d705e704444faea837987f69c692bb') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.232119 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Corner_03.fbx
+  artifactKey: Guid(857c3ded39e18ba4bbdae549588da050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Corner_03.fbx using Guid(857c3ded39e18ba4bbdae549588da050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259105253f08c78ed1ce92813fb7c565') in 0.014049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.085955 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Env_GrassEdge_Straight_03.fbx
+  artifactKey: Guid(671d8353a0ad89148bb32900bacd6bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Env_GrassEdge_Straight_03.fbx using Guid(671d8353a0ad89148bb32900bacd6bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd862dec61a15f4e0f2918f203adad50d') in 0.012654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.549727 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Straight_04.fbx
+  artifactKey: Guid(d804d632cd5225542980e8809986e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Straight_04.fbx using Guid(d804d632cd5225542980e8809986e019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8d99ecad53f26ca2d9f02f49c05639') in 0.012283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.494059 seconds.
+  path: Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Straight_02.fbx
+  artifactKey: Guid(9af3a40328d28544aa8730ce0b556b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Prefabbed/SF_Env_CliffEdge_Straight_02.fbx using Guid(9af3a40328d28544aa8730ce0b556b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e869cd3b25ff9bb666ebf82f048ddef6') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.319235 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings
+  artifactKey: Guid(7e4c0c866868a564b925419585171347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings using Guid(7e4c0c866868a564b925419585171347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610dd28bef60db08f071b50e1b92f379') in 0.000618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.498768 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Characters
+  artifactKey: Guid(d65cc4f5369d8a54fac11a3bc6878bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Characters using Guid(d65cc4f5369d8a54fac11a3bc6878bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1106dc802c044405df6fe40a1dd106') in 0.000680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.246004 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment
+  artifactKey: Guid(a58dc80089824304e936b88cc6daed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment using Guid(a58dc80089824304e936b88cc6daed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f05345124623e2f694aa0d1579994ff') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.508512 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_BackgroundTree_02.prefab
+  artifactKey: Guid(1973addc7f68a0b42a2274811c9a13ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_BackgroundTree_02.prefab using Guid(1973addc7f68a0b42a2274811c9a13ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28594272a9c3faefa37df7b56200196') in 0.012876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.183814 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Corner_01.prefab
+  artifactKey: Guid(73d84a9b25846824f9ce2f47ed9c41b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Corner_01.prefab using Guid(73d84a9b25846824f9ce2f47ed9c41b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157365240835c24b1b7303ede7b3e006') in 0.013282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.331133 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Straight_01.prefab
+  artifactKey: Guid(e8ecab36010d33141b0b751b01f10f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Straight_01.prefab using Guid(e8ecab36010d33141b0b751b01f10f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbab4aa421b49e033ef79610afa0267') in 0.008558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.373034 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_05.prefab
+  artifactKey: Guid(f1f0008a4c7375c41ba1b053385c2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_05.prefab using Guid(f1f0008a4c7375c41ba1b053385c2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965d33519e226e21daaea5ab2c1787c3') in 0.012039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.365794 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Straight_04.prefab
+  artifactKey: Guid(0683e90fa2a726d4c9ff4cdfe895b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Straight_04.prefab using Guid(0683e90fa2a726d4c9ff4cdfe895b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ada44a87150884221ca69b23c4c9afb') in 0.008597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.026476 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_02.prefab
+  artifactKey: Guid(32522fcf8554c4942b2d6eed29e61280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_02.prefab using Guid(32522fcf8554c4942b2d6eed29e61280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb4cb56014c7efa815b00fca1163f8c') in 0.009404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.989325 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_TallTower_Room_01.prefab
+  artifactKey: Guid(83e4ee8bf232a124089993d9f1c78fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_TallTower_Room_01.prefab using Guid(83e4ee8bf232a124089993d9f1c78fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f9734c5af41cd4d986d2319d324582') in 0.008928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.663623 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_03.prefab
+  artifactKey: Guid(29d1bc1fc8c964148a65c61b75ea702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_03.prefab using Guid(29d1bc1fc8c964148a65c61b75ea702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b25411e7f1e032043300e871c05544') in 0.010521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.518798 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_02.prefab
+  artifactKey: Guid(c94fdbf286f6d284a91981ce57f549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_02.prefab using Guid(c94fdbf286f6d284a91981ce57f549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5e688453edaaf5195977c3ad2ff6f') in 0.008155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.385536 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_01.prefab
+  artifactKey: Guid(4b2031f6ae4a98a4993bc13c64663b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Keep_01.prefab using Guid(4b2031f6ae4a98a4993bc13c64663b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2150e3652a01916c3c5e5085a290f0dc') in 0.008995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 22.898462 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Tower_01.prefab
+  artifactKey: Guid(4a4566bce7e5b41409dded05cba18c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Tower_01.prefab using Guid(4a4566bce7e5b41409dded05cba18c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104e826faf2902095c391f7b64f1c9bd') in 0.041541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.133647 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_05.prefab
+  artifactKey: Guid(37edcb83495161e4fba7fc42556c9152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_05.prefab using Guid(37edcb83495161e4fba7fc42556c9152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd1553f3cefd88e001d1d21069f06d3') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.557499 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Window_01.prefab
+  artifactKey: Guid(579c39c4c6f0fd14bae8f4c04d373678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Window_01.prefab using Guid(579c39c4c6f0fd14bae8f4c04d373678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8b686178350224403c8d9bc43ddbf0') in 0.063533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.390875 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_01.prefab
+  artifactKey: Guid(b7d088f254e152740bc668ef5209fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_01.prefab using Guid(b7d088f254e152740bc668ef5209fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d0c276fd81ed1318380c07a86f2dcd') in 0.009230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.317622 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_02.prefab
+  artifactKey: Guid(f2c8001f78cccff47b22f3dd4052691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_02.prefab using Guid(f2c8001f78cccff47b22f3dd4052691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13645851f73619130ec96356b1773a9') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.313455 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_05.prefab
+  artifactKey: Guid(b34d414eb9145d64284f51c7d1d4dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_05.prefab using Guid(b34d414eb9145d64284f51c7d1d4dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1676f78ad8c44adb80c18eb8504b8d41') in 0.009481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.345452 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Bridge_02.prefab
+  artifactKey: Guid(9b17a1bafb597e849a23e56419cf0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Bridge_02.prefab using Guid(9b17a1bafb597e849a23e56419cf0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576899e8f006e6b8d22c9429b3e22aed') in 0.011293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.646973 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_02.prefab
+  artifactKey: Guid(a65932ab01bf61243b7647a77e5dfed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_02.prefab using Guid(a65932ab01bf61243b7647a77e5dfed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cf096a67da3762b01ff21fed41b161') in 0.009326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.958591 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_03.prefab
+  artifactKey: Guid(1a71af285eb017e40a48c99ce7623ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_03.prefab using Guid(1a71af285eb017e40a48c99ce7623ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12727b531a8bbfb64330efd25981b19') in 0.008095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.837305 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_04.prefab
+  artifactKey: Guid(afd8e10f09fb15d4d95848d54a89e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_04.prefab using Guid(afd8e10f09fb15d4d95848d54a89e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09003bbccf43c65454b11ca67c6e45b7') in 0.008047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.688162 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tower_01.prefab
+  artifactKey: Guid(94b8f247243e8ad4f940ab5aa3afd3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tower_01.prefab using Guid(94b8f247243e8ad4f940ab5aa3afd3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5494134f4e16ead362a3ede70cd4acfc') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.851698 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tower_02.prefab
+  artifactKey: Guid(07e6fb5df6f84874eafb6d8cededea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tower_02.prefab using Guid(07e6fb5df6f84874eafb6d8cededea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1413e13a5eed373520fbaa7f4fb127d8') in 0.009193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.773602 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tree_01.prefab
+  artifactKey: Guid(452d5911fed652f49925d236093fd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Castle_Wall_Tree_01.prefab using Guid(452d5911fed652f49925d236093fd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7062c4b7210611975b5a2ab28b64249') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 38.378545 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_03.prefab
+  artifactKey: Guid(4ffc90cb0764e0d4ebbe3fdb0eca5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_03.prefab using Guid(4ffc90cb0764e0d4ebbe3fdb0eca5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e265a80b10f117133aaff0c9d540862') in 0.013248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.135464 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Corner_04.prefab
+  artifactKey: Guid(b03783a40b4e14d439280c9ba985a09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Corner_04.prefab using Guid(b03783a40b4e14d439280c9ba985a09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed95a70b5d97b62f3927790487f834cc') in 0.009804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.318245 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_03.prefab
+  artifactKey: Guid(3d84bc0e599044f4bb63b8f9ad013090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_03.prefab using Guid(3d84bc0e599044f4bb63b8f9ad013090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f30436dd4ae6ea99300f2cdadc4dc') in 0.010372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.136101 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_04.prefab
+  artifactKey: Guid(d8d03d33af898254f89e57c91e5ee6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_04.prefab using Guid(d8d03d33af898254f89e57c91e5ee6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f6e7268638d2453f446b166e0c01c') in 0.009803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 61.768261 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Flower_03.prefab
+  artifactKey: Guid(7f805156163e39f48896ef85fa4c12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Flower_03.prefab using Guid(7f805156163e39f48896ef85fa4c12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194414ea45d776dcca59ad050cf76ce8') in 0.007841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.446977 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_05.prefab
+  artifactKey: Guid(b63e227c60b5f7942a885bbf6cc0d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Straight_05.prefab using Guid(b63e227c60b5f7942a885bbf6cc0d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd537da1a04c434517fd8b7c046c6edc6') in 0.009976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 97.058084 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_FarmDirt_01.prefab
+  artifactKey: Guid(03ddac1d26e02d641832525a5c53c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_FarmDirt_01.prefab using Guid(03ddac1d26e02d641832525a5c53c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9a4f8f0bcb87e6a96efd4f20dac4f1') in 0.025632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.557251 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GiantRoot_03.prefab
+  artifactKey: Guid(bdb02672a9c90d04d8c6491fc33cb9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GiantRoot_03.prefab using Guid(bdb02672a9c90d04d8c6491fc33cb9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60939c0361369fcfeb4f37d5d0774630') in 0.009301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.437025 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_End_01.prefab
+  artifactKey: Guid(f69c1e58f1f688944a95d39d2a5a37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_End_01.prefab using Guid(f69c1e58f1f688944a95d39d2a5a37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce43d346c7ef9c2e6fd07859b08a6ba') in 0.009123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.522163 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Straight_02.prefab
+  artifactKey: Guid(5fc0047a501ea4e4cafb408a9a36123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GrassEdge_Straight_02.prefab using Guid(5fc0047a501ea4e4cafb408a9a36123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1012a22e74fa6eb8e36be77e22c58e0b') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.516911 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GravelPile_01.prefab
+  artifactKey: Guid(e56bc23fd7cb1414499ce7c67be5cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GravelPile_01.prefab using Guid(e56bc23fd7cb1414499ce7c67be5cc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ae75b07be6d0925b2fba87b8d5e6a0') in 0.007701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.567934 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_01.prefab
+  artifactKey: Guid(c12963b1d4d93254791638f22aa2b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_01.prefab using Guid(c12963b1d4d93254791638f22aa2b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dbfbab0bee2f589b08a3729bcb8dec') in 0.009554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.437038 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_04.prefab
+  artifactKey: Guid(e2b7cab304cde35469db5b3506437c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_MudEdge_Corner_04.prefab using Guid(e2b7cab304cde35469db5b3506437c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d130765f7fc3ffbba4d08df7d7d840') in 0.009389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.822704 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Gate_03.prefab
+  artifactKey: Guid(dc909b972d7c32c4395becb5866f715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Gate_03.prefab using Guid(dc909b972d7c32c4395becb5866f715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e127c51ea15754decb726fa7032a352f') in 0.010026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.057474 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Gate_02.prefab
+  artifactKey: Guid(cc91da199ec63854c8d1aafc4f631d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Gate_02.prefab using Guid(cc91da199ec63854c8d1aafc4f631d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affbadeb37f49ce2c52fddc03b8796ff') in 0.009241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.767466 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_01.prefab
+  artifactKey: Guid(541fb293ffe04b443b1ab1746db97b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Hall_01.prefab using Guid(541fb293ffe04b443b1ab1746db97b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be140cd97a8a2ebca1ddf70cf21abab') in 0.009030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.307006 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Banner_02.prefab
+  artifactKey: Guid(75f72fc930f278d458917f668db48fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Banner_02.prefab using Guid(75f72fc930f278d458917f668db48fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5af5614786cf9f5c1d4c6ce0f5649a4') in 0.009206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.706301 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_02.prefab
+  artifactKey: Guid(a548c11d217bbc74e879a80f530b4f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_02.prefab using Guid(a548c11d217bbc74e879a80f530b4f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82a42ffd23253700127df99fdf64271') in 0.009469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.400596 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_07.prefab
+  artifactKey: Guid(c884a3bbee33bf748935ae11f689c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_07.prefab using Guid(c884a3bbee33bf748935ae11f689c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba8057a480ce0260afe815798242c1') in 0.010994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.440394 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_05.prefab
+  artifactKey: Guid(5eab70af5b5d1e6458c84e1d362a1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_05.prefab using Guid(5eab70af5b5d1e6458c84e1d362a1599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f1161a5850c0a95b45dbc8e9e304cd') in 0.010832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.407506 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_06.prefab
+  artifactKey: Guid(b5307eff5a844d4439a37740da7b3361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_House_06.prefab using Guid(b5307eff5a844d4439a37740da7b3361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4cde705cf29ad4c059e0b5419fd3e0') in 0.009586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 121.935248 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_Corner_02.prefab
+  artifactKey: Guid(f37f4305fd8a0ee4c9e4571974f02e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_Corner_02.prefab using Guid(f37f4305fd8a0ee4c9e4571974f02e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ff8af07806d1b19a66a8043a16e25c') in 0.020316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.483358 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_04.prefab
+  artifactKey: Guid(2b827ff04bd87b841991c4422c7eca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Elven_Blockwall_04.prefab using Guid(2b827ff04bd87b841991c4422c7eca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6456534643df89a661047fda855e56e8') in 0.009688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.761395 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_04.prefab
+  artifactKey: Guid(853d54aa3a1623640aff48914201758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_04.prefab using Guid(853d54aa3a1623640aff48914201758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce48ffe715510f49e4e057b31e2da2cb') in 0.028324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.496937 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_Tower_01.prefab
+  artifactKey: Guid(80f33a09547a74c4fbf7d2e24a516255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_Tower_01.prefab using Guid(80f33a09547a74c4fbf7d2e24a516255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7653efa9dd3ff6375a5e1ff9c6a4321d') in 0.009002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.873777 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_Tower_02.prefab
+  artifactKey: Guid(0ecafc9b92fa3084fbb4f05ee2649afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Buildings/SF_Bld_Castle_Wall_Tower_02.prefab using Guid(0ecafc9b92fa3084fbb4f05ee2649afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dedb73b1ea5737ef2de0d7a2698a0c9') in 0.007956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+>>>>>>> Stashed changes
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
+- Finished resetting the current domain, in  1.337 seconds
+Domain Reload Profiling: 1905ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3570 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (72.8 KB). Loaded Objects now: 4099.
+Memory consumption went from 146.1 MB to 146.0 MB.
+Total: 3.544200 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.238000 ms MarkObjects: 2.750700 ms  DeleteObjects: 0.190100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.391 seconds
+Domain Reload Profiling: 1965ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 7.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (70.1 KB). Loaded Objects now: 4102.
+Memory consumption went from 148.3 MB to 148.2 MB.
+Total: 3.043100 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.522600 ms  DeleteObjects: 0.114300 ms)
+=======
+- Finished resetting the current domain, in  3.933 seconds
+Domain Reload Profiling: 4789ms
+	BeginReloadAssembly (339ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (357ms)
+			ProcessInitializeOnLoadAttributes (1727ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3572 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (104.6 KB). Loaded Objects now: 4100.
+Memory consumption went from 152.2 MB to 152.1 MB.
+Total: 10.334208 ms (FindLiveObjects: 1.501094 ms CreateObjectMapping: 0.373940 ms MarkObjects: 8.226279 ms  DeleteObjects: 0.228983 ms)
+>>>>>>> Stashed changes
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+<<<<<<< Updated upstream
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+>>>>>>> Stashed changes
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+<<<<<<< Updated upstream
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+=======
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 9.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+=======
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+>>>>>>> Stashed changes
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
+- Finished resetting the current domain, in  2.320 seconds
+Domain Reload Profiling: 3019ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 8.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (70.1 KB). Loaded Objects now: 4105.
+Memory consumption went from 150.2 MB to 150.2 MB.
+Total: 3.585300 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.224300 ms MarkObjects: 2.784700 ms  DeleteObjects: 0.123800 ms)
+=======
+- Finished resetting the current domain, in  1.957 seconds
+Domain Reload Profiling: 2566ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (1031ms)
-		LoadAssemblies (830ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (380ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (325ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (269ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (919ms)
+	FinalizeReload (1958ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
+		SetupLoadedEditorAssemblies (897ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (541ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3619 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (0.9 MB). Loaded Objects now: 4083.
-Memory consumption went from 155.3 MB to 154.4 MB.
-Total: 6.680002 ms (FindLiveObjects: 0.347431 ms CreateObjectMapping: 0.307444 ms MarkObjects: 4.342571 ms  DeleteObjects: 1.681158 ms)
+Unloading 3572 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (80.4 KB). Loaded Objects now: 4103.
+Memory consumption went from 157.9 MB to 157.8 MB.
+Total: 4.230384 ms (FindLiveObjects: 0.357777 ms CreateObjectMapping: 0.341014 ms MarkObjects: 3.381976 ms  DeleteObjects: 0.148116 ms)
+>>>>>>> Stashed changes
 
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+<<<<<<< Updated upstream
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+>>>>>>> Stashed changes
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+<<<<<<< Updated upstream
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+=======
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> Stashed changes
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 156.991210 seconds.
+  path: Assets/EnemyHit.cs
+  artifactKey: Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyHit.cs using Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996db52a3c6dea65f0a9d33d9fa1d6f1') in 0.006167 seconds
+=======
+  Time since last request: 524.825845 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_BackgroundHills_02.prefab
+  artifactKey: Guid(7b3ae5d7b9a7b564fb503f8d707b922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_BackgroundHills_02.prefab using Guid(7b3ae5d7b9a7b564fb503f8d707b922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a2f68b2b62cba46e24bbffd465babf') in 0.161759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.209604 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Slope_02.prefab
+  artifactKey: Guid(c99475e82dcd92f419cf0c48462c11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_CliffEdge_Slope_02.prefab using Guid(c99475e82dcd92f419cf0c48462c11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b622b580ee9bd270bf8b9e59284b6d85') in 0.009692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.257837 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_04.prefab
+  artifactKey: Guid(73e3c3da03e452641addfc8fe3c56aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_04.prefab using Guid(73e3c3da03e452641addfc8fe3c56aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e2cc662b5f8a66aa47cec35e90ef5f') in 0.010815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.061637 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_02.prefab
+  artifactKey: Guid(7f2059b1507f4ce44a4a90113c5877a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_02.prefab using Guid(7f2059b1507f4ce44a4a90113c5877a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdb8a771b0d51d374c09e1c1e7036b2') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.659381 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Flower_04.prefab
+  artifactKey: Guid(5b8b91c6fc057ee44b1d8178d52b1c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Flower_04.prefab using Guid(5b8b91c6fc057ee44b1d8178d52b1c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be082ea88209e907257a553e89e497dc') in 0.009492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.160011 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Redtree_01.prefab
+  artifactKey: Guid(3c86471d3d756e54dbcd76232b9f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Redtree_01.prefab using Guid(3c86471d3d756e54dbcd76232b9f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbac9704b362fbd183b52a3db5456126') in 0.010874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.045780 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_FarmDirt_02.prefab
+  artifactKey: Guid(d1e191da1ccf2db49a72099d596ecb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_FarmDirt_02.prefab using Guid(d1e191da1ccf2db49a72099d596ecb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f8a54487a109ffda17cbdc007ebff6') in 0.009188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.472700 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_05.prefab
+  artifactKey: Guid(9f85de0fb07d32d44b8518dfb24d3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Elven_Preset_05.prefab using Guid(9f85de0fb07d32d44b8518dfb24d3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ad4ad2ab4b567c1ce146da2729ade2') in 0.010690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 57.459218 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GravelPile_02.prefab
+  artifactKey: Guid(f03483c617416944188d3e84eb2028fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_GravelPile_02.prefab using Guid(f03483c617416944188d3e84eb2028fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae29035172eb95e423e1796eae4b6b') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 19.919420 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Mushroom_03.prefab
+  artifactKey: Guid(9080969ba4b67664aa555100eb4f109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Mushroom_03.prefab using Guid(9080969ba4b67664aa555100eb4f109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8a3a25acd4f8da33ba88dd4a5ac99e') in 0.010069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.493193 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_End_02.prefab
+  artifactKey: Guid(64d561a97d9fcb449b24a18a99b4a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_End_02.prefab using Guid(64d561a97d9fcb449b24a18a99b4a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009e3219336a97045b1af832416b810b') in 0.009360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.781555 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Bend_02.prefab
+  artifactKey: Guid(db3d67dd27208cd4ca5cf3b47a7b9f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Bend_02.prefab using Guid(db3d67dd27208cd4ca5cf3b47a7b9f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9677427a3726ff82950ec4811212ef2c') in 0.010079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.956234 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_End_04.prefab
+  artifactKey: Guid(6c000dfd4ad6c254d815b7beacda3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_End_04.prefab using Guid(6c000dfd4ad6c254d815b7beacda3bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745694abc56c411bd560d484c1f6005c') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.252128 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Intersection_03.prefab
+  artifactKey: Guid(1fe37fbcd2bf6ef4bbc85973ab90b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Intersection_03.prefab using Guid(1fe37fbcd2bf6ef4bbc85973ab90b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4a8434bb4854ceba2bd55c8c5d380') in 0.009494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.169792 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Straight_09.prefab
+  artifactKey: Guid(744f485db3fb4ae408d2071ac228c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Path_Straight_09.prefab using Guid(744f485db3fb4ae408d2071ac228c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facdac0abb75c7784c48c0abc891420b') in 0.009806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.260004 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Corner_03.prefab
+  artifactKey: Guid(276ebabe4e231b745aa3ce44a26ffb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Corner_03.prefab using Guid(276ebabe4e231b745aa3ce44a26ffb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97156669f23f35f2579bdda6aba3fe66') in 0.007665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.803180 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Straight_05.prefab
+  artifactKey: Guid(8eb8cd1f7b24c0c4b840c8fb0d18ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Straight_05.prefab using Guid(8eb8cd1f7b24c0c4b840c8fb0d18ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829978c54f4a6d7eaa78b45f155b616a') in 0.010225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.572563 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Straight_03.prefab
+  artifactKey: Guid(2272baf5f57f95d458dfe8723e3ef07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_River_Straight_03.prefab using Guid(2272baf5f57f95d458dfe8723e3ef07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cee38f2098d4c071e038b46cefa9438') in 0.010136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.702511 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Rock_02.prefab
+  artifactKey: Guid(4e1954baa6fd8a749a5d2d1aeb0fadce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Rock_02.prefab using Guid(4e1954baa6fd8a749a5d2d1aeb0fadce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf5e96443667b67505d25f965577582') in 0.009234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.250103 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_03.prefab
+  artifactKey: Guid(4f3052ca7a176d14c9bed81df027107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_03.prefab using Guid(4f3052ca7a176d14c9bed81df027107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15857ecabad1c6ba539bb5085e53315a') in 0.009571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.924719 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_04.prefab
+  artifactKey: Guid(127daafb00ba1604f8669edf932ac16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_04.prefab using Guid(127daafb00ba1604f8669edf932ac16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a7414138350b5bba3bb1ab7db6ebc') in 0.009341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.571550 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_05.prefab
+  artifactKey: Guid(a73e35fcbf21e5f46937d8056d3d94ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RiverPlants_05.prefab using Guid(a73e35fcbf21e5f46937d8056d3d94ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a280ef3d8a7bb99294aae53f6a86ab') in 0.008764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.778512 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Corner_01.prefab
+  artifactKey: Guid(c4698f8574e72b04e932e8e2d54633c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Corner_01.prefab using Guid(c4698f8574e72b04e932e8e2d54633c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9124ab9b75d642db0d61b3179e83a6') in 0.009673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.856020 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Slope_01.prefab
+  artifactKey: Guid(640a4aa765ddcc247b716de9f854ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Slope_01.prefab using Guid(640a4aa765ddcc247b716de9f854ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b621571e498ca609c136ddeb0e5f3927') in 0.009704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.498038 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_01.prefab
+  artifactKey: Guid(45cfee63326e46a4faaa22594a51e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_01.prefab using Guid(45cfee63326e46a4faaa22594a51e163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc9a4f4224773ac4d2e810f30a1ef62') in 0.009084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.771401 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_05.prefab
+  artifactKey: Guid(ce747b7e3da6a6b4facaff40e1ed33b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_05.prefab using Guid(ce747b7e3da6a6b4facaff40e1ed33b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632121df17e0c0f014b13b1cac5aaef3') in 0.010517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.424343 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_06.prefab
+  artifactKey: Guid(b7ac58302f0af1a44bd8c68327d91265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_06.prefab using Guid(b7ac58302f0af1a44bd8c68327d91265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396a9fc3b8824f6989106364b4cd82f9') in 0.008366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.361560 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_01.prefab
+  artifactKey: Guid(3039b86693f9221439830f5db43b309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_01.prefab using Guid(3039b86693f9221439830f5db43b309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0e10c67e44fb5c960df32061ee8b4f') in 0.011450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.650749 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_03.prefab
+  artifactKey: Guid(661c4ad3e351e174c999589e2c525bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_03.prefab using Guid(661c4ad3e351e174c999589e2c525bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da878efa9b99c2d6dcd0627a2a306b96') in 0.009944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.586335 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_02.prefab
+  artifactKey: Guid(a0d8839d1370fc84781fa0bf8bb4544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_02.prefab using Guid(a0d8839d1370fc84781fa0bf8bb4544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c20bf605855614303a629d4e50b6dfe') in 0.009035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 66.409912 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_03.prefab
+  artifactKey: Guid(193e120e070cb074b8d0f62d6a4703a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_03.prefab using Guid(193e120e070cb074b8d0f62d6a4703a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6ee0611d4e1610679365c7daba64f') in 0.019345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.761574 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_04.prefab
+  artifactKey: Guid(e757fd4805300c1468bcf798bf1ea788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_RockEdge_Straight_04.prefab using Guid(e757fd4805300c1468bcf798bf1ea788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4491721a339bf13071a868d370b4c9') in 0.009406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.279478 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_04.prefab
+  artifactKey: Guid(ef4951c1d1456af47ad94447bf4e0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Stonepath_04.prefab using Guid(ef4951c1d1456af47ad94447bf4e0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3319c3a4bad6e91a7ff1d18180da17') in 0.010559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.876646 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_03.prefab
+  artifactKey: Guid(baf05b2df3b60e14a9afaaf93dbc274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_03.prefab using Guid(baf05b2df3b60e14a9afaaf93dbc274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424d9699f1aab427b19138d411eeca5c') in 0.009814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.021552 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_08.prefab
+  artifactKey: Guid(ab872d1ee33ea124fb858954f2ad5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_08.prefab using Guid(ab872d1ee33ea124fb858954f2ad5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5defa8f7d3c56afae9c72de89dd5b77d') in 0.009734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.627098 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_05.prefab
+  artifactKey: Guid(5a4914fa9e05aa341a4a1f151a0559b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_05.prefab using Guid(5a4914fa9e05aa341a4a1f151a0559b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264caa4fad85df1a98f97d2735a94f72') in 0.010147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.617247 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_011.prefab
+  artifactKey: Guid(da9bc41ff9295a646a180f11226a540d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_011.prefab using Guid(da9bc41ff9295a646a180f11226a540d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38139077662cc01a063b897ab0e092a1') in 0.010301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.402913 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_014.prefab
+  artifactKey: Guid(ed6d3807c513bf14890050193e17f59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Swamp_Preset_014.prefab using Guid(ed6d3807c513bf14890050193e17f59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9001b3db07bbd63474ccf4294e62846f') in 0.009866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.602194 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_SwampEdge_Straight_03.prefab
+  artifactKey: Guid(afacc80f7b3c9884485f62b5d6432f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_SwampEdge_Straight_03.prefab using Guid(afacc80f7b3c9884485f62b5d6432f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91a4207ca521f4f97f9b8441a408562') in 0.009534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.278211 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_SwampEdge_Corner_02.prefab
+  artifactKey: Guid(1619a8204752bdc48aac8ae19ddb9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_SwampEdge_Corner_02.prefab using Guid(1619a8204752bdc48aac8ae19ddb9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152e6fe3d668242bdb7c38e78e67dd52') in 0.010625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.600523 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tile_Water_02.prefab
+  artifactKey: Guid(fd94e64e2a4246242a072bd1ce351d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tile_Water_02.prefab using Guid(fd94e64e2a4246242a072bd1ce351d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859fdd70b07dfd484e1d1100e517aa3a') in 0.008995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.307328 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_06.prefab
+  artifactKey: Guid(c0fca88422c0aaa4d9fd82a9f5117d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_06.prefab using Guid(c0fca88422c0aaa4d9fd82a9f5117d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71db7df30d299cd5a36b4a049d537228') in 0.010165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.687518 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_010.prefab
+  artifactKey: Guid(5f2c88fde36527348b46b3ad47061161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_010.prefab using Guid(5f2c88fde36527348b46b3ad47061161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36494769c167c4af55a4832564315952') in 0.008953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.424123 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_012.prefab
+  artifactKey: Guid(c27e5d2b97d2a6d42b06be72a6663739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_012.prefab using Guid(c27e5d2b97d2a6d42b06be72a6663739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f2848a26ddcf8a8c1589d3a1641123') in 0.009410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.305855 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_015.prefab
+  artifactKey: Guid(03dee265359b0594bab911558307de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_015.prefab using Guid(03dee265359b0594bab911558307de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525cc1b556593b410abd6917de8543c0') in 0.010734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.229411 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_09.prefab
+  artifactKey: Guid(d9d49a6340747e94f8629834a1778de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_09.prefab using Guid(d9d49a6340747e94f8629834a1778de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9564c9bd9877fdac17a5cc1b4d63fc7') in 0.009106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.857893 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_08.prefab
+  artifactKey: Guid(17c412bdb3e291e42a2cdd2a9adbee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_08.prefab using Guid(17c412bdb3e291e42a2cdd2a9adbee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1551e414383298ecd764a6ec8a70b946') in 0.019592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 21.832114 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_01.prefab
+  artifactKey: Guid(05ada695a69f7274f8a6562f8c72503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_01.prefab using Guid(05ada695a69f7274f8a6562f8c72503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b6a2d919f88f0ac2ce41a84c33af0f') in 0.022251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.817262 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Burnt_03.prefab
+  artifactKey: Guid(8f65f8113da2eff439ab3cb7c9c9c5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Burnt_03.prefab using Guid(8f65f8113da2eff439ab3cb7c9c9c5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361c3e7a08e1dfd456c11bd7aa0a46b0') in 0.010718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.084179 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_01.prefab
+  artifactKey: Guid(0638026e2eb7cb44ca8972ba006e48f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_01.prefab using Guid(0638026e2eb7cb44ca8972ba006e48f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82de843f2dcf5e53ccf1c3c79a60773') in 0.009723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.763906 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_02.prefab
+  artifactKey: Guid(b56770357ee4ec442bda29160031602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_02.prefab using Guid(b56770357ee4ec442bda29160031602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c986b490e57a50f72f01c16109adedf') in 0.010425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.582457 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_03.prefab
+  artifactKey: Guid(d36d94cc68833f74ba7431bc439d7b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Tree_Fall_03.prefab using Guid(d36d94cc68833f74ba7431bc439d7b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3555fccfc22dcc533858a7908c03db5') in 0.009798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.572829 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Rock_02.prefab
+  artifactKey: Guid(7d3a1e0aef607c242980f659c5ae3f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Rock_02.prefab using Guid(7d3a1e0aef607c242980f659c5ae3f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fe73478be61572a0c12bcc5741a38b') in 0.009552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.653675 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Preset_07.prefab
+  artifactKey: Guid(4cf2774679e72ee428b215c0246d3ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Preset_07.prefab using Guid(4cf2774679e72ee428b215c0246d3ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0363e0702831d5ed5679dbfebec3b6') in 0.010455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.024671 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Preset_06.prefab
+  artifactKey: Guid(b149acd83292baa41a67d4bcf1e8edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Preset_06.prefab using Guid(b149acd83292baa41a67d4bcf1e8edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4d2ac242cd9a4d8346be2faa98e99e') in 0.010350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.823050 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_02.prefab
+  artifactKey: Guid(c8d247fc553920e4881b0e3ce7258ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_02.prefab using Guid(c8d247fc553920e4881b0e3ce7258ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04cb6a404fa0e7c4e70859eedca563b') in 0.037653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.737840 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Rock_04.prefab
+  artifactKey: Guid(f58d3f28ccda96042a3e05027839fd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Undead_Rock_04.prefab using Guid(f58d3f28ccda96042a3e05027839fd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d7570b0d772a17d94719e93d7b7e6a') in 0.009163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.454015 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_01.prefab
+  artifactKey: Guid(a12c08b4d46f46242a2802fe90df7f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_01.prefab using Guid(a12c08b4d46f46242a2802fe90df7f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7912529b039386a3bfe01a148160bd6') in 0.009421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.014118 seconds.
+  path: Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_03.prefab
+  artifactKey: Guid(36884cdcfe800934faa0dd67e8fcf115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs/Environment/SF_Env_Waterpool_03.prefab using Guid(36884cdcfe800934faa0dd67e8fcf115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e11c33003cf8fdcb055b7a325bfdec') in 0.008836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 94.843821 seconds.
+  path: Assets/Modern UI Pack
+  artifactKey: Guid(f701c8ab1b5ada642a284c578090f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack using Guid(f701c8ab1b5ada642a284c578090f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16ac1dbd08bc51dd4f151958948a2f3') in 0.001062 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 92.902359 seconds.
+  path: Assets/Selcuk Gerceker
+  artifactKey: Guid(659d6b57b9e986d41b3d893b47befce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Selcuk Gerceker using Guid(659d6b57b9e986d41b3d893b47befce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6593c69fad90d4dee3e58f1eb83b51') in 0.000915 seconds
+=======
+  Time since last request: 0.345516 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ef872e808b2264b44a3c398e0055fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(ef872e808b2264b44a3c398e0055fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec17b17e833d82292ce361e89080c954') in 0.001816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.778209 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(23c65a77f1e07ec449e2087f042d3866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(23c65a77f1e07ec449e2087f042d3866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aaf9c44ebd637f4c5413729cb4ac0f') in 0.000771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.798377 seconds.
+  path: Assets/Selcuk Gerceker
+  artifactKey: Guid(659d6b57b9e986d41b3d893b47befce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Selcuk Gerceker using Guid(659d6b57b9e986d41b3d893b47befce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd540bc55fd9365037b14eb809efc4a76') in 0.001144 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 3.161962 seconds.
+  path: Assets/Scripts/HealthLootBehavior.cs
+  artifactKey: Guid(aafaf5784d06468478aa2613bb61d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthLootBehavior.cs using Guid(aafaf5784d06468478aa2613bb61d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a848688ae6b91b4b054b5152c5b654') in 0.000746 seconds
+=======
+  Time since last request: 4.679388 seconds.
+  path: Assets/Lumina Glen Materials
+  artifactKey: Guid(c3fb6426d7b754d16b1d2d3ae3c22908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lumina Glen Materials using Guid(c3fb6426d7b754d16b1d2d3ae3c22908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e15ebb296f03ee4da071d433cdfc7a') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 1618ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1111ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3572 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (104.5 KB). Loaded Objects now: 4106.
+Memory consumption went from 164.1 MB to 164.0 MB.
+Total: 6.009575 ms (FindLiveObjects: 0.482658 ms CreateObjectMapping: 0.304632 ms MarkObjects: 4.804262 ms  DeleteObjects: 0.414733 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -188,3 +1888,268 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.873593 seconds.
+  path: Assets/SimpleFantasy/_Scenes
+  artifactKey: Guid(873220c20834b7b4cb7b252683c0ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/_Scenes using Guid(873220c20834b7b4cb7b252683c0ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb6f2a08bf06a53def1cc782089ea9') in 0.002219 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 3.538708 seconds.
+  path: Assets/Scripts/DestroyObject.cs
+  artifactKey: Guid(0390a29f9be65a8479ba7dc52e73bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DestroyObject.cs using Guid(0390a29f9be65a8479ba7dc52e73bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb21e26dd71be68a52274bcb289048a') in 0.000645 seconds
+=======
+  Time since last request: 0.926505 seconds.
+  path: Assets/SimpleFantasy/Prefabs
+  artifactKey: Guid(645ba4ac81bc7ad488366bf3c9a8f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Prefabs using Guid(645ba4ac81bc7ad488366bf3c9a8f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a1c05b2338a8aaa1914e4dc2203628') in 0.000623 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 21.647281 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Textures/UniqueProjectilesVol2_10X10_2K.png
+  artifactKey: Guid(f967218f2af851240a1e43437f13e560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Textures/UniqueProjectilesVol2_10X10_2K.png using Guid(f967218f2af851240a1e43437f13e560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589f95bc0fb864caf89052689db8dca') in 0.169180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Materials/UniqueProjectilesVol2_AB_10x10_8K.mat
+  artifactKey: Guid(f1f9767b6e5cac94786537415c301234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Materials/UniqueProjectilesVol2_AB_10x10_8K.mat using Guid(f1f9767b6e5cac94786537415c301234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b28211a5cb9ac95d9ea13d732aa72') in 0.207695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Materials/Mobile/UniqueProjectilesVol2_MobAB_10x10_2K.mat
+  artifactKey: Guid(f5e822387f720fe44b40ca86de4d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Materials/Mobile/UniqueProjectilesVol2_MobAB_10x10_2K.mat using Guid(f5e822387f720fe44b40ca86de4d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ed7d8d30a29066500cc388b11c0ae') in 0.065670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.142705 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat
+  artifactKey: Guid(55c04ce684cb542debc357409498bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat using Guid(55c04ce684cb542debc357409498bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f20892003b387eb42efa69185be6d41') in 0.036286 seconds
+=======
+  Time since last request: 1.348734 seconds.
+  path: Assets/SpellShooter.cs
+  artifactKey: Guid(d557affd86453474cb3a640ad548c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpellShooter.cs using Guid(d557affd86453474cb3a640ad548c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885d58ddfcafb3b86bc783cd5bda6a77') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.881928 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f2f5ca199076e9e4c9530d60aedb5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f2f5ca199076e9e4c9530d60aedb5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f75f7a6eec1685e3909709a0feca6a') in 0.000493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.037501 seconds.
+  path: Assets/Scripts/CollectibleScript.cs
+  artifactKey: Guid(f8d763c173622484287bf33221761324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollectibleScript.cs using Guid(f8d763c173622484287bf33221761324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823d1c1f7c243f1a1c04e9bcfea8d81c') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.764358 seconds.
+  path: Assets/Scripts/EnemyBounceTowardsPlayer.cs
+  artifactKey: Guid(2212cae41a1ed754ebde5c383d263c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyBounceTowardsPlayer.cs using Guid(2212cae41a1ed754ebde5c383d263c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b514a2e29b8e4164fa139d63d605e6') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.579112 seconds.
+  path: Assets/Scripts/EnemyHealth.cs
+  artifactKey: Guid(b00aab10b945dd24a9c45db2e6c0728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyHealth.cs using Guid(b00aab10b945dd24a9c45db2e6c0728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b679dba41870702d78620b44626f5d') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.449123 seconds.
+  path: Assets/Scripts/InventoryUI.cs
+  artifactKey: Guid(021b933c3b123dc469976c48dbff66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventoryUI.cs using Guid(021b933c3b123dc469976c48dbff66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988445b84e735bb3897ce6d50638adce') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.772351 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(ef43420d380f4418cb60d8cac4d74319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(ef43420d380f4418cb60d8cac4d74319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca5dbbfd24bbec7c152d50d56f5e0be') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.608165 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(e41ae491d131a4edca7c37e7deedae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(e41ae491d131a4edca7c37e7deedae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4711fd0f7ed92e3b2960b0ffd205afd4') in 0.000720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.927688 seconds.
+  path: Assets/Scripts/PLayerMovement.cs
+  artifactKey: Guid(387cb3c22c89bf748ba8d6f41bd0d3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PLayerMovement.cs using Guid(387cb3c22c89bf748ba8d6f41bd0d3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb09d287a1e74e33f6760a3abdd2a4') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.484986 seconds.
+  path: Assets/Scripts/SpellCard.cs
+  artifactKey: Guid(1d919588283e93f4aaa82651ac3a79fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpellCard.cs using Guid(1d919588283e93f4aaa82651ac3a79fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8cb0bbc4eda0e04243a76a794f84fe') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.562122 seconds.
+  path: Assets/Scripts/SpellCastingController.cs
+  artifactKey: Guid(d5b2463981501cb4d8622ebd1becde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpellCastingController.cs using Guid(d5b2463981501cb4d8622ebd1becde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1c80e807d0f9b5538039c14dd27c0c') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.948177 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(a37254865946ae14ca17fc87478412ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(a37254865946ae14ca17fc87478412ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868e6b6a3f438284f464d0cbb5503ab') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.025678 seconds.
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(b43704a3115924440b4963b9ee12cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory.cs using Guid(b43704a3115924440b4963b9ee12cd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0cd1e3ca7efb3aba489baa1c4a0f9') in 0.000458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.315317 seconds.
+  path: Assets/Scripts/Image.prefab
+  artifactKey: Guid(8cf55e488d1f27b4e8d8e447643bc6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Image.prefab using Guid(8cf55e488d1f27b4e8d8e447643bc6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a5f6a5a3b57641660dc367dbf14dc7') in 0.033715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 9.179321 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(e4e21325d6695f24998998fe4ac086f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(e4e21325d6695f24998998fe4ac086f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8a21deaea7ea3ca17502e90114ad87') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.940895 seconds.
+  path: Assets/EnemyBehavior.cs
+  artifactKey: Guid(f02f74b810ed1408a812e3ecabf69f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyBehavior.cs using Guid(f02f74b810ed1408a812e3ecabf69f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf24279589e60360b5ea8fca6945fc5') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.531149 seconds.
+  path: Assets/EnemyHit.cs
+  artifactKey: Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyHit.cs using Guid(0fa349f9319bf465bbb934a1ee6953b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12523099abbc994cb7d5160e4be44f') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.868662 seconds.
+  path: Assets/Lumina Glen Materials/Level 2 Stone.mat
+  artifactKey: Guid(d68edafa20e5e4dcea81ea528fcfd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lumina Glen Materials/Level 2 Stone.mat using Guid(d68edafa20e5e4dcea81ea528fcfd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44924052807623fb41f1ee85810023f') in 0.412594 seconds
+>>>>>>> Stashed changes
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 1.373692 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Models/VialStand.fbx
+  artifactKey: Guid(bd826075095b087478c7df940de35b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Models/VialStand.fbx using Guid(bd826075095b087478c7df940de35b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec95393e71f0e0fffa8e753d844773') in 0.357810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/VialRack.prefab
+  artifactKey: Guid(2caa5af560f07f24780b92c9c083f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/VialRack.prefab using Guid(2caa5af560f07f24780b92c9c083f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4115637c213d5f3bebec75dac52fb1c8') in 0.026137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Witches and Wizards Asset Pack/Prefabs/Vial.prefab
+  artifactKey: Guid(9695eaedb278f9d428e902d1b076c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Witches and Wizards Asset Pack/Prefabs/Vial.prefab using Guid(9695eaedb278f9d428e902d1b076c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44bb190ebdd6852ce6b8e83214a8313') in 0.255113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ½º·¹µå Á¾·á ¶Ç´Â ÀÀ¿ë ÇÁ·Î±×·¥ ¿äÃ» ¶§¹®¿¡ I/O ÀÛ¾÷ÀÌ Ãë¼ÒµÇ¾ú½À´Ï´Ù.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+=======
+  Time since last request: 2.680401 seconds.
+  path: Assets/SimpleFantasy/Models/Characters/_Animations/Animations.fbx
+  artifactKey: Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Characters/_Animations/Animations.fbx using Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468932e4c15a222d61abf0431080f09') in 0.027012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1175710057a4146ed76ea1b312037e23') in 0.332536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SimpleFantasy/Models/Characters/_Animations/Animations_Melee.fbx
+  artifactKey: Guid(505b915dea15fc9468fe8bade92f4fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFantasy/Models/Characters/_Animations/Animations_Melee.fbx using Guid(505b915dea15fc9468fe8bade92f4fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c9b3de488fcd6a2f4bbdf52ec39f72') in 0.017090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.392987 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/Editor UI Manager.png
+  artifactKey: Guid(f66c4aa44c09b6a42a2b5b9f9334d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Editor/Icons/Editor UI Manager.png using Guid(f66c4aa44c09b6a42a2b5b9f9334d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80926aef8be1ac7d1e246fbda07b7f49') in 0.045097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
+>>>>>>> Stashed changes
