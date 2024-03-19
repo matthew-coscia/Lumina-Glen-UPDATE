@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Card Decks.meta
 guid: ce46dabd6f1fbcc4ca3f32206ea30ec5
+========
+guid: dba1a343d2abbdb40935d1a7a7706247
+>>>>>>>> Frank:Assets/Foxxee's Spheres.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

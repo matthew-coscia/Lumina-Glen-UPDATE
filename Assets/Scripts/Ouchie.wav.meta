@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Ouchie.wav.meta
 guid: 5164b5d3fefe936419e6e912345d53f0
+========
+guid: 88da6d05c9abee546827ef40c1d65370
+>>>>>>>> Frank:Assets/Prefabs/FireballSound.wav.meta
 AudioImporter:
   externalObjects: {}
   serializedVersion: 7
@@ -11,7 +15,11 @@ AudioImporter:
     compressionFormat: 1
     quality: 1
     conversionMode: 0
+<<<<<<<< HEAD:Assets/Scripts/Ouchie.wav.meta
     preloadAudioData: 1
+========
+    preloadAudioData: 0
+>>>>>>>> Frank:Assets/Prefabs/FireballSound.wav.meta
   platformSettingOverrides: {}
   forceToMono: 0
   normalize: 1

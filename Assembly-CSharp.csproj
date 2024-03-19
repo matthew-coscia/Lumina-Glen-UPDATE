@@ -55,7 +55,7 @@
     <UnityVersion>2022.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -83,15 +83,11 @@
     <Compile Include="Assets\Scripts\EnemyBounceTowardsPlayer.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerIcon.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
-    <Compile Include="Assets\Scripts\SpellShooter.cs" />
-    <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoListShadow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeMinSlider.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\RotateToMouseScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Scripts\PlayerClimbing.cs" />
-    <Compile Include="Assets\Scripts\EnemyHit.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBar.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButtonEditor.cs" />
@@ -101,11 +97,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoopEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Demo scene\Demo scene files\CameraShaker.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Scripts\FrontSpawner.cs" />
+    <Compile Include="Assets\SpellShooter.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipContent.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerHSelector.cs" />
+    <Compile Include="Assets\HealthLootBehavior.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSliderEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
@@ -115,11 +111,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBar.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManagerEditor.cs" />
-    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Demo scene\Demo scene files\MovementInput.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelector.cs" />
     <Compile Include="Assets\Travis Game Assets\Status Effects\Demo Scene\Scripts\StatusEffectsPreview.cs" />
@@ -136,9 +130,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\ParticleSystemController\ParticleSystemControllerEditor.cs" />
+    <Compile Include="Assets\EnemyHit.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerInputField.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Scripts\FrontAttack.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSlider.cs" />
@@ -150,7 +145,6 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerToggle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Demo scene\Demo scene files\CameraController.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerAnimatedIcon.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Input Field\CustomInputField.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManagerEditor.cs" />
@@ -178,7 +172,6 @@
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Fixes\UIElementInFront.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Scripts\ParticleCollisionInstance.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
@@ -186,9 +179,7 @@
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManager.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Scripts\TargetProjectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Hovl Studio\Wizard spells pack\Scripts\AutoDestroyPS.cs" />
     <Compile Include="Assets\Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBarEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdownEditor.cs" />
@@ -196,12 +187,12 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdown.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButton.cs" />
+    <Compile Include="Assets\EnemyBehavior.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicWithIconEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoop.cs" />
     <Compile Include="Assets\Scripts\CollectibleScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerNotification.cs" />
-    <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicIconEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerTooltip.cs" />
@@ -214,48 +205,35 @@
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_Scroll01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Lit_CenterGlow.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\DissolveNoise.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Demo scene\About demo.txt" />
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Add_Fresnel.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\SimpleFantasy\ReadMe.txt" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Ice.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Distortion.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Blend_TwoSides.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Electricity.shader" />
     <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Modern UI Pack\Read Me.txt" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Blend_CenterGlow.shader" />
+    <None Include="Assets\Travis Game Assets\Status Effects\Readme.txt" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AdditiveMobile_Scroll01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlendedMobile_Scroll01.shader" />
     <None Include="Assets\LittleFriends-CartoonAnimals-Lite\Readme\LittleFriends-CartoonAnimals-Lite.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\LightGlow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Lightning.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Hovl Studio\PBR Fantasy staff\Shaders\Staff.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Blend_LinePath.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_EdgeSoft.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlended_EdgeSoft.shader" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Fire.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlended_Scroll01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Kawaii Slimes\Readme.txt" />
-    <None Include="Assets\Hovl Studio\Wizard spells pack\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -1094,6 +1072,62 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1102,12 +1136,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
@@ -1126,48 +1156,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1176,14 +1178,6 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

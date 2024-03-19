@@ -8,14 +8,17 @@ TagManager:
   - Enemy
   - Ground
   - Bullet
+<<<<<<< HEAD
   - Fireball
   - Spawn
   - Interactable
+=======
+>>>>>>> Frank
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 

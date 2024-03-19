@@ -11,9 +11,12 @@ scopes = {
 	"last_search.310DEAF1" = "status Effects"
 	"OpenInspectorPreview.310DEAF1" = "0"
 	"currentGroup.310DEAF1" = "all"
+<<<<<<< HEAD
 	"last_search.E8DA15E5" = ""
 	"OpenInspectorPreview.E8DA15E5" = "0"
 	"currentGroup.E8DA15E5" = "all"
+=======
+>>>>>>> Frank
 }
 providers = {
 	packages = {
@@ -78,4 +81,8 @@ ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
 minIndexVariations = 2
+<<<<<<< HEAD
 findProviderIndexHelper = true
+=======
+findProviderIndexHelper = true
+>>>>>>> Frank

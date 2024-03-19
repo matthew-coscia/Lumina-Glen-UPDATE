@@ -12,7 +12,10 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     private Rigidbody rb;
     private Transform playerTransform;
     private bool isJumping = false;
+<<<<<<< HEAD
     private bool canJump = true;
+=======
+>>>>>>> Frank
 
     void Start()
     {
@@ -32,17 +35,27 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     {
         while (true)
         {
+<<<<<<< HEAD
             if (playerTransform != null && IsPlayerInRange() && !isJumping && canJump)
             {
                 isJumping = true;
                 BounceTowardsPlayer();
                 yield return new WaitForSeconds(waitTimeBeforeNextJump);
+=======
+            if (playerTransform != null && IsPlayerInRange() && !isJumping)
+            {
+                isJumping = true; // Prevent multiple jumps at the same time
+                BounceTowardsPlayer();
+                yield return new WaitUntil(() => CheckIfGrounded()); // Wait until the enemy is grounded
+                yield return new WaitForSeconds(waitTimeBeforeNextJump); // Wait for specified time before next jump
+>>>>>>> Frank
                 isJumping = false;
             }
             yield return null;
         }
     }
 
+<<<<<<< HEAD
     void Update()
     {
         if (rb.velocity.y == 0)
@@ -55,6 +68,23 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         }
     }
 
+=======
+    bool CheckIfGrounded()
+    {
+        Vector3 spherePosition = transform.position + Vector3.down * 0.5f;
+        float checkRadius = 0.5f;
+        LayerMask groundLayer = LayerMask.GetMask("Ground");
+        return Physics.CheckSphere(spherePosition, checkRadius, groundLayer);
+    }
+
+    void FixedUpdate()
+    {
+        if (playerTransform != null && isJumping)
+        {
+            RotateTowardsPlayer();
+        }
+    }
+>>>>>>> Frank
 
     private bool IsPlayerInRange()
     {
@@ -63,11 +93,18 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
 
     private void BounceTowardsPlayer()
     {
+<<<<<<< HEAD
         RotateTowardsPlayerImmediately();
 
         Vector3 direction = (playerTransform.position - transform.position).normalized;
         direction.y = 0; // Neutralize y component for horizontal direction
         rb.AddForce(Vector3.up * bounceHeight + direction * bounceSpeed, ForceMode.Impulse);
+=======
+        Vector3 direction = (playerTransform.position - transform.position).normalized;
+        direction.y = 0;
+        rb.AddForce(Vector3.up * bounceHeight, ForceMode.Impulse);
+        rb.AddForce(direction * bounceSpeed, ForceMode.Impulse);
+>>>>>>> Frank
     }
 
     private void RotateTowardsPlayer()
@@ -76,6 +113,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
     }
+<<<<<<< HEAD
 
     private void RotateTowardsPlayerImmediately()
     {
@@ -83,4 +121,6 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = lookRotation;
     }
+=======
+>>>>>>> Frank
 }

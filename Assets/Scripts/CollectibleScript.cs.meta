@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/CollectibleScript.cs.meta
 guid: f8d763c173622484287bf33221761324
+========
+guid: 1ab578d28570d7c458ef434d72be22b4
+>>>>>>>> Frank:Assets/Kawaii Slimes/Scripts/AI/EnemyAi.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
