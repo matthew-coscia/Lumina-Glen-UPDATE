@@ -15,11 +15,7 @@ public class PlayerHealth : MonoBehaviour
     public float flashDuration = 0.5f; // Duration of the red screen flash
     public float damageCooldown = 1.0f;
     private float lastDamageTime;
-<<<<<<< HEAD
     public Scrollbar healthBar;
-=======
-    public ProgressBar healthBar;
->>>>>>> Frank
     private int fellOff = 0;
 
     private void Start()
@@ -72,13 +68,9 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (Time.time - lastDamageTime < damageCooldown)
-<<<<<<< HEAD
         {
             return; // If still in cooldown, do not take damage
         }
-=======
-            return; // If still in cooldown, do not take damage
->>>>>>> Frank
 
         float damagePercentage = (float)damage / maxHealth; // Calculate damage as a percentage of max health
         health -= Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
@@ -89,20 +81,8 @@ public class PlayerHealth : MonoBehaviour
         lastDamageTime = Time.time; // Update last damage time
 
         if (health <= 0)
-<<<<<<< HEAD
         {
             Die(); // Handle player death
-=======
-            Die(); // Handle player death
-    }
-
-    public void TakeHealth(int amount)
-    {
-        if(health < maxHealth)
-        {
-            health += amount;
-            UpdateHealthBar();
->>>>>>> Frank
         }
     }
 
@@ -110,23 +90,12 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthBar != null)
         {
-<<<<<<< HEAD
             float healthPercentage = 1 - ((float)health / maxHealth); // Calculate health percentage
             healthBar.size = healthPercentage; // Update the Scrollbar's size to reflect current health
-=======
-            float healthPercentage = (health / 3f) * 100; // Assuming 3 is max health
-            healthBar.currentPercent = healthPercentage;
-            healthBar.loadingBar.fillAmount = healthPercentage / 100;
-            healthBar.textPercent.text = ((int)healthPercentage).ToString("F0") + "%";
->>>>>>> Frank
         }
     }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> Frank
     void Die()
     {
         diedScreen.SetActive(true); // Show the "You Died" screen
