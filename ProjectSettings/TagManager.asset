@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Ground
   - Bullet
+  - Fireball
+  - Spawn
+  - Interactable
   layers:
   - Default
   - TransparentFX
