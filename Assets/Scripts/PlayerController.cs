@@ -1,4 +1,6 @@
 using UnityEngine;
+using TMPro; // Add this to use TextMeshPro
+using UnityEngine.UI; // Add this to use UI components
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public float dashCooldown = 3f;
     public float dashSpeed = 20f; // Speed of the dash
     public float dashDuration = 0.2f; // How long the dash will last
+    public Image cooldownFillImage; // Reference to the UI image for the cooldown
+    public TextMeshProUGUI cooldownText; // Reference to the TextMeshPro component
     private Vector3 dashDirection;
     private bool isDashing = false;
     private float dashEndTime = 0f;
@@ -88,6 +92,34 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime); // Apply gravity
+   
+    UpdateCooldownUI();
     }
 
+    void UpdateCooldownUI()
+    {
+        float cooldownLeft = nextDashTime - Time.time;
+        bool isCooldownActive = cooldownLeft > 0;
+
+        // Update the fill amount based on the cooldown progress
+        cooldownFillImage.fillAmount = isCooldownActive ? cooldownLeft / dashCooldown : 0;
+
+        // Update the text to show the cooldown time remaining, if in cooldown
+        cooldownText.text = isCooldownActive ? cooldownLeft.ToString("F1") : "Dash";
+
+        // Optional: Change the color of the fill based on cooldown state
+        cooldownFillImage.color = isCooldownActive ? Color.red : Color.green;
+
+        if (!isCooldownActive){
+            cooldownFillImage.fillAmount = 100;
+        }
+
+
+
+    }
+
+    public void MoveCharacter(Vector3 direction){
+        controller.Move(direction);
+
+    }
 }

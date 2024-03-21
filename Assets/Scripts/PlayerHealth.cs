@@ -53,7 +53,7 @@ public class PlayerHealth : MonoBehaviour
             }
         }
 
-        Debug.Log(health);
+       // Debug.Log(health);
         // Check if the player has died and presses 'R' to restart the game
         if (health <= 0)
         {
