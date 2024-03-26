@@ -34,66 +34,70 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Check if on the ground
-        if (velocity.y <= 0)
+        if (!PlayerHealth.isDead)
         {
-            isGrounded = true;
-        }
-        else
-        {
-            isGrounded = false;
-        }
-
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        if (isGrounded) 
-        {
-            if (Input.GetButton("Jump"))
+            // Check if on the ground
+            if (velocity.y <= 0)
             {
-                Debug.Log("Jump button pressed");
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
             }
 
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
+
+            if (isGrounded)
+            {
+                if (Input.GetButton("Jump"))
+                {
+                    Debug.Log("Jump button pressed");
+                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                }
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
+            {
+                // Start dashing
+                isDashing = true;
+                dashDirection = transform.forward;
+                dashEndTime = Time.time + dashDuration;
+                nextDashTime = Time.time + dashCooldown + dashDuration;
+            }
+
+            if (isDashing)
+            {
+                Dash();
+            }
+
+            void Dash()
+            {
+                // Check if the dash duration has ended
+                if (Time.time >= dashEndTime)
+                {
+                    isDashing = false;
+                    return;
+                }
+
+                // Move the player in the dash direction
+                controller.Move(dashDirection * dashSpeed * Time.deltaTime);
+            }
+
+
+            Vector3 move = (transform.right * x + transform.forward * z).normalized;
+
+            controller.Move(move * speed * Time.deltaTime);
+
+            velocity.y += gravity * Time.deltaTime;
+
+            controller.Move(velocity * Time.deltaTime); // Apply gravity
+
+            UpdateCooldownUI();
         }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
-        {
-             // Start dashing
-            isDashing = true;
-            dashDirection = transform.forward;
-            dashEndTime = Time.time + dashDuration;
-            nextDashTime = Time.time + dashCooldown + dashDuration;
-        }
-
-        if (isDashing)
-        {
-            Dash();
-        }
-
-         void Dash()
-    {
-        // Check if the dash duration has ended
-        if (Time.time >= dashEndTime)
-        {
-            isDashing = false;
-            return;
-        }
-
-        // Move the player in the dash direction
-        controller.Move(dashDirection * dashSpeed * Time.deltaTime);
-    }
-
-
-        Vector3 move = (transform.right * x + transform.forward * z).normalized;
-
-        controller.Move(move * speed * Time.deltaTime);
-
-        velocity.y += gravity * Time.deltaTime;
-
-        controller.Move(velocity * Time.deltaTime); // Apply gravity
-   
-    UpdateCooldownUI();
+     
     }
 
     void UpdateCooldownUI()

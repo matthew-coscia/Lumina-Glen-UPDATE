@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public static bool isDead = false;
     public int maxHealth = 3; // max health points
     public int health = 3; // Player starts with 3 health points
     public GameObject diedScreen; // Assign the UI panel for "You Died" screen in the inspector
@@ -30,14 +31,23 @@ public class PlayerHealth : MonoBehaviour
         // Check if the player collided with an enemy
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            health -= 1; // Reduce health by one
-            FlashScreen();
-            hitSound.Play();
-            UpdateHealthBar();
+            TakeDamage(5);
             if (health <= 0)
             {
                 Die();
             }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            TakeDamage(3);
+        }
+        if (health <= 0)
+        {
+            Die();
         }
     }
 
@@ -72,8 +82,7 @@ public class PlayerHealth : MonoBehaviour
             return; // If still in cooldown, do not take damage
         }
 
-        float damagePercentage = (float)damage / maxHealth; // Calculate damage as a percentage of max health
-        health -= Mathf.CeilToInt(damagePercentage * maxHealth); // Apply damage based on percentage
+        health -= damage;
 
         UpdateHealthBar(); // Update the health bar after taking damage
         FlashScreen(); // Visual feedback for damage
@@ -101,6 +110,7 @@ public class PlayerHealth : MonoBehaviour
     {
         diedScreen.SetActive(true); // Show the "You Died" screen
         // Optionally, disable player controls here
+        isDead = true;
     }
 
     void FlashScreen()

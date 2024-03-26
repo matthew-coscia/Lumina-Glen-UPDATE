@@ -88,6 +88,7 @@
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\UniqueProjectiles\RotateToMouseScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\PlayerClimbing.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBar.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButtonEditor.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoopEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Cards.cs" />
     <Compile Include="Assets\SpellShooter.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipContent.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBar.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManagerEditor.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
@@ -144,10 +147,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerToggle.cs" />
+    <Compile Include="Assets\CardManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerAnimatedIcon.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Input Field\CustomInputField.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManagerEditor.cs" />
+    <Compile Include="Assets\TurretBulletBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\ParticleSystemController\SaveParticleSystemScript.cs" />
@@ -160,6 +165,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\PBFilled.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradient.cs" />
+    <Compile Include="Assets\InventoryManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerWithIconEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerScrollbar.cs" />
@@ -175,6 +181,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Card.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
@@ -185,6 +192,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdownEditor.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdown.cs" />
+    <Compile Include="Assets\SlamAOE.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButton.cs" />
     <Compile Include="Assets\EnemyBehavior.cs" />
@@ -193,7 +201,9 @@
     <Compile Include="Assets\Scripts\CollectibleScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerNotification.cs" />
+    <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerBasicIconEditor.cs" />
+    <Compile Include="Assets\SlimeTurretBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerTooltip.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManager.cs" />
@@ -213,7 +223,6 @@
     <None Include="Assets\SimpleFantasy\ReadMe.txt" />
     <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Modern UI Pack\Read Me.txt" />
-    <None Include="Assets\Travis Game Assets\Status Effects\Readme.txt" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AdditiveMobile_Scroll01.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlendedMobile_Scroll01.shader" />
@@ -227,6 +236,7 @@
     <None Include="Assets\Hovl Studio\PBR Fantasy staff\Shaders\Staff.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
+    <None Include="Assets\Travis Game Assets\Status Effects\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_EdgeSoft.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
