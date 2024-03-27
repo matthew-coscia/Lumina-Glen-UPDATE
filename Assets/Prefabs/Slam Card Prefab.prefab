@@ -124,6 +124,10 @@ MonoBehaviour:
   cardSprite: {fileID: 21300000, guid: be56966c0dd3f48d9add0d213ac7872b, type: 3}
   slamVFX: {fileID: 418958387914519494, guid: 557dd22e87c9244508ea74b4a619fd00, type: 3}
   slamAOEPrefab: {fileID: 468445625654951151, guid: b3bee52f1bf9744bcabd38fd2b3fd12e, type: 3}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  groundCheck: {fileID: 0}
 --- !u!111 &5613357646487569624
 Animation:
   m_ObjectHideFlags: 0

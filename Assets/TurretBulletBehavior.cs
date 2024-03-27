@@ -27,4 +27,19 @@ public class TurretBulletBehavior : MonoBehaviour
         // Interpolate between initial scale and target scale
         transform.localScale = Vector3.Lerp(initialScale, targetScale, progress);
     }
+
+     private void OnTriggerEnter(Collider other)
+    {
+        // Check if the GameObject is tagged as "Player" or "Enemy".
+        if (other.CompareTag("Player") || other.CompareTag("Enemy"))
+        {
+            // Do nothing if the tag is "Player" or "Enemy".
+        }
+        else
+        {
+            // Destroy the other GameObject if it has a different tag or is not tagged.
+            Destroy(gameObject);
+        }
+    }
+
 }

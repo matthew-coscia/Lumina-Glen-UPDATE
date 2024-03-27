@@ -44,13 +44,27 @@ public class InventoryManager : MonoBehaviour
     void CheckUseCard()
     {
 
+
         if (Input.GetMouseButtonDown(1)) // Right-click
         {
             if (selectedSlotIndex >= 0 && selectedSlotIndex < 3)
             {
-                Debug.Log("CheckUseCard in INventory Manager");
-                cards[selectedSlotIndex].UseAbility(); // Use the card's ability
-                RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory
+                Debug.Log("CheckUseCard in INventory Manager. Card Name: " + cards[selectedSlotIndex].cardName );
+
+
+
+                if (cards[selectedSlotIndex].cardName == "Slam"){
+                            Debug.Log("Slam used correctly. Current Veloctiy: " + gameObject.GetComponent<PlayerController>().velocity.y);
+                                if (gameObject.GetComponent<PlayerController>().velocity.y > 0){
+                                 cards[selectedSlotIndex].UseAbility(); // Use the card's ability
+                                RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
+
+                                }
+                } else {
+                   cards[selectedSlotIndex].UseAbility(); // Use the card's ability
+                RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
+                }
+                
             }
         }
     }
@@ -90,7 +104,7 @@ public class InventoryManager : MonoBehaviour
     {
         for (int i = 0; i < uiSlots.Length; i++)
         {
-            Debug.Log("Index: " + i);
+            //Debug.Log("Index: " + i);
             if (cards[i] != null)
             {
                 uiSlots[i].gameObject.SetActive(true);
@@ -109,7 +123,6 @@ public class InventoryManager : MonoBehaviour
         {
             if (i == selectedSlotIndex)
             {
-                Debug.Log("Here");
                 // Highlight the selected component
                 uiInventory[i].color = Color.Lerp(uiInventory[i].color, highlightColor, Time.deltaTime * lerpSpeed);
                 uiInventory[i].transform.localScale = Vector3.Lerp(uiInventory[i].transform.localScale, targetScale, Time.deltaTime * lerpSpeed);

@@ -229,9 +229,10 @@ GameObject:
   - component: {fileID: 8827623701771715597}
   - component: {fileID: 6347143553323164650}
   - component: {fileID: -7688668140653456445}
+  - component: {fileID: 724480439242856364}
   m_Layer: 0
   m_Name: EnemySlimeTurret
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -268,7 +269,7 @@ MonoBehaviour:
   player: {fileID: 0}
   range: 10
   speed: 5
-  cooldown: 3
+  cooldown: 1
   projectilePrefab: {fileID: 3812719525016715691, guid: 4921e256a85885f4c881f52304b30f1e, type: 3}
 --- !u!114 &6347143553323164650
 MonoBehaviour:
@@ -305,6 +306,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.34625992
   m_Center: {x: 0, y: 0.29697755, z: 0}
+--- !u!114 &724480439242856364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6688149642241925542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00aab10b945dd24a9c45db2e6c0728f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &7588663013591350367
 GameObject:
   m_ObjectHideFlags: 0

@@ -70,6 +70,7 @@ public class PlayerHealth : MonoBehaviour
             Die();
             if (Input.GetKeyDown(KeyCode.R))
             {
+                isDead = false; 
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
             }
         }
