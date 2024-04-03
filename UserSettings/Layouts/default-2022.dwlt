@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 59
+  controlID: 58
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -935,9 +935,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.0657169, y: -0.9153193, z: 0.16686086, w: 0.3605958}
   m_Size:
-    m_Target: 104.17415
+    m_Target: 26.17709
     speed: 2
-    m_Value: 104.17415
+    m_Value: 26.17709
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1017,7 +1017,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
