@@ -182,6 +182,7 @@
     <Compile Include="Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Fixes/UIElementInFront.cs" />
     <Compile Include="Assets/Scripts/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/DynamicIsland.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets/Scripts/Item.cs" />
