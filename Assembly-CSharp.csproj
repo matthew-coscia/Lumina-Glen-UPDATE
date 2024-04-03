@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/jlam/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/jlam/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -182,6 +182,7 @@
     <Compile Include="Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Fixes/UIElementInFront.cs" />
     <Compile Include="Assets/Scripts/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/DynamicIsland.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSlider.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicIcon.cs" />
     <Compile Include="Assets/Scripts/Item.cs" />
