@@ -1,11 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class EnemyHit : MonoBehaviour
 {
     public GameObject enemyExpelled;
@@ -28,6 +23,14 @@ public class EnemyHit : MonoBehaviour
         if (other.CompareTag("Fireball"))
         {
             Debug.Log("The player hit me!");
+            DestroyEnemy();
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Fireball"))
+        {
             DestroyEnemy();
         }
     }
