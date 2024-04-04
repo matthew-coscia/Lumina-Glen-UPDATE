@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
     private float nextDashTime = 0f;
     bool isGrounded = false;
     private Rigidbody rb; // The Rigidbody component attached to the player
+    private bool running = false;
+    private float speedStartTime;
 
 
     void Start()
@@ -95,6 +97,8 @@ public class PlayerController : MonoBehaviour
 
             controller.Move(velocity * Time.deltaTime); // Apply gravity
 
+             CheckSpeed();
+
             UpdateCooldownUI();
         }
      
@@ -105,13 +109,13 @@ public class PlayerController : MonoBehaviour
         float cooldownLeft = nextDashTime - Time.time;
         bool isCooldownActive = cooldownLeft > 0;
 
-        // Update the fill amount based on the cooldown progress
+        
         cooldownFillImage.fillAmount = isCooldownActive ? cooldownLeft / dashCooldown : 0;
 
-        // Update the text to show the cooldown time remaining, if in cooldown
+        
         cooldownText.text = isCooldownActive ? cooldownLeft.ToString("F1") : "Dash";
 
-        // Optional: Change the color of the fill based on cooldown state
+    
         cooldownFillImage.color = isCooldownActive ? Color.red : Color.green;
 
         if (!isCooldownActive){
@@ -126,4 +130,32 @@ public class PlayerController : MonoBehaviour
         controller.Move(direction);
 
     }
+
+    public void Leap(){
+     float verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+
+
+    }
+
+    public void speedAbility()
+    {
+        speedStartTime = Time.time;
+        speed = 6.0f;
+        running = true;
+    }
+
+    void CheckSpeed()
+    {
+        if (running && Time.time - speedStartTime >= 3.0f)
+        {
+            speed = 3.0f;
+            running = false;
+        }
+    }
+
+
+
+
+
+
 }

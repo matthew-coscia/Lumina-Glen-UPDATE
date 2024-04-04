@@ -2,14 +2,19 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    public string cardName; // Name of the card, set this in the Inspector
-    public Sprite cardSprite; // The sprite to show in the UI when picked up, set this in the Inspector
+    public string cardName; 
+    public Sprite cardSprite; 
     public GameObject slamVFX; 
    public GameObject slamAOEPrefab;
-   public LayerMask groundLayer; // Assign this in the editor to match your ground layer
-    public Transform groundCheck; // Position this at the bottom of the player in the editor
-        private float checkGroundRadius = 0.5f; // Adjust as needed for your game
+   public LayerMask groundLayer; 
+    public Transform groundCheck; 
+        private float checkGroundRadius = 0.5f; 
    bool SlammingDown; 
+    private Vector3 jumpVelocity;
+    private bool isJumping;
+    public float jumpSpeed = 10f;
+    public float jumpHeight = 5f;
+    public float gravity = -9.81f;
    
 
   private void Start(){
@@ -19,7 +24,7 @@ public class Card : MonoBehaviour
 
    private void Update()
     {
-        Debug.Log("Slamming Down: "+ SlammingDown);
+       // Debug.Log("Slamming Down: "+ SlammingDown);
                         GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
 
         if (SlammingDown) {
@@ -35,11 +40,15 @@ public class Card : MonoBehaviour
         
        
         }
+         if (isJumping){
+               Debug.Log("Jumping");
+            PerformLeapAbility();
+             }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Assuming your player GameObject has the tag "Player"
+        if (other.CompareTag("Player")) 
         {
             PickupCard(other.gameObject);
         }
@@ -62,13 +71,14 @@ public class Card : MonoBehaviour
     switch (cardName)
     {
         case "Slam":
+        
             PerformSlamAbility();
             break;
         case "Heal":
-            // HealPlayer();
+            PerformHealAbility();
             break;
-        case "Explode":
-            // Explode();
+        case "Leap":
+            PerformLeapAbility();
             break;
         default:
             Debug.Log("Unknown card ability.");
@@ -78,7 +88,7 @@ public class Card : MonoBehaviour
 
 void PerformSlamAbility()
 {
-    GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
+    GameObject player = GameObject.FindGameObjectWithTag("Player"); 
     if (player != null){
         Debug.Log("Slam Performed IMPORTANT");
         // Move the player down quickly to simulate a "slam" - this is just a placeholder for actual slam logic
@@ -96,13 +106,31 @@ bool IsGrounded()
         Collider[] colliders = Physics.OverlapSphere(groundCheck.position, checkGroundRadius, groundLayer);
         for (int i = 0; i < colliders.Length; i++)
         {
-            if (colliders[i].gameObject != gameObject) // Make sure we don't detect the player's own collider
+            if (colliders[i].gameObject != gameObject) 
             {
                 return true;
             }
         }
         return false;
     }
+
+    void PerformLeapAbility(){
+    GameObject player = GameObject.FindGameObjectWithTag("Player"); 
+    CharacterController controller = player.GetComponent<CharacterController>();
+      player.GetComponent<PlayerController>().speedAbility();
+
+
+    }
+
+     void PerformHealAbility(){
+GameObject player = GameObject.FindGameObjectWithTag("Player"); 
+    PlayerHealth PlayerHealthVar = player.GetComponent<PlayerHealth>();
+    PlayerHealthVar.health = 10; 
+    PlayerHealthVar.UpdateHealthBar();
+
+     }
+
+
 
 
 

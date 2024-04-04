@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public static bool isDead = false;
-    public int maxHealth = 3; // max health points
-    public int health = 3; // Player starts with 3 health points
-    public GameObject diedScreen; // Assign the UI panel for "You Died" screen in the inspector
-    public GameObject redScreenImage; // Assign the red screen Image in the inspector
-    public AudioSource hitSound; // Assign the AudioSource in the inspector
+    public int maxHealth = 3; 
+    public int health = 3; 
+    public GameObject diedScreen; 
+    public GameObject redScreenImage; 
+    public AudioSource hitSound;
     public AudioClip audioClip;
-    public float flashDuration = 0.5f; // Duration of the red screen flash
+    public float flashDuration = 0.5f; 
     public float damageCooldown = 1.0f;
     private float lastDamageTime;
     public Slider healthBar;
@@ -96,7 +96,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void UpdateHealthBar()
+    public void UpdateHealthBar()
     {
         if (healthBar != null)
         {
