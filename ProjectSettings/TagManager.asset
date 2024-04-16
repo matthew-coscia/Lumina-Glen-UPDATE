@@ -12,6 +12,7 @@ TagManager:
   - Fireball
   - GroundCheck
   - WanderPoint
+  - Barrier
   layers:
   - Default
   - TransparentFX
