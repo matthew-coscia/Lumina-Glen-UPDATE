@@ -4,6 +4,15 @@ public class EnemyHealth : MonoBehaviour
 {
     public float health = 100f; // Default health
 
+    void Update(){
+        if(gameObject.transform.position.y < -30){
+            health = 0; 
+            TakeDamage(100);
+        }
+
+
+    }
+
     public void TakeDamage(float amount)
     {
         health -= amount;

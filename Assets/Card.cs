@@ -15,6 +15,7 @@ public class Card : MonoBehaviour
     public float jumpSpeed = 10f;
     public float jumpHeight = 5f;
     public float gravity = -9.81f;
+    public float slamDelay = .02f;
    
 
   private void Start(){
@@ -30,11 +31,11 @@ public class Card : MonoBehaviour
         if (SlammingDown) {
                    Debug.Log("Velocity: " + player.GetComponent<PlayerController>().velocity.y);
 
-             //   GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
+              // GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
              
-             if (player.GetComponent<PlayerController>().velocity.y <= 0){
-            GameObject slamEffect = Instantiate(slamAOEPrefab, player.transform.position, Quaternion.identity);
-             Instantiate(slamVFX, player.transform.position, Quaternion.identity);
+             if (player.GetComponent<CharacterController>().isGrounded){
+                Debug.Log("Creating Slam Effect");
+          
              SlammingDown = false; 
              }
         
@@ -80,6 +81,9 @@ public class Card : MonoBehaviour
         case "Leap":
             PerformLeapAbility();
             break;
+        case "Ammo":
+            PerformAmmoAbility();
+            break;
         default:
             Debug.Log("Unknown card ability.");
             break;
@@ -94,10 +98,17 @@ void PerformSlamAbility()
         // Move the player down quickly to simulate a "slam" - this is just a placeholder for actual slam logic
         //player.transform.Translate(Vector3.down * 5f, Space.World); // Example movement, adjust as needed
         player.GetComponent<PlayerController>().MoveCharacter(new Vector3(0f, -1f, 0f) * 3f);
-
+       Invoke("InstantiateSlamEffects", slamDelay);
         // Create the damage effect radius
         SlammingDown = true; 
     }
+}
+
+void InstantiateSlamEffects(){
+        GameObject player = GameObject.FindGameObjectWithTag("Player"); 
+
+     GameObject slamEffect = Instantiate(slamAOEPrefab, player.transform.position, Quaternion.identity);
+             Instantiate(slamVFX, player.transform.position, Quaternion.identity);
 }
 
 bool IsGrounded()
@@ -119,6 +130,13 @@ bool IsGrounded()
     CharacterController controller = player.GetComponent<CharacterController>();
       player.GetComponent<PlayerController>().speedAbility();
 
+
+    }
+
+     void PerformAmmoAbility(){
+    GameObject mainCam = GameObject.FindGameObjectWithTag("MainCamera"); 
+    SpellShooter spellShooter = mainCam.GetComponent<SpellShooter>();
+    spellShooter.ammoAbility();
 
     }
 

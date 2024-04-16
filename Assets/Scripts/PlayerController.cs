@@ -144,6 +144,7 @@ public class PlayerController : MonoBehaviour
         running = true;
     }
 
+
     void CheckSpeed()
     {
         if (running && Time.time - speedStartTime >= 3.0f)

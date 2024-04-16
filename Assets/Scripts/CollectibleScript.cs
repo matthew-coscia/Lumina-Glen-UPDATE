@@ -66,7 +66,7 @@ public class CollectibleScript : MonoBehaviour
 
     private bool AreAllEnemiesDefeated()
     {
-        return GameObject.FindGameObjectsWithTag("Enemy").Length == 0;
+        return GameObject.FindGameObjectsWithTag("Enemy").Length < 3;
     }
 
     private void CollectGem()

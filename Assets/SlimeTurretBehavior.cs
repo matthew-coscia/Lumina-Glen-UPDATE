@@ -6,8 +6,8 @@ public class SlimeTurretBehavior : MonoBehaviour
 {
     public Transform player;
     public float range = 10f;
-    public float speed = 5f;
-    public float cooldown = 1f;
+    public float speed = 10f;
+    public float cooldown = .1f;
     public GameObject projectilePrefab;
     float shootingTimer = 0f;
 
