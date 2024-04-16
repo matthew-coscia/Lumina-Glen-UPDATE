@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.83137256, g: 0.08235294, b: 0.08235294, a: 1}
+  m_Color: {r: 0.83137256, g: 0.08235294, b: 0.08235294, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10513,6 +10513,10 @@ PrefabInstance:
       propertyPath: reticleImage
       value: 
       objectReference: {fileID: 210171904}
+    - target: {fileID: 5418908942183271982, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
+      propertyPath: m_Volume
+      value: 0.305
+      objectReference: {fileID: 0}
     - target: {fileID: 5418908942183271982, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

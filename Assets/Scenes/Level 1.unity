@@ -90971,6 +90971,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8770786924660900596, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
+      propertyPath: dashSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c9ecfaf689df474992c2adb56311839, type: 3}
+    - target: {fileID: 8770786924660900596, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 691181075}
