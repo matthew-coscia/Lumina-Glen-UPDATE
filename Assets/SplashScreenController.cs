@@ -17,6 +17,6 @@ public class SplashScreenController : MonoBehaviour
 
     void LoadMainGameScene(VideoPlayer vp)
     {
-        SceneManager.LoadScene("Level 1"); 
+        SceneManager.LoadScene("Instructions"); 
     }
 }

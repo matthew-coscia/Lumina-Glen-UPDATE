@@ -122,6 +122,7 @@
     <Compile Include="Assets/Modern UI Pack/Scripts/Notification/NotificationManagerEditor.cs" />
     <Compile Include="Assets/Scripts/EnemySpawner.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerBasicEditor.cs" />
+    <Compile Include="Assets/Scripts/InstructionsController.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/UI Manager/UIManagerModalWindow.cs" />
     <Compile Include="Assets/Modern UI Pack/Scripts/Button/ButtonManagerEditor.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
