@@ -10,10 +10,12 @@ public class SlimeTurretBehavior : MonoBehaviour
     public float cooldown = .1f;
     public GameObject projectilePrefab;
     float shootingTimer = 0f;
+    private AudioSource shootSource;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        shootSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,6 +45,7 @@ public class SlimeTurretBehavior : MonoBehaviour
 
     void ShootProjectile()
     {
+        shootSource.Play();
         Vector3 spawnPosition = transform.position + transform.forward * 0.5f + new Vector3(0, 0.2f, 0);
 
         Vector3 playerPosition = player.position + new Vector3(0, 0.5f, 0);

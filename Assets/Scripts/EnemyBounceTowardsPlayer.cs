@@ -13,11 +13,13 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     private Transform playerTransform;
     private bool isJumping = false;
     private bool canJump = true;
+    private AudioSource jumpSource;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        jumpSource = GetComponent<AudioSource>();
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
@@ -37,6 +39,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
                 isJumping = true;
                 BounceTowardsPlayer();
                 yield return new WaitForSeconds(waitTimeBeforeNextJump);
+                jumpSource.Play();
                 isJumping = false;
             }
             yield return null;

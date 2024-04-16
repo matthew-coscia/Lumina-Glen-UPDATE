@@ -80,6 +80,9 @@ MonoBehaviour:
   jumpSpeed: 10
   jumpHeight: 5
   gravity: -9.81
+  healSound: {fileID: 8300000, guid: 42b493bd5713ef949bb234b23389f583, type: 3}
+  slamSound: {fileID: 8300000, guid: dcc44882b14c46a4792492bda5bb0115, type: 3}
+  sprintSound: {fileID: 8300000, guid: 3c9ecfaf689df474992c2adb56311839, type: 3}
 --- !u!111 &5613357646487569624
 Animation:
   m_ObjectHideFlags: 0

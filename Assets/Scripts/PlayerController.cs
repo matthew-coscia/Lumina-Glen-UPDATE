@@ -25,12 +25,15 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb; // The Rigidbody component attached to the player
     private bool running = false;
     private float speedStartTime;
+    private AudioSource dashSource;
+    public AudioClip dashSound;
 
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
+        dashSource = GameObject.FindGameObjectWithTag("SpellAudioSource").GetComponent<AudioSource>();
 
     }
 
@@ -68,6 +71,8 @@ public class PlayerController : MonoBehaviour
                 dashDirection = transform.forward;
                 dashEndTime = Time.time + dashDuration;
                 nextDashTime = Time.time + dashCooldown + dashDuration;
+                dashSource.clip = dashSound;
+                dashSource.Play();
             }
 
             if (isDashing)
