@@ -49,7 +49,7 @@ public class bossProjectileBehavior : MonoBehaviour
             }
 
             float distanceToPlayer = Vector3.Distance(transform.position, playerPosition);
-            float moveSpeed = 40;
+            float moveSpeed = 65;
 
             if (distanceToPlayer > 0.1f)
             {

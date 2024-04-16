@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public static bool isDead = false;
-    public int maxHealth = 3; 
-    public int health = 3; 
+    public int maxHealth = 10; 
+    public int health = 10; 
     public GameObject diedScreen; 
     public GameObject redScreenImage; 
     public AudioSource hitSound;
@@ -129,7 +129,13 @@ public class PlayerHealth : MonoBehaviour
 
     public void GiveHealth(int healAmount){
         Debug.Log("Health given\n");
+        
         health += healAmount; // Apply damage based on percentage
+
+        if (health > maxHealth){
+            health = maxHealth; 
+        }
+
         UpdateHealthBar(); // Update the health bar after taking damage
 
     

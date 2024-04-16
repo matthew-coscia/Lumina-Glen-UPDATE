@@ -168,7 +168,7 @@ MonoBehaviour:
   chaseDistance: 20
   shootingTimer: 0.2
   spellProjectile: {fileID: 3812719525016715691, guid: 4921e256a85885f4c881f52304b30f1e, type: 3}
-  fieldOfView: 45
+  fieldOfView: 60
 --- !u!54 &5837475172602674676
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
