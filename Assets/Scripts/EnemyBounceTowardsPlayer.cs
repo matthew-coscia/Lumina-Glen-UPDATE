@@ -26,7 +26,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
 
     void Update()
     {
-        if (canJump)
+        if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRadius && canJump)
         {
             BounceTowardsPlayer();
         }
