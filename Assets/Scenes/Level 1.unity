@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37577036, g: 0.61430645, b: 0.8670546, a: 1}
+  m_IndirectSpecularColor: {r: 0.37577146, g: 0.61430764, b: 0.8670608, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -90265,6 +90265,18 @@ PrefabInstance:
       propertyPath: redScreenImage
       value: 
       objectReference: {fileID: 1093456636}
+    - target: {fileID: 754961896303239376, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
+      propertyPath: cards.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 754961896303239376, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
+      propertyPath: cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 7626828695594023121, guid: e854d41e8d751489e974f592e13d8780, type: 3}
+    - target: {fileID: 754961896303239376, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
+      propertyPath: cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 7626828695594023121, guid: d91383d94be9645a49a2855d48c0425d, type: 3}
     - target: {fileID: 754961896303239376, guid: b6b8660cc2bb64f4cbcf26e779d7574f, type: 3}
       propertyPath: uiSlots.Array.data[0]
       value: 
