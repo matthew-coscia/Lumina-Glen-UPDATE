@@ -12,6 +12,9 @@ public class SpellShooter : MonoBehaviour
     public Color reticleInteractableColor; // Color for interactables
     private Color originalReticleColor; // Original color of the reticle
     private float lastSpellTime = -Mathf.Infinity; // For cooldown management
+    private float spellCooldown = .5f; 
+    private float ammoStartTime;
+    private bool ammoAbilityBool = false; 
 
     void Start()
     {
@@ -30,6 +33,7 @@ public class SpellShooter : MonoBehaviour
         {
             Debug.Log("Cannot Cast Spell!");
         }
+        CheckAmmo();
     }
 
     void FixedUpdate()
@@ -40,7 +44,7 @@ public class SpellShooter : MonoBehaviour
     bool CanCastSpell()
     {
         // check if enough time has elapsed since the last spell was cast
-        return Time.time - lastSpellTime >= currentSpellCard.cooldown;
+        return Time.time - lastSpellTime >= spellCooldown;
     }
 
     void CastSpell()
@@ -63,6 +67,22 @@ public class SpellShooter : MonoBehaviour
             Debug.LogWarning("Spell card or spell effect prefab is missing!");
         }
     }
+
+    public void ammoAbility(){
+        ammoStartTime = Time.time;
+        spellCooldown = .1f;
+        ammoAbilityBool = true;
+    }
+
+    void CheckAmmo()
+    {
+        if (ammoAbilityBool && Time.time - ammoStartTime >= 3.0f)
+        {
+            spellCooldown = .5f;
+            ammoAbilityBool = false;
+        }
+    }
+
 
     void UpdateReticleEffect()
     {

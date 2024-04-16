@@ -95,7 +95,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (index >= 0 && index < 3)
         {
-            cards[index] = null;
+           cards[index] = null;
             UpdateInventoryUI();
         }
     }
