@@ -41,10 +41,14 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
 
         Vector3 direction = (playerTransform.position - transform.position).normalized;
         direction.y = 0; // Neutralize y component for horizontal direction
-        rb.AddForce(Vector3.up * bounceHeight + direction * bounceSpeed, ForceMode.Impulse);
 
-        canJump = false;
-        Invoke("EnableJump", waitTimeBeforeNextJump);
+        // Apply impulse force only if the slime is grounded
+        if (IsGrounded())
+        {
+            rb.AddForce(Vector3.up * bounceHeight + direction * bounceSpeed, ForceMode.Impulse);
+            canJump = false;
+            Invoke("EnableJump", waitTimeBeforeNextJump);
+        }
     }
 
     private void RotateTowardsPlayer()
@@ -62,11 +66,20 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         canJump = true;
     }
 
+    private bool IsGrounded()
+    {
+        // Cast a ray downwards to check if the slime is grounded
+        return Physics.Raycast(transform.position, Vector3.down, 0.1f);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
+        // If the slime collides with an object tagged as "Ground", reset canJump and cancel its velocity
         if (collision.gameObject.CompareTag("Ground"))
         {
             canJump = true;
+            // Cancel out the slime's velocity upon collision with the ground
+            rb.velocity = Vector3.zero;
         }
     }
 }
