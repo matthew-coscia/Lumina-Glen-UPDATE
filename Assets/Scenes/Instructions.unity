@@ -275,11 +275,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 947108851}
   videoClips:
-  - {fileID: 32900000, guid: de291ea0e1bc34621b8561e1ad9be247, type: 3}
+  - {fileID: 32900000, guid: 282867636e68847e3ad501401ae03576, type: 3}
+  - {fileID: 32900000, guid: b7b97e365af2c4d5eb705d094959f5bf, type: 3}
+  - {fileID: 32900000, guid: c896c7aba4be4447dada2d9945c062e3, type: 3}
   - {fileID: 32900000, guid: 2520f27baf8e84c0cbbe9489ecb1b00b, type: 3}
   - {fileID: 32900000, guid: 762f86d4ed88a4dcab7496a5f7a8bc48, type: 3}
-  - {fileID: 32900000, guid: c07fd9ba2bce640218b099b56ee276be, type: 3}
-  - {fileID: 32900000, guid: 434a18daedbfe410e9b6afb77fed13e0, type: 3}
+  - {fileID: 32900000, guid: 7f35787c372c04b32b12a29d7b202a96, type: 3}
+  - {fileID: 32900000, guid: 923bb6f361788499795240b41a181fd7, type: 3}
   nextVideoButton: {fileID: 1427914475}
   startButton: {fileID: 1852915955}
 --- !u!1 &685442553
@@ -399,7 +401,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947108850}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: de291ea0e1bc34621b8561e1ad9be247, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b7b97e365af2c4d5eb705d094959f5bf, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
