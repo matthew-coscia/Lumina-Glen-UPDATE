@@ -95,6 +95,10 @@ public class PlayerController : MonoBehaviour
                 {
                     dashDirection.Normalize();
                 }
+                if (dashDirection == Vector3.zero)
+                {
+                    dashDirection = transform.forward;
+                }
 
                 dashEndTime = Time.time + dashDuration;
                 nextDashTime = Time.time + dashCooldown + dashDuration;
