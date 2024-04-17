@@ -15,6 +15,7 @@ public class BossBehavior : MonoBehaviour
     bool summon = true;
     float timer = 0;
     float duration = 5;
+    public AudioSource bossSource;
     void Start()
     {
         startPos = transform.position;
@@ -89,6 +90,7 @@ public class BossBehavior : MonoBehaviour
             isJumping = false;
             transform.position = startPos;
         }
+        bossSource.Play();
     }
     void castAttack()
     {
