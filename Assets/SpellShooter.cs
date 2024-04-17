@@ -14,7 +14,8 @@ public class SpellShooter : MonoBehaviour
     private float lastSpellTime = -Mathf.Infinity; // For cooldown management
     private float spellCooldown = .5f; 
     private float ammoStartTime;
-    private bool ammoAbilityBool = false; 
+    private bool ammoAbilityBool = false;
+    public GameObject Menu;
 
     void Start()
     {
@@ -24,7 +25,8 @@ public class SpellShooter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && CanCastSpell() && !PlayerHealth.isDead) // 0 is the left mouse button
+        bool paused = Menu.GetComponent<MenuManager>().isMenuActive;
+        if (Input.GetMouseButtonDown(0) && CanCastSpell() && !PlayerHealth.isDead && !paused) // 0 is the left mouse button
         {
             CastSpell();
             lastSpellTime = Time.time;

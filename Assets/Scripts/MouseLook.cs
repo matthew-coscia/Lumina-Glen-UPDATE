@@ -5,8 +5,7 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour
 {
     Transform playerbody;
-    public float MouseSensitivity = 100;
-
+    public GameObject Menu;
     float pitch = 0;
     
     // Start is called before the first frame update
@@ -21,10 +20,11 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float sens = Menu.GetComponent<MenuManager>().mouseSensitivityMulti;
         if (!PlayerHealth.isDead)
         {
-            float moveX = Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
-            float moveY = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
+            float moveX = Input.GetAxis("Mouse X") * 80 * Time.deltaTime * sens;
+            float moveY = Input.GetAxis("Mouse Y") * 80 * Time.deltaTime * sens;
 
             playerbody.Rotate(Vector3.up * moveX);
             pitch -= moveY;
