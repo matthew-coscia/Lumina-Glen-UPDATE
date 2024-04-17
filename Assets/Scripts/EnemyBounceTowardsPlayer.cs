@@ -28,8 +28,19 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     {
         if (playerTransform != null && Vector3.Distance(transform.position, playerTransform.position) <= detectionRadius && canJump)
         {
+            RotateTowardsPlayer();
             BounceTowardsPlayer();
         }
+        if (IsSpinning())
+        {
+            rb.AddTorque(-rb.angularVelocity, ForceMode.Impulse);
+        }
+
+    }
+    private bool IsSpinning()
+    {
+        // Check if the angular velocity of the slime is non-zero, indicating rotational forces are acting on it
+        return rb.angularVelocity.magnitude > 0.01f;
     }
 
     private void BounceTowardsPlayer()
