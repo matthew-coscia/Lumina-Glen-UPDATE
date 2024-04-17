@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab; // Assign your enemy prefab in the inspector
-    public int maxEnemies = 10; // Maximum number of enemies to spawn
-    public float spawnRadius = 1.0f; // Radius around the spawn point to vary enemy spawn location
-    public float spawnInterval = 2.0f; // Time between each spawn attempt
+    public GameObject enemyPrefab; 
+    public int maxEnemies = 10;
+    public float spawnRadius = 1.0f;
+    public float spawnInterval = 2.0f;
 
     private GameObject[] spawnPoints;
     private int currentEnemyCount = 0;
@@ -23,12 +23,9 @@ public class EnemySpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnInterval);
 
-            // Choose a random spawn point
             GameObject spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
             Vector3 spawnPos = spawnPoint.transform.position + Random.insideUnitSphere * spawnRadius;
-            spawnPos.y = spawnPoint.transform.position.y; // Ensure the enemy spawns on the ground if your spawnPoints are at ground level
-
-            // Spawn the enemy
+            spawnPos.y = spawnPoint.transform.position.y;
             Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
             currentEnemyCount++;
         }

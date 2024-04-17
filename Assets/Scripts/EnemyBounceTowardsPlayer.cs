@@ -6,7 +6,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     public float bounceHeight = 2f;
     public float detectionRadius = 10f;
     public float rotationSpeed = 5f;
-    public float waitTimeBeforeNextJump = 2f; // Time to wait before jumping again
+    public float waitTimeBeforeNextJump = 2f;
 
     private Rigidbody rb;
     private Transform playerTransform;
@@ -41,7 +41,6 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     }
     private bool IsSpinning()
     {
-        // Check if the angular velocity of the slime is non-zero, indicating rotational forces are acting on it
         return rb.angularVelocity.magnitude > 0.01f;
     }
 
@@ -53,9 +52,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         RotateTowardsPlayer();
 
         Vector3 direction = (playerTransform.position - transform.position).normalized;
-        direction.y = 0; // Neutralize y component for horizontal direction
-
-        // Apply impulse force only if the slime is grounded
+        direction.y = 0;
         if (IsGrounded())
         {
             rb.AddForce(Vector3.up * bounceHeight + direction * bounceSpeed, ForceMode.Impulse);
@@ -82,17 +79,14 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
 
     private bool IsGrounded()
     {
-        // Cast a ray downwards to check if the slime is grounded
         return Physics.Raycast(transform.position, Vector3.down, 0.1f);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // If the slime collides with an object tagged as "Ground", reset canJump and cancel its velocity
         if (collision.gameObject.CompareTag("Ground"))
         {
             canJump = true;
-            // Cancel out the slime's velocity upon collision with the ground
             rb.velocity = Vector3.zero;
         }
     }
