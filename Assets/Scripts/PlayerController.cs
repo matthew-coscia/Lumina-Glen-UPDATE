@@ -68,7 +68,34 @@ public class PlayerController : MonoBehaviour
             {
                 // Start dashing
                 isDashing = true;
-                dashDirection = transform.forward;
+                dashDirection = Vector3.zero;
+
+                if (Input.GetKey(KeyCode.W))
+                {
+                    dashDirection += transform.forward;
+                }
+
+                if (Input.GetKey(KeyCode.S))
+                {
+                    dashDirection -= transform.forward;
+                }
+
+                if (Input.GetKey(KeyCode.A))
+                {
+                    dashDirection -= transform.right;
+                }
+
+                if (Input.GetKey(KeyCode.D))
+                {
+                    dashDirection += transform.right;
+                }
+
+                // Normalize the dash direction to prevent faster diagonal movement
+                if (dashDirection != Vector3.zero)
+                {
+                    dashDirection.Normalize();
+                }
+
                 dashEndTime = Time.time + dashDuration;
                 nextDashTime = Time.time + dashCooldown + dashDuration;
                 dashSource.clip = dashSound;
