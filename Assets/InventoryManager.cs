@@ -4,16 +4,15 @@ using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
-    //public List<Card> cards = new List<Card>(3); // Updated to store Card script references
     public Card[] cards;
-    public Image[] uiSlots = new Image[3]; // References to the UI slots
-    public Image[] uiInventory = new Image[3]; // References to the UI slots
-    private int selectedSlotIndex; // Index of the currently selected slot, -1 means no selection
-    private Color originalColor; // To store the original color of the UI component
-    private Vector3 originalScale = Vector3.one; // Original scale, assuming it starts at 1,1,1
-    private Vector3 targetScale = new Vector3(1.1f, 1.1f, 1.1f); // Target scale when highlighted
-    private Color highlightColor = Color.blue; // Change as needed
-    private float lerpSpeed = 5f; // Speed of the lerp animation
+    public Image[] uiSlots = new Image[3]; 
+    public Image[] uiInventory = new Image[3]; 
+    private int selectedSlotIndex;
+    private Color originalColor; 
+    private Vector3 originalScale = Vector3.one; 
+    private Vector3 targetScale = new Vector3(1.1f, 1.1f, 1.1f); 
+    private Color highlightColor = Color.blue; 
+    private float lerpSpeed = 5f;
 
     void Start(){
 
@@ -109,11 +108,11 @@ public class InventoryManager : MonoBehaviour
     {
         for (int i = 0; i < uiSlots.Length; i++)
         {
-            //Debug.Log("Index: " + i);
+           
             if (cards[i] != null)
             {
                 uiSlots[i].gameObject.SetActive(true);
-                uiSlots[i].sprite = cards[i].cardSprite; // Assuming Card has a Sprite for UI
+                uiSlots[i].sprite = cards[i].cardSprite; 
             }
             else
             {
