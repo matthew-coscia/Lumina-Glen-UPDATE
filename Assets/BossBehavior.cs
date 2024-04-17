@@ -16,6 +16,7 @@ public class BossBehavior : MonoBehaviour
     float timer = 0;
     float duration = 5;
     public AudioSource bossSource;
+    public AudioSource bossProjectileSource;
     void Start()
     {
         startPos = transform.position;
@@ -117,6 +118,7 @@ public class BossBehavior : MonoBehaviour
         projPosition.y = Random.Range(transform.position.y + 20, transform.position.y + 40);
         projPosition.z = transform.position.z - 35;
         GameObject spawnedProj = Instantiate(projectile, projPosition, transform.rotation) as GameObject;
+        bossProjectileSource.Play();
     }
 
     void callSummonMinionsNTimes(int n)

@@ -7,6 +7,7 @@ public class minionBehavior : MonoBehaviour
     public Transform player;
     NavMeshAgent agent;
     Vector3 startPos;
+    private AudioSource minionSource;
     void Start()
     {
         startPos = transform.position;
@@ -20,6 +21,24 @@ public class minionBehavior : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.enabled = false;
         GetComponent<Rigidbody>().AddForce(new Vector3(0, 15, -5), ForceMode.Impulse);
+        minionSource = GetComponent<AudioSource>();
+        StartCoroutine(PlayAudioAtRandomIntervals());
+    }
+
+    IEnumerator PlayAudioAtRandomIntervals()
+    {
+        while (true)
+        {
+            // Wait for a random duration between 3 and 5 seconds
+            float waitTime = Random.Range(3f, 5f);
+            yield return new WaitForSeconds(waitTime);
+
+            // Play the audio
+            if (minionSource != null)
+            {
+                minionSource.Play();
+            }
+        }
     }
 
     // Update is called once per frame
