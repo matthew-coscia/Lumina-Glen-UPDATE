@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37486672, g: 0.6137662, b: 0.8663927, a: 1}
+  m_IndirectSpecularColor: {r: 0.37577036, g: 0.61430645, b: 0.8670546, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14037,6 +14037,10 @@ PrefabInstance:
       propertyPath: reticleImage
       value: 
       objectReference: {fileID: 210171904}
+    - target: {fileID: 4498792338043887590, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
+      propertyPath: m_Height
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6164099543328819032, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
       propertyPath: health
       value: 10
