@@ -6,8 +6,8 @@ public class Card : MonoBehaviour
     public Sprite cardSprite;
     public GameObject slamVFX;
     public GameObject slamAOEPrefab;
-    public LayerMask groundLayer;
-    public Transform groundCheck;
+  //  public LayerMask groundLayer;
+   // public Transform groundCheck;
     private float checkGroundRadius = 0.5f;
     bool SlammingDown;
     private Vector3 jumpVelocity;
@@ -23,7 +23,7 @@ public class Card : MonoBehaviour
 
     private void Start()
     {
-        groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
+       // groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
         SlammingDown = false;
         spellAudioSource = GameObject.FindGameObjectWithTag("SpellAudioSource").GetComponent<AudioSource>();
     }
@@ -110,7 +110,8 @@ public class Card : MonoBehaviour
             spellAudioSource.Play();
         }
     }
-
+    
+    /*
     bool IsGrounded()
     {
         // Check if player's groundCheck transform is close enough to the ground
@@ -124,6 +125,7 @@ public class Card : MonoBehaviour
         }
         return false;
     }
+    */
 
     void PerformLeapAbility()
     {
