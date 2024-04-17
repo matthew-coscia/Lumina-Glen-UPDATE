@@ -2147,7 +2147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 71}
+  m_AnchoredPosition: {x: 127.5, y: 62.7}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &240458254
@@ -9921,7 +9921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -393, y: -315}
+  m_AnchoredPosition: {x: -416.7, y: -278.4}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1462908036
@@ -12443,6 +12443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8144748064528650235, guid: 9160e495cebd3224c9b35c6971ae0e2c, type: 3}
+      propertyPath: m_Volume
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8144748064528650235, guid: 9160e495cebd3224c9b35c6971ae0e2c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fe7e18dc5b4454cecb2c170c5cdc03ab, type: 3}
     - target: {fileID: 8803941566701047355, guid: 9160e495cebd3224c9b35c6971ae0e2c, type: 3}
       propertyPath: m_Name
       value: BackgroundMusic
