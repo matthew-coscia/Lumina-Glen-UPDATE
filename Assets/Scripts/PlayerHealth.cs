@@ -21,14 +21,13 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
-        diedScreen.SetActive(false); // Ensure the died screen is not visible at start
+        diedScreen.SetActive(false);
         hitSound.clip = audioClip;
-        lastDamageTime = -damageCooldown; // Ensure damage can be taken immediately
+        lastDamageTime = -damageCooldown;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Check if the player collided with an enemy
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(5);
@@ -63,15 +62,13 @@ public class PlayerHealth : MonoBehaviour
             }
         }
 
-       // Debug.Log(health);
-        // Check if the player has died and presses 'R' to restart the game
         if (health <= 0)
         {
             Die();
             if (Input.GetKeyDown(KeyCode.R))
             {
                 isDead = false; 
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
@@ -80,19 +77,19 @@ public class PlayerHealth : MonoBehaviour
     {
         if (Time.time - lastDamageTime < damageCooldown)
         {
-            return; // If still in cooldown, do not take damage
+            return;
         }
 
         health -= damage;
 
-        UpdateHealthBar(); // Update the health bar after taking damage
-        FlashScreen(); // Visual feedback for damage
-        hitSound.Play(); // Audio feedback for damage
-        lastDamageTime = Time.time; // Update last damage time
+        UpdateHealthBar();
+        FlashScreen();
+        hitSound.Play(); 
+        lastDamageTime = Time.time; 
 
         if (health <= 0)
         {
-            Die(); // Handle player death
+            Die(); 
         }
     }
 
@@ -101,16 +98,15 @@ public class PlayerHealth : MonoBehaviour
         if (healthBar != null)
         {
             Debug.Log("Health:  " + health + "Max Health:  " + maxHealth + "\n");
-            float healthPercentage = ((float)health / maxHealth) * 100f; // Calculate health percentage
-            healthBar.value = healthPercentage; // Update the Scrollbar's size to reflect current health
+            float healthPercentage = ((float)health / maxHealth) * 100f; 
+            healthBar.value = healthPercentage; 
         }
     }
 
 
     void Die()
     {
-        diedScreen.SetActive(true); // Show the "You Died" screen
-        // Optionally, disable player controls here
+        diedScreen.SetActive(true); 
         isDead = true;
     }
 
@@ -121,22 +117,22 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator FlashScreenCoroutine()
     {
-        redScreenImage.SetActive(true); // Show the red screen
-        yield return new WaitForSeconds(0.5f); // Wait for half a second
-        redScreenImage.SetActive(false); // Hide the red screen
+        redScreenImage.SetActive(true); 
+        yield return new WaitForSeconds(0.5f); 
+        redScreenImage.SetActive(false); 
     }
 
 
     public void GiveHealth(int healAmount){
         Debug.Log("Health given\n");
         
-        health += healAmount; // Apply damage based on percentage
+        health += healAmount;
 
         if (health > maxHealth){
             health = maxHealth; 
         }
 
-        UpdateHealthBar(); // Update the health bar after taking damage
+        UpdateHealthBar(); 
 
     
     }

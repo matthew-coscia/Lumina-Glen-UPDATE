@@ -1,6 +1,6 @@
 using UnityEngine;
-using TMPro; // Add this to use TextMeshPro
-using UnityEngine.UI; // Add this to use UI components
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,16 +13,16 @@ public class PlayerController : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     public float dashCooldown = 3f;
-    public float dashSpeed = 20f; // Speed of the dash
-    public float dashDuration = 0.2f; // How long the dash will last
-    public Image cooldownFillImage; // Reference to the UI image for the cooldown
-    public TextMeshProUGUI cooldownText; // Reference to the TextMeshPro component
+    public float dashSpeed = 20f;
+    public float dashDuration = 0.2f; 
+    public Image cooldownFillImage; 
+    public TextMeshProUGUI cooldownText;
     private Vector3 dashDirection;
     private bool isDashing = false;
     private float dashEndTime = 0f;
     private float nextDashTime = 0f;
     bool isGrounded = false;
-    private Rigidbody rb; // The Rigidbody component attached to the player
+    private Rigidbody rb;
     private bool running = false;
     private float speedStartTime;
     private AudioSource dashSource;
@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
     {
         if (!PlayerHealth.isDead)
         {
-            // Check if on the ground
             if (velocity.y <= 0)
             {
                 isGrounded = true;
@@ -66,7 +65,6 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= nextDashTime)
             {
-                // Start dashing
                 isDashing = true;
                 dashDirection = Vector3.zero;
 
@@ -90,7 +88,6 @@ public class PlayerController : MonoBehaviour
                     dashDirection += transform.right;
                 }
 
-                // Normalize the dash direction to prevent faster diagonal movement
                 if (dashDirection != Vector3.zero)
                 {
                     dashDirection.Normalize();
@@ -113,14 +110,12 @@ public class PlayerController : MonoBehaviour
 
             void Dash()
             {
-                // Check if the dash duration has ended
                 if (Time.time >= dashEndTime)
                 {
                     isDashing = false;
                     return;
                 }
 
-                // Move the player in the dash direction
                 controller.Move(dashDirection * dashSpeed * Time.deltaTime);
             }
 
@@ -131,7 +126,7 @@ public class PlayerController : MonoBehaviour
 
             velocity.y += gravity * Time.deltaTime;
 
-            controller.Move(velocity * Time.deltaTime); // Apply gravity
+            controller.Move(velocity * Time.deltaTime);
 
              CheckSpeed();
 

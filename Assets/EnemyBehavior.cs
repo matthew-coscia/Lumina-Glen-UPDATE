@@ -6,8 +6,8 @@ public class EnemyBehavior : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 5;
-    public float minDistance = 2; // minimum distance to stop moving towards the player
-    public float detectionRange = 10f; // max distance at which the enemy can detect the player 
+    public float minDistance = 2; 
+    public float detectionRange = 10f; 
     public int damageAmount = 5;
 
 
@@ -16,7 +16,6 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (player == null)
         {
-            // Find the player by tag. 
             player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
@@ -26,12 +25,8 @@ public class EnemyBehavior : MonoBehaviour
     void Update()
     {
 
-
-        // distance between enemy position and player position
         float distance = Vector3.Distance(transform.position, player.position);
 
-
-        // Only move towards the player if they are within detection range and further than min Distance
         if (distance <= detectionRange && distance > minDistance)
         {
             MoveTowardsPlayer();
@@ -51,7 +46,6 @@ public class EnemyBehavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Enemy got triggered!");
-            // apply damage
             var PlayerHealth = other.GetComponent<PlayerHealth>();
             if (PlayerHealth != null)
             {
@@ -68,7 +62,6 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Apply damage continuously
             var playerHealth = other.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {

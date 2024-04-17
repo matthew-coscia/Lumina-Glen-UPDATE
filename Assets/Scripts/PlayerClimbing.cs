@@ -16,7 +16,7 @@ public class PlayerClimbing : MonoBehaviour
     {
         if (IsClimbing)
         {
-            float vertical = Input.GetAxis("Vertical"); // Assuming vertical axis is set up in the Input Manager
+            float vertical = Input.GetAxis("Vertical"); 
             Vector3 move = new Vector3(0, vertical * climbSpeed, 0);
             controller.Move(move * Time.deltaTime);
         }

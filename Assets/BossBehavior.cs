@@ -27,7 +27,6 @@ public class BossBehavior : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         FaceTarget(player.position);

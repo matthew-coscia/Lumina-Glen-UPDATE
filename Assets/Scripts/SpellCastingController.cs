@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class SpellCastingController : MonoBehaviour
 {
-    public SpellCard currentSpellCard; // Assign this in the inspector or dynamically
-    public Transform cameraTransform; // Assign your camera transform in the inspector
+    public SpellCard currentSpellCard;
+    public Transform cameraTransform; 
     public AudioSource audioSource;
-    private float lastSpellTime = -Mathf.Infinity; // Initialize to allow immediate casting
+    private float lastSpellTime = -Mathf.Infinity; 
 
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && CanCastSpell()) // 0 is the left mouse button
+        if (Input.GetMouseButtonDown(0) && CanCastSpell())
         {
             CastSpell();
             lastSpellTime = Time.time;
@@ -23,7 +23,7 @@ public class SpellCastingController : MonoBehaviour
 
     bool CanCastSpell()
     {
-        // Check if enough time has elapsed since the last spell was cast
+      
         return Time.time - lastSpellTime >= currentSpellCard.cooldown;
     }
 
@@ -35,7 +35,7 @@ public class SpellCastingController : MonoBehaviour
             ProjectileMoveScript projectileScript = spellVFX.GetComponent<ProjectileMoveScript>();
             if (projectileScript != null)
             {
-                projectileScript.spellPower = currentSpellCard.spellPower; // Set the spell power
+                projectileScript.spellPower = currentSpellCard.spellPower; 
                 projectileScript.timetillDestruction = currentSpellCard.timetillDestruction;
                 audioSource.clip = currentSpellCard.spellSound;
                 audioSource.Play();

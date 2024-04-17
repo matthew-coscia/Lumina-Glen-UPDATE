@@ -27,7 +27,7 @@ public class Card : MonoBehaviour
 
     private void Update()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (SlammingDown)
         {
@@ -61,7 +61,7 @@ public class Card : MonoBehaviour
         InventoryManager inventoryManager = player.GetComponent<InventoryManager>();
         if (inventoryManager != null && inventoryManager.AddCard(this))
         {
-            gameObject.SetActive(false); // Remove the card from the game world
+            gameObject.SetActive(false); 
         }
     }
 
@@ -95,7 +95,6 @@ public class Card : MonoBehaviour
         {
             player.GetComponent<PlayerController>().MoveCharacter(new Vector3(0f, -1f, 0f) * 3f);
 
-            // Create the damage effect radius
             Invoke("spawnSlamEffects", .01f);
             spellAudioSource.clip = slamSound;
             spellAudioSource.Play();

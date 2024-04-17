@@ -7,5 +7,4 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public bool isDefaultItem = false;
 
-    // You can add more general properties or methods here that apply to all items
 }

@@ -31,7 +31,6 @@ public class InventoryManager : MonoBehaviour
         UpdateHighlight();
     }
 
-    // Checks if a slot is selected (1, 2, or 3 keys)
     void CheckSlotSelection()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) selectedSlotIndex = 0;
@@ -39,12 +38,11 @@ public class InventoryManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)) selectedSlotIndex = 2;
     }
 
-    // Checks for right-click to use the selected card's ability
     void CheckUseCard()
     {
 
 
-        if (Input.GetMouseButtonDown(1)) // Right-click
+        if (Input.GetMouseButtonDown(1))
         {
             if (!string.IsNullOrEmpty(cards[selectedSlotIndex]?.cardName))
             {
@@ -57,15 +55,15 @@ public class InventoryManager : MonoBehaviour
                         Debug.Log("Slam used correctly. Current Veloctiy: " + gameObject.GetComponent<PlayerController>().velocity.y);
                         if (gameObject.GetComponent<PlayerController>().velocity.y > 0)
                         {
-                            cards[selectedSlotIndex].UseAbility(); // Use the card's ability
-                            RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
+                            cards[selectedSlotIndex].UseAbility(); 
+                            RemoveCardFromInventory(selectedSlotIndex); 
 
                         }
                     }
                     else
                     {
-                        cards[selectedSlotIndex].UseAbility(); // Use the card's ability
-                        RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
+                        cards[selectedSlotIndex].UseAbility();
+                        RemoveCardFromInventory(selectedSlotIndex);
                     }
 
                 }
@@ -127,13 +125,11 @@ public class InventoryManager : MonoBehaviour
         {
             if (i == selectedSlotIndex)
             {
-                // Highlight the selected component
                 uiInventory[i].color = Color.Lerp(uiInventory[i].color, highlightColor, Time.deltaTime * lerpSpeed);
                 uiInventory[i].transform.localScale = Vector3.Lerp(uiInventory[i].transform.localScale, targetScale, Time.deltaTime * lerpSpeed);
             }
             else
             {
-                // Return non-selected components to their original state
                 uiInventory[i].color = Color.Lerp(uiInventory[i].color, originalColor, Time.deltaTime * lerpSpeed);
                 uiInventory[i].transform.localScale = Vector3.Lerp(uiInventory[i].transform.localScale, originalScale, Time.deltaTime * lerpSpeed);
             }

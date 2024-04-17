@@ -29,11 +29,9 @@ public class minionBehavior : MonoBehaviour
     {
         while (true)
         {
-            // Wait for a random duration between 3 and 5 seconds
             float waitTime = Random.Range(3f, 5f);
             yield return new WaitForSeconds(waitTime);
 
-            // Play the audio
             if (minionSource != null)
             {
                 minionSource.Play();

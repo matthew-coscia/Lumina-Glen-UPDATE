@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class SpellShooter : MonoBehaviour
 {
-    public SpellCard currentSpellCard; // Assign in inspector
-    public AudioSource audioSource; // Assign in inspector
-    public Image reticleImage; // UI element for aiming reticle
-    public Color reticleEnemyColor; // Color when aiming at enemy
-    public Color reticleInteractableColor; // Color for interactables
-    private Color originalReticleColor; // Original color of the reticle
-    private float lastSpellTime = -Mathf.Infinity; // For cooldown management
+    public SpellCard currentSpellCard;
+    public AudioSource audioSource; 
+    public Image reticleImage; 
+    public Color reticleEnemyColor; 
+    public Color reticleInteractableColor; 
+    private Color originalReticleColor; 
+    private float lastSpellTime = -Mathf.Infinity; 
     private float spellCooldown = .5f; 
     private float ammoStartTime;
     private bool ammoAbilityBool = false;
@@ -19,14 +19,13 @@ public class SpellShooter : MonoBehaviour
 
     void Start()
     {
-        // Initialize original reticle color
         originalReticleColor = reticleImage.color;
     }
 
     void Update()
     {
         bool paused = Menu.GetComponent<MenuManager>().isMenuActive;
-        if (Input.GetMouseButtonDown(0) && CanCastSpell() && !PlayerHealth.isDead && !paused) // 0 is the left mouse button
+        if (Input.GetMouseButtonDown(0) && CanCastSpell() && !PlayerHealth.isDead && !paused) 
         {
             CastSpell();
             lastSpellTime = Time.time;
@@ -40,12 +39,10 @@ public class SpellShooter : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Handle reticle effect in Update to ensure smooth visual feedback
         UpdateReticleEffect();
     }
     bool CanCastSpell()
     {
-        // check if enough time has elapsed since the last spell was cast
         return Time.time - lastSpellTime >= spellCooldown;
     }
 
@@ -58,7 +55,7 @@ public class SpellShooter : MonoBehaviour
             ProjectileMoveScript projectileScript = spellVFX.GetComponent<ProjectileMoveScript>();
             if (projectileScript != null)
             {
-                projectileScript.spellPower = currentSpellCard.spellPower; // Set the spell power
+                projectileScript.spellPower = currentSpellCard.spellPower;
                 projectileScript.timetillDestruction = currentSpellCard.timetillDestruction;
             }
             audioSource.clip = currentSpellCard.spellSound;

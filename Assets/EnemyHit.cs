@@ -43,7 +43,6 @@ public class EnemyHit : MonoBehaviour
         {
             Instantiate(lootPrefab, transform.position, transform.rotation);
         }
-        // LevelManager.Instance.EnemyKilled();
         Destroy(gameObject, 0.5f);
     }
 }

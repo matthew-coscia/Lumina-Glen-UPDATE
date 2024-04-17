@@ -17,10 +17,8 @@ public class KillFallenEnemies : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the colliding object does not have the tag "Player"
         if (!other.CompareTag("Player"))
         {
-            // Deactivate the other object
             other.gameObject.SetActive(false);
         }
     }

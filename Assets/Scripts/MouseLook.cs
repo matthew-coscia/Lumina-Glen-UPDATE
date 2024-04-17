@@ -8,7 +8,6 @@ public class MouseLook : MonoBehaviour
     public GameObject Menu;
     float pitch = 0;
     
-    // Start is called before the first frame update
     void Start()
     {
         playerbody = transform.parent.transform;
@@ -17,7 +16,6 @@ public class MouseLook : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         float sens = Menu.GetComponent<MenuManager>().mouseSensitivityMulti;
