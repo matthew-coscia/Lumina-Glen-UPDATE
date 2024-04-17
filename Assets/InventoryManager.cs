@@ -47,24 +47,29 @@ public class InventoryManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1)) // Right-click
         {
-            if (selectedSlotIndex >= 0 && selectedSlotIndex < 3)
+            if (!string.IsNullOrEmpty(cards[selectedSlotIndex]?.cardName))
             {
-                Debug.Log("CheckUseCard in INventory Manager. Card Name: " + cards[selectedSlotIndex].cardName );
+                if (selectedSlotIndex >= 0 && selectedSlotIndex < 3)
+                {
+                    Debug.Log("CheckUseCard in INventory Manager. Card Name: " + cards[selectedSlotIndex].cardName);
 
+                    if (cards[selectedSlotIndex].cardName == "Slam")
+                    {
+                        Debug.Log("Slam used correctly. Current Veloctiy: " + gameObject.GetComponent<PlayerController>().velocity.y);
+                        if (gameObject.GetComponent<PlayerController>().velocity.y > 0)
+                        {
+                            cards[selectedSlotIndex].UseAbility(); // Use the card's ability
+                            RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
 
+                        }
+                    }
+                    else
+                    {
+                        cards[selectedSlotIndex].UseAbility(); // Use the card's ability
+                        RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
+                    }
 
-                if (cards[selectedSlotIndex].cardName == "Slam"){
-                            Debug.Log("Slam used correctly. Current Veloctiy: " + gameObject.GetComponent<PlayerController>().velocity.y);
-                                if (gameObject.GetComponent<PlayerController>().velocity.y > 0){
-                                 cards[selectedSlotIndex].UseAbility(); // Use the card's ability
-                                RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
-
-                                }
-                } else {
-                   cards[selectedSlotIndex].UseAbility(); // Use the card's ability
-                RemoveCardFromInventory(selectedSlotIndex); // Then remove it from the inventory 
                 }
-                
             }
         }
     }

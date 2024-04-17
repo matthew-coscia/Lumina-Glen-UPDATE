@@ -6,8 +6,6 @@ public class Card : MonoBehaviour
     public Sprite cardSprite;
     public GameObject slamVFX;
     public GameObject slamAOEPrefab;
-  //  public LayerMask groundLayer;
-   // public Transform groundCheck;
     private float checkGroundRadius = 0.5f;
     bool SlammingDown;
     private Vector3 jumpVelocity;
@@ -23,21 +21,17 @@ public class Card : MonoBehaviour
 
     private void Start()
     {
-       // groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
         SlammingDown = false;
         spellAudioSource = GameObject.FindGameObjectWithTag("SpellAudioSource").GetComponent<AudioSource>();
     }
 
     private void Update()
     {
-        // Debug.Log("Slamming Down: "+ SlammingDown);
         GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
 
         if (SlammingDown)
         {
-            Debug.Log("Velocity: " + player.GetComponent<PlayerController>().velocity.y);
 
-            //   GameObject player = GameObject.FindGameObjectWithTag("Player"); // Assuming your player has the tag "Player"
 
             if (player.GetComponent<PlayerController>().velocity.y <= 0)
             {
@@ -50,7 +44,6 @@ public class Card : MonoBehaviour
         }
         if (isJumping)
         {
-            Debug.Log("Jumping");
             PerformLeapAbility();
         }
     }
@@ -68,7 +61,6 @@ public class Card : MonoBehaviour
         InventoryManager inventoryManager = player.GetComponent<InventoryManager>();
         if (inventoryManager != null && inventoryManager.AddCard(this))
         {
-            Debug.Log("Card Added");
             gameObject.SetActive(false); // Remove the card from the game world
         }
     }
@@ -88,8 +80,10 @@ public class Card : MonoBehaviour
             case "Leap":
                 PerformLeapAbility();
                 break;
+             case "Ammo":
+                performAmmoAbility();
+                break;
             default:
-                Debug.Log("Unknown card ability.");
                 break;
         }
     }
@@ -99,33 +93,21 @@ public class Card : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
-            Debug.Log("Slam Performed IMPORTANT");
-            // Move the player down quickly to simulate a "slam" - this is just a placeholder for actual slam logic
-            //player.transform.Translate(Vector3.down * 5f, Space.World); // Example movement, adjust as needed
             player.GetComponent<PlayerController>().MoveCharacter(new Vector3(0f, -1f, 0f) * 3f);
 
             // Create the damage effect radius
-            SlammingDown = true;
+            Invoke("spawnSlamEffects", .01f);
             spellAudioSource.clip = slamSound;
             spellAudioSource.Play();
         }
     }
-    
-    /*
-    bool IsGrounded()
-    {
-        // Check if player's groundCheck transform is close enough to the ground
-        Collider[] colliders = Physics.OverlapSphere(groundCheck.position, checkGroundRadius, groundLayer);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-            {
-                return true;
-            }
-        }
-        return false;
+
+    void spawnSlamEffects(){
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                GameObject slamEffect = Instantiate(slamAOEPrefab, player.transform.position, Quaternion.identity);
+                Instantiate(slamVFX, player.transform.position, Quaternion.identity);
     }
-    */
+    
 
     void PerformLeapAbility()
     {
@@ -134,8 +116,13 @@ public class Card : MonoBehaviour
         player.GetComponent<PlayerController>().speedAbility();
         spellAudioSource.clip = sprintSound;
         spellAudioSource.Play();
+    }
 
+    void performAmmoAbility(){
+        GameObject mainCam = GameObject.FindGameObjectWithTag("MainCamera");
+        SpellShooter spellShooter = mainCam.GetComponent<SpellShooter>();
 
+        spellShooter.ammoAbility();
     }
 
     void PerformHealAbility()
