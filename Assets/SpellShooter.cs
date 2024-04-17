@@ -24,7 +24,7 @@ public class SpellShooter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && CanCastSpell()) // 0 is the left mouse button
+        if (Input.GetMouseButtonDown(0) && CanCastSpell() && !PlayerHealth.isDead) // 0 is the left mouse button
         {
             CastSpell();
             lastSpellTime = Time.time;
