@@ -11,9 +11,11 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
     private Rigidbody rb;
     private Transform playerTransform;
     private bool canJump = true;
+    private AudioSource jumpSource;
 
     void Start()
     {
+        jumpSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
 
@@ -57,6 +59,7 @@ public class EnemyBounceTowardsPlayer : MonoBehaviour
         if (IsGrounded())
         {
             rb.AddForce(Vector3.up * bounceHeight + direction * bounceSpeed, ForceMode.Impulse);
+            jumpSource.Play();
             canJump = false;
             Invoke("EnableJump", waitTimeBeforeNextJump);
         }
