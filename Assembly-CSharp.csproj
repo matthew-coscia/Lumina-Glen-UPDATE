@@ -80,6 +80,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdown.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerIconEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoTopButton.cs" />
     <Compile Include="Assets\Scripts\EnemyBounceTowardsPlayer.cs" />
