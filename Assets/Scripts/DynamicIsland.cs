@@ -21,18 +21,14 @@ public class DynamicIsland : MonoBehaviour
     void Update()
     {
         Vector3 newPos = startPos + new Vector3(Mathf.Sin(Time.time * speed) * distance, 0, 0);
-        
-        // Calculate the crate's movement vector since the last frame
-        Vector3 movementDelta = newPos - previousPos;
-        
-        // Apply the crate's movement
-        transform.position = newPos;
-        previousPos = newPos; // Update previousPos for the next frame
 
-        // If the player is standing on the crate, move them with it
+        Vector3 movementDelta = newPos - previousPos;
+
+        transform.position = newPos;
+        previousPos = newPos;
+
         if (playerController && playerTransform)
         {
-            // Check if the player is grounded and standing on this crate
             if (playerController.isGrounded && IsPlayerOnCrate())
             {
                 playerController.Move(movementDelta);
@@ -42,7 +38,6 @@ public class DynamicIsland : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the player entered the trigger area
         if (other.CompareTag("Player"))
         {
             playerTransform = other.transform;
@@ -52,7 +47,6 @@ public class DynamicIsland : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        // Check if the player exited the trigger area
         if (other.CompareTag("Player"))
         {
             playerTransform = null;
@@ -62,7 +56,6 @@ public class DynamicIsland : MonoBehaviour
 
     private bool IsPlayerOnCrate()
     {
-        // Check if the player's feet are within the bounds of the crate's physical collider
         Collider crateCollider = GetComponent<Collider>();
         if (crateCollider.bounds.Contains(playerTransform.position))
         {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 100f; // Default health
+    public float health = 100f;
 
     void Update(){
         if(gameObject.transform.position.y < -30){
@@ -24,7 +24,6 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        // Handle the enemy's death here (e.g., play animation, remove from scene)
-        Destroy(gameObject); // For simplicity, just destroy the enemy object
+        Destroy(gameObject);
     }
 }
