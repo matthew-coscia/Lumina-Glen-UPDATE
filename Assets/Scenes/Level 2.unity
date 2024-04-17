@@ -14812,6 +14812,10 @@ PrefabInstance:
       propertyPath: reticleImage
       value: 
       objectReference: {fileID: 210171904}
+    - target: {fileID: 5418908942183271982, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6164099543328819032, guid: af3f851d21892c14bb626cddbb859d6a, type: 3}
       propertyPath: health
       value: 10
