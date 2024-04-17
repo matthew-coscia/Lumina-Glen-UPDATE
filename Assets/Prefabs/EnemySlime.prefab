@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceSpeed: 2
-  bounceHeight: 2
+  bounceHeight: 3
   detectionRadius: 25
   rotationSpeed: 5
   waitTimeBeforeNextJump: 1
